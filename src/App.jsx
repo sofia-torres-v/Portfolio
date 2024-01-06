@@ -1,8 +1,10 @@
+import NavBar from "./Components/NavBar/NavBar";
+
 function App() {
     return (
-        <>
-            <h1>teact</h1>
-        </>
+        <div>
+            <NavBar />
+        </div>
     );
 }
 
