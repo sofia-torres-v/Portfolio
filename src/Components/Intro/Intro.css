@@ -1,0 +1,93 @@
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.box-intro {
+    width: 100%;
+}
+.box-greeting {
+    width: 100%;
+    text-align: center;
+}
+
+.text-hello {
+    color: #c084fc;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.text-frontend {
+    white-space: nowrap;
+    /* font-size: 2.8rem; */
+}
+
+/* Animacion en el text frontend */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.typewriter {
+    overflow: hidden;
+    display: inline-block;
+    animation: typing 2s steps(20, end);
+}
+
+/* --------------------- */
+
+.text-about {
+    font-size: 1.6rem;
+    padding: 27px 0;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.box-img {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(160, 153, 153, 0.103);
+    /* border: 1px solid #c084fc; */
+    border-radius: 20px;
+    border-radius: 100%;
+    /* padding: 20px; */
+}
+
+.img-intro {
+    /* width: 100%; */
+    width: 200px;
+    height: 200px;
+    bottom: 20%;
+}
+
+.intro-redes {
+    border: 1px solid red;
+}
+
+@media (min-width: 750px) {
+    .intro-content {
+        flex-direction: row;
+    }
+
+    .box-greeting {
+        text-align: start;
+    }
+    .text-hello {
+        color: #c084fc;
+        /* font-size: 10rem; */
+    }
+}

@@ -9,8 +9,14 @@ html {
 }
 
 body {
-    background-color: rgb(37, 34, 34);
+    background-color: black;
     color: #fff;
-    overflow: hidden;
-    overflow: scroll;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
 }
