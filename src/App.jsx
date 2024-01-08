@@ -1,15 +1,23 @@
-import NavBar from "./Components/NavBar/NavBar";
-import Intro from "./Components/intro/intro";
+// import React from "react";
+import Navigation from "./Components/Navigation/Navigation";
+import Home from "./Components/Home/Home";
+import Proyects from "./Components/Proyects/Proyects";
+import Skills from "./Components/Skills/Skills";
+import Contact from "./Components/Contact/Contact";
 import "boxicons/css/boxicons.min.css";
 import "./App.css";
+
 function App() {
     return (
         <>
             <header>
-                <NavBar />
+                <Navigation />
             </header>
             <main>
-                <Intro />
+                <Home />
+                <Proyects />
+                <Skills />
+                <Contact />
             </main>
         </>
     );
