@@ -1,8 +1,7 @@
 // import React from "react";
 import Navigation from "./Components/Navigation/Navigation";
-import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
 import Proyects from "./Components/Proyects/Proyects";
-import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact/Contact";
 import "boxicons/css/boxicons.min.css";
 import "./App.css";
@@ -14,9 +13,8 @@ function App() {
                 <Navigation />
             </header>
             <main>
-                <Home />
+                <About/>
                 <Proyects />
-                <Skills />
                 <Contact />
             </main>
         </>

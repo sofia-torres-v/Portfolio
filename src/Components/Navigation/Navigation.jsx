@@ -10,20 +10,17 @@ const Navigation = ()=>{
     console.log(!showLinks)
 
     return(
-        <nav className={ `navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
-            <div className="navbar__logo">Logo</div>
+        <nav className={ `navbar  ${showLinks ? 'show-nav' : 'hide-nav'}`}>
+            <div className="navbar__logo"> Sofia.T </div>
             <ul className="navbar__links">
                 <li className="navbar__items slideInDown-1">
-                    <a href="#" className='navbar__link'>inicio</a>
+                    <a href="#" className='navbar__link'>Sobre mí</a>
                 </li>
                 <li className="navbar__items slideInDown-2">
-                    <a href="#" className='navbar__link'>Proyectos</a>
+                    <a href="#" className='navbar__link'>Mis Proyectos</a>
                 </li>
                 <li className="navbar__items slideInDown-3">
-                    <a href="#" className='navbar__link' >Habilidades</a>
-                </li>
-                <li className="navbar__items slideInDown-4">
-                    <a href="#" className='navbar__link' >contacto</a>
+                    <a href="#" className='navbar__link' >Contacto</a>
                 </li>
             </ul>
                 <button className="navbar__burger" onClick={handleShowLinks}>
