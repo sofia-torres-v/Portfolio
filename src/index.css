@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,800&family=Poppins:wght@100;200;300");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&family=Poppins:wght@100;200;300;600&family=Satisfy&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 html {
     font-size: 62.5%;
 }
 
-body {
+/* body {
     margin: 0;
-    /* background-image: url("./assets/images/11.jpg"); */
-}
+} */
 
 .container {
     width: 90%;
