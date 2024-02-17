@@ -1,4 +1,7 @@
-header {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
-    padding: 10x;
+.section {
+    /* min-height: calc(100vh - 207px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
 }

@@ -1,24 +1,32 @@
-// import React from "react";
-import Navigation from "./Components/Navigation/Navigation";
-import Home from "./Components/Home/Home";
-import Proyects from "./Components/Proyects/Proyects";
-import Skills from "./Components/Skills/Skills";
-import Contact from "./Components/Contact/Contact";
+import { Route, Routes } from "react-router-dom";
+import About from "./Pages/About/About";
+import Proyects from "./Pages/Proyects/Proyects";
+import Contact from "./Pages/Contact/Contact";
 import "boxicons/css/boxicons.min.css";
 import "./App.css";
+import Navbar from "./Components/Navigation/Navbar";
+
 
 function App() {
     return (
         <>
-            <header>
-                <Navigation />
-            </header>
-            <main>
-                <Home />
-                <Proyects />
-                <Skills />
-                <Contact />
-            </main>
+          <header>
+              <Navbar/>
+          </header>
+
+          <main>
+              <section className="section">
+                    <div>
+                        <Routes>
+                            <Route path="/" element={<About />} />
+                            <Route path="/About" element={<About />} />
+                            <Route path="/projects" element={<Proyects />} />
+                            <Route path="/contact" element={<Contact />} />
+                        </Routes>
+                    </div>
+              </section>
+
+          </main>
         </>
     );
 }

@@ -5,16 +5,21 @@
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    font-weight: 500;
     min-height: 75px;
-    padding: 1rem;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    border-bottom: 3px solid rgba(138, 86, 241, 0.178);
+    padding: 0 5rem;
+    z-index: 2;
+    background-color: yellow;
 }
 .navbar__logo {
     font-size: 2rem;
+    font-family: "Archivo", sans-serif;
 }
 .navbar__links {
     display: flex;
+    gap: 30px;
     font-family: "Poppins", sans-serif;
 }
 .navbar__link {
@@ -30,22 +35,24 @@
     background: transparent;
     border: none;
     color: inherit;
-    /* display: none; */
+    display: none;
 }
 @media screen and (max-width: 767px) {
+    .navbar {
+        padding: 1.5rem;
+    }
     .navbar__links {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: fixed;
-        right: 0;
         right: -100vw;
         bottom: 0;
         width: 0;
         height: 100vh;
         padding: 2rem;
         visibility: hidden;
-        background-color: #000;
+        background-color: #fff;
         transition: all 0.8s ease-in-out;
     }
 
@@ -62,12 +69,12 @@
         margin: 0 auto;
         width: 3vw;
         height: 1px;
-        background: #fff;
+        background: #757070;
     }
     .navbar__link {
         display: block;
         padding: 1.5rem;
-        font-size: 5vw;
+        font-size: 2rem;
     }
 
     .navbar__item:last-child::after {
@@ -77,7 +84,6 @@
     .navbar__burger {
         display: block;
         position: fixed;
-        top: 1rem;
         right: 1rem;
     }
     .navbar__burger:hover {
@@ -87,11 +93,11 @@
     .burger-bar::before,
     .burger-bar::after {
         display: block;
-        width: 40px;
-        height: 3px;
+        width: 30px;
+        height: 2px;
         position: relative;
         border-radius: 3px;
-        background: #fff;
+        background: #757070;
         transition: all 0.5s ease-in-out;
     }
 
@@ -134,8 +140,5 @@
     }
     .show-nav .slideInDown-3 {
         transition: all 1.3s ease-out;
-    }
-    .show-nav .slideInDown-4 {
-        transition: all 1.4s ease-out;
     }
 }

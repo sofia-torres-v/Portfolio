@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import  './Navigation.css'
+import  './Navbar.css'
+import { Link } from 'react-router-dom';
 
-const Navigation = ()=>{
+const Navbar= ()=>{
     const [showLinks, setShowLinks] = useState(false);
 
     const handleShowLinks = ()=>{
@@ -10,20 +11,17 @@ const Navigation = ()=>{
     console.log(!showLinks)
 
     return(
-        <nav className={ `navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
-            <div className="navbar__logo">Logo</div>
+        <nav className={ `navbar  ${showLinks ? 'show-nav' : 'hide-nav'}`}>
+            <div className="navbar__logo"> Sofia </div>
             <ul className="navbar__links">
                 <li className="navbar__items slideInDown-1">
-                    <a href="#" className='navbar__link'>inicio</a>
+                    <Link to='/about'className='navbar__link'>Sobre mí</Link>
                 </li>
                 <li className="navbar__items slideInDown-2">
-                    <a href="#" className='navbar__link'>Proyectos</a>
+                    <Link to='/proyects'className='navbar__link'>Mis Proyectos</Link>
                 </li>
                 <li className="navbar__items slideInDown-3">
-                    <a href="#" className='navbar__link' >Habilidades</a>
-                </li>
-                <li className="navbar__items slideInDown-4">
-                    <a href="#" className='navbar__link' >contacto</a>
+                    <Link to='/contact'className='navbar__link' >Contacto</Link>
                 </li>
             </ul>
                 <button className="navbar__burger" onClick={handleShowLinks}>
@@ -33,4 +31,4 @@ const Navigation = ()=>{
         </nav>
         )
 }
-export default Navigation;
+export default Navbar;
