@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import  './Navbar.css'
+import Logo from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom';
 
 const Navbar= ()=>{
@@ -11,8 +12,8 @@ const Navbar= ()=>{
     console.log(!showLinks)
 
     return(
-        <nav className={ `navbar  ${showLinks ? 'show-nav' : 'hide-nav'}`}>
-            <div className="navbar__logo"> Sofia </div>
+        <nav  className={ ` navbar   ${showLinks ? 'show-nav' : 'hide-nav'}`}>
+            <img className='navbar__logo' src={Logo} alt="" />
             <ul className="navbar__links">
                 <li className="navbar__items slideInDown-1">
                     <Link to='/about'className='navbar__link'>Sobre mí</Link>

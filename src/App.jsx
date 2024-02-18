@@ -10,7 +10,7 @@ import Navbar from "./Components/Navigation/Navbar";
 function App() {
     return (
         <>
-          <header>
+          <header className="header">
               <Navbar/>
           </header>
 

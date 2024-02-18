@@ -1,26 +1,21 @@
 .navbar {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    width: 100%;
     font-weight: 500;
-    min-height: 75px;
+    padding: 20px 0;
     background-color: #fff;
-    border-bottom: 3px solid rgba(138, 86, 241, 0.178);
-    padding: 0 5rem;
-    z-index: 2;
-    background-color: yellow;
 }
 .navbar__logo {
-    font-size: 2rem;
-    font-family: "Archivo", sans-serif;
+    height: 60px;
 }
 .navbar__links {
+    /* background-color: pink; */
     display: flex;
     gap: 30px;
-    font-family: "Poppins", sans-serif;
 }
 .navbar__link {
     padding: 0 0.3rem;
@@ -38,9 +33,6 @@
     display: none;
 }
 @media screen and (max-width: 767px) {
-    .navbar {
-        padding: 1.5rem;
-    }
     .navbar__links {
         flex-direction: column;
         justify-content: center;
@@ -83,8 +75,8 @@
 
     .navbar__burger {
         display: block;
-        position: fixed;
-        right: 1rem;
+        /* position: fixed; */
+        /* right: 1rem; */
     }
     .navbar__burger:hover {
         cursor: pointer;
