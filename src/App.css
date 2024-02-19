@@ -2,11 +2,12 @@
     position: sticky;
     top: 0;
     z-index: 1;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    /* background-color: rgb(247, 247, 247); */
 }
 
 .section {
-    /* min-height: calc(100vh - 207px); */
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;

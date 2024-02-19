@@ -1,9 +1,7 @@
 .about__content {
-    /* width: 85%; */
     display: grid;
     grid-template-columns: 1fr;
-    /* margin: 50px auto; */
-    border: 1px solid red;
+    gap: 30px;
 }
 
 .about__text {
@@ -11,32 +9,56 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     font-size: 1.8rem;
+    gap: 20px;
     color: #423f3f;
-    /* background-color: lightblue; */
+    text-align: center;
 }
 
-.about__subtitle {
-    color: #9056b9;
+.about__title {
+    font-family: "Outfit", sans-serif;
+    font-size: 2.3rem;
+    color: #323131;
+    font-weight: 500;
+}
+
+.about__title-name {
+    font-size: 2.8rem;
+    margin-left: 15px;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.span {
+    font-weight: 600;
 }
 .about__image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.about__image-perfil {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 90%;
     margin: 0 auto;
     height: 280px;
-    border: 6px dashed #d5c3e3;
     border-radius: 20px;
     max-width: 360px;
-    /* background-color: goldenrod; */
+    background-color: #fff;
 }
 
-.about__image img {
+.about__image-perfil img {
     border-radius: 20px;
     height: 100%;
     width: 100%;
+}
+.about__image-social {
+    display: flex;
+    gap: 20px;
 }
 
 .about__content2 {
@@ -61,46 +83,60 @@
     white-space: nowrap;
 }
 
+.text__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 .bx {
     font-size: 3rem;
-    color: #754399;
+    border: 1px solid #dd3485;
+    padding: 6px;
+    color: #423f3f;
+    border-radius: 50%;
 }
 @media (min-width: 750px) {
     .about__content {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1.4fr 1fr;
+        gap: 0;
     }
     .about__text {
         text-align: start;
     }
 
-    .about__title,
+    .about__title {
+        font-size: 3.2rem;
+    }
+
     .about__title-name {
-        font-size: 5rem;
-        font-weight: 500;
-    }
-
-    .about__subtitle {
         font-size: 4rem;
-    }
-    .about__description {
-        font-size: 1.8rem;
+        margin-left: 15px;
     }
 
-    .about__social {
-        justify-content: flex-start;
+    .text__icons {
+        flex-direction: row;
+    }
+
+    .about__description,
+    .about__description-end {
+        font-size: 1.8rem;
+        color: black;
+    }
+
+    .about__image-social {
+        gap: 15 px;
+    }
+
+    .about__social-link {
+        border-radius: 10px;
+        padding: 5px;
     }
 }
 
 @media (min-width: 1200px) {
-    .about__image {
+    .about__image-perfil {
         height: 350px;
-    }
-    .about__title,
-    .about__title-name {
-        font-size: 6rem;
-    }
-    .about__subtitle {
-        font-size: 5rem;
     }
 }
