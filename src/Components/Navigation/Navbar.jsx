@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/logoS.png";
-import Mensaje from "../../assets/images/mensajeCopia5.png";
+import Mensaje from "../../assets/images/corazon.png";
 import About from "../../assets/images/about2.png";
 import Code from "../../assets/images/code.png";
 import { Link } from "react-router-dom";
@@ -24,7 +24,7 @@ const Navbar = () => {
                         Sobre mí
                     </Link>
                 </li>
-                <li className="navbar__items navbar__items-proyect slideInDown-2">
+                <li className="navbar__items slideInDown-2">
                     <img src={Code} alt="" />
                     <Link to="/proyects" className="navbar__link">
                         {" "}
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </Link>
                 </li>
 
-                <li className="navbar__items  slideInDown-3">
+                <li className="navbar__items slideInDown-3">
                     <img src={Mensaje} alt="" />
                     <Link to="/contact" className="navbar__link">
                         Contacto
