@@ -48,6 +48,20 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+            <section className="about__studies container">
+
+
+                <h2>Mis Estudios </h2>
+                <h3>JavaScript <span>2024</span></h3>
+                <p>CoderHouse</p>
+          
+                <h3>Desarrollo Web Front-End <span>2023</span></h3>
+                <p>Laboratoria</p>
+             
+                <h3>Desarrollo Web Front-End <span>2021</span></h3>
+                <p>CoderHouse</p>
+            </section>
         </>
     );
 };
