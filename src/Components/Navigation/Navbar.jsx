@@ -26,7 +26,7 @@ const Navbar = () => {
                 </li>
                 <li className="navbar__items slideInDown-2">
                     <img src={Code} alt="" />
-                    <Link to="/proyects" className="navbar__link">
+                    <Link to="/projects" className="navbar__link">
                         {" "}
                         Proyectos
                     </Link>
