@@ -19,7 +19,7 @@ const projectsData = [
     },
 
     {
-        id:1,
+        id:3,
         name: 'GlamStore',
         date: 'October 2023',
         image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FshoppingCar.jpg?alt=media&token=52ce9cbf-1535-403d-9144-7868e92e8c30',
@@ -28,7 +28,7 @@ const projectsData = [
         githubLink:'',
     },
     {
-        id:1,
+        id:4,
         name: 'Encriptador de textos',
         date: 'October 2023',
         image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fweb-burger.jpg?alt=media&token=ebea70aa-6e3e-4f38-9eb2-cb8f0244522d',
@@ -37,7 +37,7 @@ const projectsData = [
         githubLink:'',
     },
     {
-        id:1,
+        id:5,
         name: 'Juego numero Secreto',
         date: 'October 2023',
         image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebData.jpg?alt=media&token=d22205c8-8d4d-4794-ab72-7d1091d59933',
@@ -46,7 +46,7 @@ const projectsData = [
         githubLink:'',
     },
     {
-        id:1,
+        id:6,
         name: 'Card Validation',
         date: 'October 2023',
         image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebData.jpg?alt=media&token=d22205c8-8d4d-4794-ab72-7d1091d59933',

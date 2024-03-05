@@ -1,15 +1,22 @@
 .header {
     position: sticky;
     top: 0;
-    z-index: 1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    /* background-color: rgb(247, 247, 247); */
+    z-index: 2;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);s */
+    background-color: #060016;
+    /* background-color: #020617e6; */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.168);
+    box-shadow: 0 0px 1px #43169c80;
 }
 
 .section {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #011627;
+    background-color: #020617e6;
+    background-color: #060016;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 3;
     gap: 20px;
 }
