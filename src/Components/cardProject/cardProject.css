@@ -2,10 +2,10 @@
     border: 1px solid #ccc;
     padding: 10px 0;
     text-align: center;
-    /* width: 500px;
-    height: 510px; */
-    width: 100%;
-    height: 470px;
+    width: 500px;
+    height: 520px;
+    /* width: 100%;
+    height: 470px; */
     border: solid 1px rgba(64, 31, 120, 0.5568627451);
     align-items: center;
     flex-direction: column;
@@ -22,7 +22,7 @@
 }
 .card-front {
     width: 100%;
-    height: 220px;
+    height: 240px;
 }
 .card-project img {
     width: 100%;
@@ -32,8 +32,9 @@
 }
 .subtitle-projects {
     color: #fff;
+    color: #000;
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .card-front,
@@ -75,8 +76,62 @@
     margin-bottom: 20px;
 }
 
+.btn-box {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.btn-online {
+    width: 150px;
+    height: 50px;
+
+    animation: slideleftT4 0.4s ease-in-out;
+    padding: 7px 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out;
+    background: linear-gradient(180deg, #3c087e00, #3c087e52), #712fff1f;
+    box-shadow: inset 0 0 12px #bf97ff3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    transition: all 0.15s ease-in-out;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.details-button {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.red {
+    background-color: #83e0f8;
+}
+
+.celest {
+    background-color: #f0db4f; /* Color celeste en formato hexadecimal */
+}
+
+.amarillo {
+    background-color: #ec4899;
+}
+
+.verde {
+    background-color: #dd4b25;
+}
 @media (min-width: 750px) {
     .card-project {
-        width: 400px;
+        /* width: 400px; */
     }
 }
