@@ -5,6 +5,14 @@ import "./cardProject.css";
 const CardProject = ({ project }) => {
     const { name, liveLink, githubLink, description, skills } = project;
 
+     // Mapear las habilidades y asigna colores según  preferencias
+     const skillColors = {
+        HTML: 'red',
+        CSS: 'celeste',
+        JavaScript: 'amarillo',
+        React: 'verde',
+    };
+
     const [isFlipped, setFlipped] = useState(false);
 
     const handleFlip = () => {
@@ -22,26 +30,39 @@ const CardProject = ({ project }) => {
             <div className="card-front">
                 <img src={project.image} alt={name} />
                 <h2 className="subtitle-projects">{name}</h2>
-                <button>
-                    <a href={liveLink} target="blank" rel="noopener noreferrer">
-                        Codigo
-                    </a>
-                </button>
-                <button>
-                    <a
-                        href={githubLink}
-                        target="blank"
-                        rel="noopener noreferrer"
-                    >
-                        Codigo
-                    </a>
-                </button>
+                <div className="btn-box">
+                    <button className="btn-online">
+                        <a
+                            href={liveLink}
+                            target="blank"
+                            rel="noopener noreferrer"
+                        >
+                            Codigo
+                        </a>
+                    </button>
+                    <button className="btn-online">
+                        <a
+                            href={githubLink}
+                            target="blank"
+                            rel="noopener noreferrer"
+                        >
+                            Codigo
+                        </a>
+                    </button>
+                </div>
 
-                <button className="details-button" onClick={handleFlip}>
+                <a className="details-button" onClick={handleFlip}>
                     Ver Detalles
-                </button>
+                </a>
 
-                <h2>{skills}</h2>
+                <div className="project-skills">
+                    
+                    {skills.map((skill, index) => (
+                        <span key={index} className={`project-skill ${skillColors[skill]}`}>
+                            {skill}
+                        </span>
+                    ))}
+                </div>
             </div>
 
             {isFlipped && (

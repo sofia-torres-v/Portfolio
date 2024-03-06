@@ -1,6 +1,7 @@
 import { useState } from "react";
-import FotoPerfil from "../../assets/images/perfilRosa.jpg";
+import FotoPerfil from "../../assets/images/IMG_20180826_131758.jpg";
 import "./About.css";
+
 
 const About = () => {  
     const [ sectionVisible, setSectionVisible] = useState('habilidades');
@@ -11,7 +12,9 @@ const About = () => {
 
 
     return (
+
         <>
+
             <section
                 className="about__content container slide-in-from-top"
                 id="about"

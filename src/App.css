@@ -11,9 +11,9 @@
 
 .section {
     /* background-color: #fff; */
-    background-color: #011627;
-    background-color: #020617e6;
-    background-color: #fff;
+    /* background-color: #011627; */
+    background-color: #060016;
+    /* background-color: #fff; */
     display: flex;
     flex-direction: column;
     justify-content: center;
