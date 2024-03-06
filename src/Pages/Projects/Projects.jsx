@@ -4,13 +4,15 @@ import './Projects.css';
 
 const Projects = () => {
     return (     
-        <section id="proyects">
-            <h2>Mis Proyectos</h2>      
+        
+        <section className='slide-in-from-top' id="projects">
+            <h2 className='projects__title'>Mis Proyectos</h2>      
             <div className='projects__content container'>
                 {ProjectsData.map((project) => (
                     <CardProject key={project.id} project={project}/>
                 ))}
-            </div>                
+            </div>    
+            <button>ver mas</button>            
         </section>
     );
 };

@@ -26,10 +26,10 @@ const About = () => {
                     <h2>Sobre Mi</h2>
                     <p className="about__description">
                         Soy una
-                        Frontend developer Peruana
-                        , apasionada por el diseño visual, fasinada por el CSS y
-                        con estudios en
+                        Frontend developer Peruana  con estudios en
                         Administración de Empresas
+                        , apasionada por el diseño visual, fasinada por el CSS y
+                       
                         , busco plasmar creatividad y usabilidad en cada uno de
                         mis proyectos . Me gusta trabajar de forma colaborativa
                         y aprender de manera contínua através de la práctica .

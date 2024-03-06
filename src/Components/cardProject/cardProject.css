@@ -1,22 +1,26 @@
 .card-project {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
-    width: 420px;
+    /* width: 500px;
+    height: 510px; */
+    width: 100%;
     height: 470px;
     border: solid 1px rgba(64, 31, 120, 0.5568627451);
-    display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
     transition: 1s;
     border-radius: 14px;
-    overflow: hidden;
+    /* overflow: hidden; */
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     background-color: #0c0728;
+    background-color: #fff;
+    transition: transform 0.5s;
+    position: relative;
 }
-.img-project {
+.card-front {
     width: 100%;
     height: 220px;
 }
@@ -25,4 +29,54 @@
     height: 100%;
     /* object-fit: cover; */
     transition: transform 0.3s ease;
+}
+.subtitle-projects {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.card-project.flipped {
+    transform: rotateY(180deg);
+    background-color: pink;
+}
+.card-project.flipped .card-back {
+    display: flex;
+}
+.card-back {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    backface-visibility: hidden;
+    height: 100%;
+}
+.card-back-content {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    transform: rotateY(180deg);
+}
+
+.card-back button {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 750px) {
+    .card-project {
+        width: 400px;
+    }
 }
