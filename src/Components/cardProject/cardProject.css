@@ -2,10 +2,8 @@
     border: 1px solid #ccc;
     padding: 10px 0;
     text-align: center;
-    width: 500px;
-    height: 520px;
-    /* width: 100%;
-    height: 470px; */
+    width: 100%;
+    height: 540px;
     border: solid 1px rgba(64, 31, 120, 0.5568627451);
     align-items: center;
     flex-direction: column;
@@ -22,12 +20,13 @@
 }
 .card-front {
     width: 100%;
-    height: 240px;
+    height: 255px;
 }
 .card-project img {
     width: 100%;
     height: 100%;
     /* object-fit: cover; */
+    border-radius: 14px 14px 0 0;
     transition: transform 0.3s ease;
 }
 .subtitle-projects {
@@ -132,6 +131,6 @@
 }
 @media (min-width: 750px) {
     .card-project {
-        /* width: 400px; */
+        /* width: 490px; */
     }
 }
