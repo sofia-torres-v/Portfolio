@@ -4,12 +4,76 @@
     height: 100%;
     width: 90%;
 }
-.about__subtitle {
+.about__skills-titles {
+    width: 70%;
+
+    margin: 0 auto;
     color: #fff;
     font-size: 3.5rem;
-    /* margin-left: 15px; */
+    display: flex;
+    gap: 20px;
+    font-size: 2rem;
 }
+
+.about__skills-content {
+    min-height: 100px;
+    /* background-color: pink; */
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.about__skills-titles {
+    display: flex;
+}
+
+.about__skills-titles a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #333; /* Color normal del enlace */
+    position: relative;
+    cursor: pointer;
+}
+
+.about__skills-titles a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: transparent; /* Color de la rayita debajo del enlace */
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.about__skills-content.habilidades {
+    border: 1px solid red;
+    min-height: 100px; /* Establece una altura mínima para la sección de habilidades (ajusta según sea necesario) */
+}
+
+.about__skills-content.estudios {
+    border: 1px solid blue;
+    min-height: 100px; /* Establece una altura mínima para la sección de estudios (ajusta según sea necesario) */
+}
+
+.about__skills-content.certificaciones {
+    border: 1px solid yellow;
+    min-height: 100px; /* Establece una altura mínima para la sección de certificaciones (ajusta según sea necesario) */
+}
+
+.about__skills-titles a.active {
+    color: #8a2be2; /* Color lila para el enlace activo */
+}
+
+.about__skills-titles a.active::after {
+    width: 100%;
+    background-color: #8a2be2; /* Color lila para la rayita debajo del enlace activo */
+}
+
 .about__text {
+    /* background-color: pink; */
     width: 70%;
     /* padding: 0 10px; */
     display: flex;
@@ -23,13 +87,6 @@
     /* border: 1px solid pink; */
 }
 
-.about__skills {
-    /* display: flex; */
-    color: #fff;
-    font-weight: 300;
-    flex-direction: column;
-    gap: 100px;
-}
 .about__text .about__description {
     color: #000;
     color: #fff;
@@ -93,7 +150,7 @@
         font-size: 2rem;
     }
 
-    .about__skills {
+    /* .about__skills {
         flex-direction: row;
-    }
+    } */
 }
