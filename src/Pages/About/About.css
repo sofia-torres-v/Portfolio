@@ -1,34 +1,68 @@
-.about__content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-    color: white;
-}
-
 .about__image-perfil img {
     object-fit: cover;
     border-radius: 10px;
     height: 100%;
     width: 90%;
 }
-
+.about__subtitle {
+    color: #fff;
+    font-size: 3.5rem;
+    /* margin-left: 15px; */
+}
 .about__text {
-    width: 100%;
+    width: 70%;
+    /* padding: 0 10px; */
     display: flex;
     flex-direction: column;
     font-size: 1.8rem;
     gap: 20px;
     color: #5a5656;
-    color: #fff;
     text-align: start;
     font-weight: 200;
+    margin: 40px auto;
+    /* border: 1px solid pink; */
 }
 
 .about__skills {
-    display: flex;
+    /* display: flex; */
+    color: #fff;
+    font-weight: 300;
+    flex-direction: column;
     gap: 100px;
 }
+.about__text .about__description {
+    color: #000;
+    color: #fff;
+    font-size: 2rem;
+    /* font-weight: 400; */
+}
+.box-skills {
+    display: flex;
+}
+.skills__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
 
+.about__btn-skills {
+    width: 200px;
+    font-weight: 400;
+    border-radius: 15px;
+    padding-left: 20px;
+    /* text-align: center; */
+    border-bottom: 1px solid rgba(221, 160, 221, 0.185);
+}
+.skills__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.about__skills-images {
+    /* width: 70px; */
+    height: 40px;
+}
 /* ---------------------------- */
 @keyframes slideInFromTop {
     0% {
@@ -54,24 +88,12 @@
 
 /* --------------------------- */
 @media (min-width: 750px) {
-    .about__content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 0;
-    }
-
-    .about__description,
-    .about__description-end {
-        color: #9ca0a8;
-        color: #dad2d2;
-
-        font-weight: 300;
+    .about__description {
+        color: #000;
         font-size: 2rem;
     }
-}
 
-@media (min-width: 1200px) {
-    .about__image-perfil {
-        height: 450px;
+    .about__skills {
+        flex-direction: row;
     }
 }

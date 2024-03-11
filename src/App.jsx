@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import Home from './Pages/Home/Home';
 import About from "./Pages/About/About";
 import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
@@ -19,8 +18,7 @@ function App() {
               <section className="section">
                     <div>
                         <Routes>
-                            <Route path="/" element={<Home />} />
-                            <Route path="/Home" element={<Home />} />
+                            <Route path="/" element={<About/>} />
                             <Route path="/About" element={<About />} />
                             <Route path="/Projects" element={<Projects />} />
                             <Route path="/Contact" element={<Contact />} />

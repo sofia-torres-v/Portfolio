@@ -12,8 +12,9 @@ html {
 
 .container {
     width: 90%;
-    margin: 70px auto;
-    max-width: 1250px;
+    margin: 50px auto;
+    max-width: 1200px;
+    /* border: 1px solid red; */
 }
 
 ul {
