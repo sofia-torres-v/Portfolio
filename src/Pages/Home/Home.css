@@ -1,0 +1,166 @@
+/* Toda la section */
+.intro__buttons{
+  display: flex;
+  gap: 22px;
+  /* border: 1px solid red; */
+}
+.intro__btn{
+  font-size: 2rem;
+  /* background-color: #333333; */
+  border: 1px solid #d9007d;
+  background-color: transparent;
+  color: #000;
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+.color{
+    color: red;
+}
+.home-view {
+  /* min-height: calc(100vh - 22px); */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+  }
+  
+  .container-home-view {
+    width: 95%;
+    border-radius: 8px;
+    /* height: 97vh; */
+  }
+  
+  
+
+  /* Main */
+  .container-main-home {
+    min-height: calc(100vh - 815px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* gap: 10px; */
+  }
+  
+  .container-hello {
+    /* padding: 20px 0; */
+    font-weight: 500;
+  }
+  
+  .title-home {
+    color: #333333;
+    font-size: 5rem;
+    /* display: inline-block; */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: writetitle 2s steps(40, end) 1.5s;
+    /* Inicia la animación después de 3 segundos */
+    border-right: 2px solid transparent;
+    /* Cambia a transparent para ocultar el cursor */
+  
+  }
+  
+  .span-hello {
+    color: #333333;
+    font-weight: 600;
+    font-size: 1.8rem;
+    display: inline-block;
+    overflow: hidden;
+    /* Para ocultar el texto original */
+    white-space: nowrap;
+    /* Para que el texto no se divida en múltiples líneas */
+    animation: write 2s steps(40, end);
+    border-right: 2px solid transparent;
+    /* border-right: 2px solid #000; */
+    /* Simula el cursor de escritura */
+    /* padding-right: 8px; */
+    /* Espacio entre el cursor y el texto */
+  }
+  
+  .span-frontend {
+    color: #d9007d;
+    font-size: 2rem;
+  
+  }
+  
+  .container-github-profile {
+    /* background-color: #4D5BCE; */
+    padding: 20px 0;
+    font-size: 1.5rem;
+  }
+  
+  .titleGithubProfile {
+    color: #607B96;
+    /* font-size: 14px; */
+  }
+  
+  .containerGithubLink {
+    /* background-color: #FF2599; */
+    padding-top: 5px;
+    /* font-size: 14px; */
+    line-height: 25px;
+    /* background-color: red; */
+    color: #000;
+  }
+  
+  .githubLinkCode {
+    color: #4D5BCE;
+  }
+  
+  .githubLinkVariable {
+    color: #43D9AD;
+  }
+  
+  .githubLinkURL{
+    border-bottom: 1px solid #000;
+  }
+  
+  @keyframes write{
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes writetitle{
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 750px) {
+    .span-hello{
+      font-size: 3rem;
+    }
+  
+    .title-home{
+      /* background-color: yellow; */
+      font-size: 7rem;
+    }
+  
+    .span-frontend{
+      font-size: 3rem;
+    }
+  
+    .container-github-profile{
+      font-size: 1.8rem;
+    }
+  }

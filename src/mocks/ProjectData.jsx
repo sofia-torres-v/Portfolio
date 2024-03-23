@@ -80,7 +80,7 @@ const data = {
             { name: "HTML", image: "/src/assets/images/html.png" },
             { name: "Css", image: "/src/assets/images/css.png" },
             { name: "JavaScript", image: "/src/assets/images/js.png" },
-            { name: "React", image: "/src/assets/images/react.jpg" },
+            { name: "React", image: "/src/assets/images/react1.png" },
             { name: "Material UI", image: "/src/assets/images/mui.png" },
             { name: "Wordpress", image: "/src/assets/images/wordpress1.png" },
             { name: "Shopify", image: "/src/assets/images/shopify1.png" },

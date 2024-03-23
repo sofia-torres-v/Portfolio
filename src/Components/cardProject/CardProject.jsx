@@ -37,22 +37,22 @@ const CardProject = ({ project }) => {
                             target="blank"
                             rel="noopener noreferrer"
                         >
-                            Codigo
+                            Ver Código
                         </a>
                     </button>
                     <button className="btn-online">
                         <a
                             href={githubLink}
                             target="blank"
-                            rel="noopener noreferrer"
+                            rel="noopener noreferr*-er"
                         >
-                            Codigo
+                            Ver Proyecto
                         </a>
                     </button>
                 </div>
 
                 <a className="details-button" onClick={handleFlip}>
-                    Ver Detalles
+                    Ver Descripción
                 </a>
 
                 <div className="project-skills">
