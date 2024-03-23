@@ -1,51 +1,38 @@
 import "./Intro.css";
-import data  from '../../mocks/ProjectData'
+// import data from "../../mocks/ProjectData";
 import FotoPerfil from "../../assets/images/IMG_20180826_131758.jpg";
 
 const Intro = () => {
-    const { aboutData } = data;
     return (
-        <section className="home">
-            <div className="home__content">
-                <div className="home__container-hello">
-                    <span className="home__span-hello">Hola,</span>
-                    <h1 className="home__title">
-                        <span className="span">Soy</span> {aboutData.name}</h1>
-                    <span className="home__span-frontend">
-                        &gt;Frontend Developer
-                    </span>
+        <section className="slide-in-from-top">
+            <div className="intro__content">
+                <div className="intro__container-hello">
+                    <h2 className="intro__span1">Sobre mí</h2>
 
-                    <div className="home__social">
-                        <p className="home__social-text">
-                            Puedes contactame en:
+                    <div>
+                        <p className="intro__text">
+                            Soy una Frontend Developer Peruana con estudios en
+                            Administración. Apasionada por el diseño visual y
+                            fascinada por el CSS. Actualmente, me dedico a
+                            trabajar en proyectos freelance. Mi objetivo es
+                            plasmar creatividad y usabilidad en todos mis
+                            proyectos. Me gusta trabajar de forma colaborativa y
+                            aprender de manera contínua através de la práctica.
                         </p>
-                        <div className="home__social-icons">
-                            <a href={`mailto:${aboutData.email}`}className="about__social-link">
-                                <i className="bx bxs-envelope"></i>
-                            </a>
-                            <a
-                                href={aboutData.linkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="about__social-link"
-                            >
-                                <i className="bx bxl-linkedin"></i>
-                            </a>
-                            <a
-                                href={aboutData.gitHub}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="about__social-link"
-                            >
-                                <i className="bx bxl-github"></i>
-                            </a>
-                        </div>
                     </div>
+                    
+                    <h2>Mis Habilidades</h2>
+                    <p className="intro__text">
+                            Te invito a conocer sobre mis habilidades estudios  y certificaciones, hacicendo click en los enlaces.
+                        </p>
                 </div>
-                <div className="image">
+
+                <div className="intro__container-image">
                     <img src={FotoPerfil} alt="FotoPerfil" />
                 </div>
             </div>
+
+            <div className="intro__content2"></div>
         </section>
     );
 };

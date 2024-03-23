@@ -1,0 +1,13 @@
+.footer{
+    border-top: 1px solid rgba(128, 128, 128, 0.117);
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 5px;
+    font-size: 1.5rem;
+    color: #333333;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 500;
+}

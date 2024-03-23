@@ -13,7 +13,7 @@ const Projects = () => {
                         <CardProject key={project.id} project={project} />
                     ))}
                 </div>
-                <button>ver mas</button>
+                <button>ver más</button>
             </div>
         </section>
     );

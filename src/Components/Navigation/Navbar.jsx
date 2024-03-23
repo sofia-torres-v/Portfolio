@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../../assets/images/logoSofia.png";
-import ImageGirl from "../../assets/images/about2.png";
-import ImageCode from "../../assets/images/code.png";
-import ImageEnvelope from "../../assets/images/corazon.png";
+import Logo from "../../assets/images/logo-sofia-black.png";
+import Initial from "../../assets/images/home.png";
+import ImageGirl from "../../assets/images//abotme.png";
+import ImageCode from "../../assets/images/cccode.png";
+import ImageEnvelope from "../../assets/images/envelope-heart.png";
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
@@ -18,6 +19,12 @@ const Navbar = () => {
         <nav className={` navbar   ${showLinks ? "show-nav" : "hide-nav"}`}>
             <img className="navbar__logo" src={Logo} alt="" />
             <ul className="navbar__links">
+                <li className="navbar__items slideInDown-2">
+                    <img src={Initial} alt="" />
+                    <Link to="/home" className="navbar__link">
+                        inicio
+                    </Link>
+                </li>
                 <li className="navbar__items slideInDown-2">
                     <img src={ImageGirl} alt="" />
                     <Link to="/about" className="navbar__link">
