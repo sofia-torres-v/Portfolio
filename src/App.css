@@ -3,14 +3,12 @@
     top: 0;
     z-index: 2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    background-color: #05030a;
-    background-color: #fff;
+    /* background-color: #05030a; */
     box-shadow: 0 0px 1px #43169c80;
 }
 
 .section {
-    background-color: #05030a;
-    background-color: rgb(249, 254, 255);
+    /* background-color: #05030a; */
     display: flex;
     flex-direction: column;
     justify-content: center;

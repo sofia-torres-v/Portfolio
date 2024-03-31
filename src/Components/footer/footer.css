@@ -1,9 +1,11 @@
 .footer{
     border-top: 1px solid rgba(128, 128, 128, 0.117);
 }
-.box-footer{
+.footer__content{
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 15px;
     padding: 20px 0 5px;
     font-size: 1.5rem;
     color: #333333;
@@ -11,3 +13,18 @@
     margin: 0 auto;
     font-weight: 500;
 }
+
+.footer__social-link {
+    gap: 10px;
+}
+
+.bx {
+    color: #151616;
+    font-size: 2.9rem;
+    border-radius: 50%;
+    padding: 5px;
+}
+.bx:hover {
+    color: #d9007d;
+}
+

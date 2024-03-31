@@ -26,15 +26,15 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="navbar__items slideInDown-2">
-                    <img src={ImageGirl} alt="" />
-                    <Link to="/about" className="navbar__link">
-                        Sobre mí
-                    </Link>
-                </li>
-                <li className="navbar__items bg slideInDown-1">
                     <img src={ImageCode} alt="" />
                     <Link to="/projects" className="navbar__link">
                         Proyectos
+                    </Link>
+                </li>
+                <li className="navbar__items bg slideInDown-1">
+                    <img src={ImageGirl} alt="" />
+                    <Link to="/about" className="navbar__link">
+                        Sobre mí
                     </Link>
                 </li>
 

@@ -5,14 +5,14 @@ const Footer = () => {
     const { aboutData } = data;
     return (
         <div className="footer">
-            <div className="box-footer">
-                <p>Sofia Torres Web Developer Copyright © 2024</p>
-                <div className="home__social-icons">
+            <div className="footer__content">
+                <p>Copyright © 2024</p>
+                <div className="footer__social-icons">
                     <a
                         href={aboutData.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="about__social-link"
+                        className="footer__social-link"
                     >
                         <i className="bx bxl-linkedin"></i>
                     </a>
@@ -20,7 +20,7 @@ const Footer = () => {
                         href={aboutData.gitHub}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="about__social-link"
+                        className="footer__social-link"
                     >
                         <i className="bx bxl-github"></i>
                     </a>
