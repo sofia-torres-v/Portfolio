@@ -23,7 +23,7 @@ const Intro = () => {
                     
                     <h2>Mis Habilidades</h2>
                     <p className="intro__text">
-                            Te invito a conocer sobre mis habilidades estudios  y certificaciones, hacicendo click en los enlaces.
+  
                         </p>
                 </div>
 

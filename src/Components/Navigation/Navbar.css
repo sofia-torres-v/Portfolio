@@ -1,4 +1,5 @@
 .navbar {
+    background-color: #fff;
     width: 85%;
     margin: 0 auto;
     display: flex;
@@ -13,6 +14,11 @@
     height: 94px;
 }
 
+.navbar__links {
+    display: flex;
+    color: #000;
+    gap: 35px;
+}
 .navbar__items {
     display: flex;
     flex-direction: row;
@@ -43,14 +49,6 @@
     /* height: 32px; */
 }
 
-
-
-.navbar__links {
-    display: flex;
-    color: #000;
-
-    gap: 35px;
-}
 .navbar__link {
     padding: 0 0.3rem;
     color: inherit;
