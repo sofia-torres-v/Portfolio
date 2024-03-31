@@ -1,12 +1,5 @@
-.about__image-perfil img {
-    object-fit: cover;
-    border-radius: 10px;
-    height: 100%;
-    width: 90%;
-}
 .about__skills-titles {
     width: 70%;
-
     margin: 0 auto;
     color: #fff;
     font-size: 3.5rem;
@@ -17,7 +10,6 @@
 }
 
 .about__skills-content {
-    /* background-color: red; */
     min-height: 180px;
     width: 70%;
     margin: 0 auto;
@@ -26,8 +18,23 @@
     padding: 20px 0;
 }
 
-.about__skills-titles {
+.skills__list {
+    color: #000;
     display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.skills__items {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.about__skills-images {
+    height: 40px;
 }
 
 .about__skills-titles a {
@@ -50,74 +57,16 @@
     left: 0;
 }
 
-.about__skills-content.habilidades {
-    border: 1px solid red;
-    min-height: 100px; /* Establece una altura mínima para la sección de habilidades (ajusta según sea necesario) */
-}
-
-.about__skills-content.estudios {
-    border: 1px solid blue;
-    min-height: 100px; /* Establece una altura mínima para la sección de estudios (ajusta según sea necesario) */
-}
-
-.about__skills-content.certificaciones {
-    border: 1px solid yellow;
-    min-height: 100px; /* Establece una altura mínima para la sección de certificaciones (ajusta según sea necesario) */
-}
-
 .about__skills-titles a.active {
-    color: #8a2be2; /* Color lila para el enlace activo */
+    color: #8a2be2; /* Color para el enlace activo */
 }
 
 .about__skills-titles a.active::after {
     width: 100%;
-    background-color: #8a2be2; /* Color lila para la rayita debajo del enlace activo */
+    background-color: #8a2be2; /* Color para la rayita debajo del enlace activo */
 }
 
-.about__text {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.8rem;
-    gap: 20px;
-    color: #5a5656;
-    text-align: start;
-    font-weight: 200;
-}
-
-.about__text .about__description {
-    color: #000;
-    color: #fff;
-    font-size: 2rem;
-}
-.box-skills {
-    display: flex;
-}
-.skills__list {
-    color: #000;
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-}
-
-.about__btn-skills {
-    width: 200px;
-    font-weight: 400;
-    border-radius: 15px;
-    padding-left: 20px;
-    border-bottom: 1px solid rgba(221, 160, 221, 0.185);
-}
-.skills__items {
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-.about__skills-images {
-    height: 40px;
-}
-/* ---------------------------- */
+/*  Efecto al renderizar about  */
 @keyframes slideInFromTop {
     0% {
         transform: translateY(-50px);
@@ -139,11 +88,4 @@
     animation: slideInFromTop 2s ease-in-out;
     opacity: 1;
 }
-
-/* --------------------------- */
-@media (min-width: 750px) {
-    .about__description {
-        color: #000;
-        font-size: 2rem;
-    }
-}
+/* ---------------------------- */

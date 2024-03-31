@@ -1,5 +1,4 @@
 import "./Home.css";
-// import About from "../../Pages/About/About"
 import imagen1 from "../../assets/images/js.png";
 import imagen2 from "../../assets/images/react-portfolio.png";
 import imagen3 from "../../assets/images/materialui-porfolio.png";
@@ -64,8 +63,6 @@ const Home = () => {
                         <h2>Git</h2>
                     </div>
             </div>
-            {/* <About /> */}
-            {/* <Projects /> */}
         </section>
     );
 };

@@ -1,12 +1,11 @@
-import "./Intro.css";
-// import data from "../../mocks/ProjectData";
+import "./IntroAbout.css";
 import FotoPerfil from "../../assets/images/IMG_20180826_131758.jpg";
 
-const Intro = () => {
+const IntroAbout = () => {
     return (
         <section className="slide-in-from-top">
             <div className="intro__content">
-                <div className="intro__container-hello">
+                <div>
                     <h2 className="intro__span1">Sobre mí</h2>
 
                     <div>
@@ -20,21 +19,17 @@ const Intro = () => {
                             aprender de manera contínua através de la práctica.
                         </p>
                     </div>
-                    
+
                     <h2>Mis Habilidades</h2>
-                    <p className="intro__text">
-  
-                        </p>
                 </div>
 
                 <div className="intro__container-image">
                     <img src={FotoPerfil} alt="FotoPerfil" />
                 </div>
             </div>
-
-            <div className="intro__content2"></div>
+            
         </section>
     );
 };
 
-export default Intro;
+export default IntroAbout;

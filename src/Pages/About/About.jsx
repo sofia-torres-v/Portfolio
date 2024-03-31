@@ -1,7 +1,8 @@
 import { useState, useRef } from "react";
-import Intro from "../../Components/Intro/Intro";
 import "./About.css";
 import data from "../../mocks/ProjectData";
+import IntroAbout from "../../Components/IntroAbout/IntroAbout";
+
 
 const About = () => {
     const { aboutData } = data;
@@ -19,15 +20,30 @@ const About = () => {
     return (
         <>
             <section ref={contentRef} className="about__content" id="about">
-                <Intro />
+                <IntroAbout />
                 <div className="about__skills-titles">
-                    <a className={sectionVisible === "habilidades" ? "active" : ""} onClick={() => mostrarSection("habilidades")}>
+                    <a
+                        className={
+                            sectionVisible === "habilidades" ? "active" : ""
+                        }
+                        onClick={() => mostrarSection("habilidades")}
+                    >
                         Habilidades
                     </a>
-                    <a className={sectionVisible === "estudios" ? "active" : ""} onClick={() => mostrarSection("estudios")}>
+                    <a
+                        className={
+                            sectionVisible === "estudios" ? "active" : ""
+                        }
+                        onClick={() => mostrarSection("estudios")}
+                    >
                         Estudios
                     </a>
-                    <a className={sectionVisible === "certificaciones" ? "active" : ""} onClick={() => mostrarSection("certificaciones")}>
+                    <a
+                        className={
+                            sectionVisible === "certificaciones" ? "active" : ""
+                        }
+                        onClick={() => mostrarSection("certificaciones")}
+                    >
                         Certificaciones
                     </a>
                 </div>
@@ -36,7 +52,11 @@ const About = () => {
                         <ul className="skills__list">
                             {aboutData.skillsWithImages.map((skill, index) => (
                                 <li className="skills__items" key={index}>
-                                    <img className="about__skills-images" src={skill.image} alt={skill.name} />
+                                    <img
+                                        className="about__skills-images"
+                                        src={skill.image}
+                                        alt={skill.name}
+                                    />
                                     {skill.name}
                                 </li>
                             ))}
