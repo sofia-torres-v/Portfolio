@@ -14,12 +14,14 @@
 }
 
 .container-hello {
-    width: 660px;
+    width: 100%;
+    max-width: 660px;
     font-weight: 500;
 }
 
 .span-hello {
     color: #333333;
+    color: #847784;
     font-weight: 600;
     font-size: 1.8rem;
     display: inline-block;
@@ -31,25 +33,41 @@
 
 .title-home {
     color: #d9007d;
-    font-size: 5rem;
+    font-size: 4rem;
     overflow: hidden;
     white-space: nowrap;
     animation: writetitle 2s steps(40, end) 1.5s;
     border-right: 2px solid transparent;
 }
 
-.span-frontend {
-    font-size: 2rem;
+.home__text {
+    font-size: 1.5rem;
+    color: #847784;
 }
 
 .intro__images {
-    width: 650px;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 650px;
     margin-top: 30px;
     display: flex;
-    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
 }
+
+.content__images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .intro__image {
-    width: 43px;
+    width: 30px;
+}
+
+.content__text{
+    font-size: 1.1rem;
 }
 
 @keyframes write {
@@ -81,7 +99,20 @@
         font-size: 6.5rem;
     }
 
-    .span-frontend {
+    .home__text {
         font-size: 2rem;
+    }
+
+    .intro__images {
+        gap: 75px;
+        justify-content: flex-start;
+    }
+
+    .intro__image {
+        width: 47px;
+    }
+
+    .content__text{
+        font-size: 1.6rem;
     }
 }

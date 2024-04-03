@@ -1,11 +1,17 @@
 .intro__content {
     width: 90%;
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 70px 0 0;
     display: grid;
     grid-template-columns: 1fr;
     flex-direction: column;
 }
+.intro__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
+}
 .intro__span1 {
     color: #2c2626;
     font-weight: 600;
@@ -15,7 +21,10 @@
 .intro__text {
     font-size: 1.5rem;
     color: #151616;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+}
+.intro__text2{
+    padding: 20px 0 20px;
 }
 
 .intro__container-image {
@@ -54,6 +63,6 @@
     
     .intro__container-image {
         width: 70%;
-        height: 350px;
+        height: 310px;
     }
 }

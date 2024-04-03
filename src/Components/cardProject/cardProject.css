@@ -13,15 +13,16 @@
     /* overflow: hidden; */
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    background-color: #0c0728;
-    background-color: #fff;
     transition: transform 0.5s;
     position: relative;
+    color: #fff;
+    color: #000;
 }
 .card-front {
     width: 100%;
     height: 255px;
 }
+
 .card-project img {
     width: 100%;
     height: 100%;
@@ -32,8 +33,10 @@
 .subtitle-projects {
     color: #fff;
     color: #000;
+    /* color: #000; */
     font-size: 2.5rem;
     font-weight: 600;
+    margin: 15px 0;
 }
 
 .card-front,
@@ -76,15 +79,14 @@
 }
 
 .btn-box {
-    /* background-color: red; */
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .btn-online {
-    width: 150px;
+    /* width: 150px; */
     height: 50px;
-
     animation: slideleftT4 0.4s ease-in-out;
     padding: 7px 20px;
     color: #fff;
@@ -95,12 +97,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     font-size: 1.8rem;
     transition: all 0.15s ease-in-out;
     -webkit-user-select: none;
     user-select: none;
     border-radius: 5px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    border: none;
 }
 
 .details-button {
@@ -113,24 +117,42 @@
     cursor: pointer;
     font-size: 1.5rem;
 }
-
+.online__link{
+    text-decoration: none;
+    color: #fff;
+}
+.project-skills{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-weight: bold;
+}
 .red {
     background-color: #83e0f8;
+    padding: 6px 20px;
+    border-radius: 10px;
+
 }
 
-.celest {
-    background-color: #f0db4f; /* Color celeste en formato hexadecimal */
+.celeste {
+    background-color: #f0db4f; 
+    padding: 6px 20px;
+    border-radius: 10px;
 }
 
 .amarillo {
     background-color: #ec4899;
+    padding: 6px 20px;
+    border-radius: 10px;
 }
 
 .verde {
     background-color: #dd4b25;
+    padding: 6px 20px;
+    border-radius: 10px;
 }
 @media (min-width: 750px) {
-    .card-project {
-        /* width: 490px; */
-    }
+
 }

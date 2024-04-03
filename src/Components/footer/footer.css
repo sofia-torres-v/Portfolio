@@ -1,13 +1,15 @@
 .footer{
     border-top: 1px solid rgba(128, 128, 128, 0.117);
+  
 }
+
 .footer__content{
     display: flex;
     justify-content:flex-end;
-    align-items: center;
+    line-height: 3;
     gap: 15px;
-    padding: 20px 0 5px;
-    font-size: 1.5rem;
+    padding: 10px 0 10px;
+    font-size: 1.3rem;
     color: #333333;
     width: 90%;
     margin: 0 auto;
@@ -19,8 +21,8 @@
 }
 
 .bx {
-    color: #151616;
-    font-size: 2.9rem;
+    color: rgb(84, 83, 83);
+    font-size: 2.3rem;
     border-radius: 50%;
     padding: 5px;
 }
@@ -28,3 +30,11 @@
     color: #d9007d;
 }
 
+@media(min-width:750px){
+    .footer__content{
+        font-size: 1.5rem;
+    }
+    .bx{
+        font-size: 2.8rem;
+    }
+}
