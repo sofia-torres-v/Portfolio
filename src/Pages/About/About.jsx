@@ -11,10 +11,6 @@ const About = () => {
 
     const mostrarSection = (section) => {
         setSectionVisible(section);
-        // Desplazar hacia el elemento deseado
-        if (contentRef.current) {
-            contentRef.current.scrollIntoView({ behavior: "smooth" });
-        }
     };
 
     return (

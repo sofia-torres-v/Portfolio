@@ -32,7 +32,7 @@ const CardProject = ({ project }) => {
                 <h2 className="subtitle-projects">{name}</h2>
                 <div className="btn-box">
                     <button className="btn-online">
-                        <a
+                        <a className="online__link"
                             href={liveLink}
                             target="blank"
                             rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const CardProject = ({ project }) => {
                         </a>
                     </button>
                     <button className="btn-online">
-                        <a
+                        <a className="online__link"
                             href={githubLink}
                             target="blank"
                             rel="noopener noreferr*-er"
