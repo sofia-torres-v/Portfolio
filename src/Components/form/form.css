@@ -1,0 +1,10 @@
+.formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.submitButton {
+    background-color: #151616;
+    color: #ffffff;
+    border: none;
+}
