@@ -1,11 +1,9 @@
 import  { useState } from 'react';
 import { TextField, Button, Grid } from '@mui/material';
 import { styled } from '@mui/system';
+import './form.css'
 
-const FormContainer = styled('form')({
-    maxWidth: 600, // Establece el ancho máximo del contenedor del formulario
-    margin: '0 auto', // Centra el formulario en la página
-});
+const FormContainer = styled('form')({});
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -26,7 +24,7 @@ const ContactForm = () => {
     };
 
     return (
-        <FormContainer onSubmit={handleSubmit}>
+        <FormContainer onSubmit={handleSubmit} className='formContainer'>
             <Grid container spacing={2}>
                 <Grid item xs={12}>
                     <TextField
@@ -60,7 +58,7 @@ const ContactForm = () => {
                     />
                 </Grid>
                 <Grid item xs={12}>
-                     <Button style={{ backgroundColor: '#151616', color: '#ffffff', border: 'none' }} type="submit">Enviar</Button> 
+                     <Button type="submit" className='submitButton'>Enviar</Button> 
                 </Grid>
             </Grid>
         </FormContainer>
