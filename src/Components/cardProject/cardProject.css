@@ -54,8 +54,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    color: #333;
+    background-color: rgb(242, 234, 235);
+    color: #000;
     backface-visibility: hidden;
     height: 100%;
 }
@@ -66,14 +66,16 @@
     justify-content: center;
     font-family: "Rubik", sans-serif;
     transform: rotateY(180deg);
-    font-size: 18px;
-    padding: 0 20px;
+    font-size: 19px;
+    padding: 0 50px;
+    line-height: 1.5;
 }
 
 .card-back button {
     margin: 20px auto;
-    padding: 10px 30px;
-    font-size: 1.6rem;
+    padding: 8px 30px;
+    font-size: 1.8rem;
+    border-radius: 8px;
 }
 
 .btn-box {

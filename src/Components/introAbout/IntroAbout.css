@@ -13,7 +13,7 @@
 
 }
 .intro__span1 {
-    color: #2c2626;
+    color: #444044;
     font-weight: 600;
     font-size: 2.2rem;
 }
@@ -25,6 +25,7 @@
 }
 .intro__text2{
     padding: 20px 0 20px;
+    color: #444044;
 }
 
 .intro__container-image {
