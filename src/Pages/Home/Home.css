@@ -20,8 +20,7 @@
 }
 
 .span-hello {
-    color: #333333;
-    color: #847784;
+    color: #5c545c;
     font-weight: 600;
     font-size: 1.8rem;
     display: inline-block;
@@ -33,6 +32,7 @@
 
 .title-home {
     color: #d9007d;
+    font-weight: 600;
     font-size: 4rem;
     overflow: hidden;
     white-space: nowrap;
@@ -42,7 +42,7 @@
 
 .home__text {
     font-size: 1.5rem;
-    color: #847784;
+    color: #444044;
 }
 
 .intro__images {
@@ -63,11 +63,13 @@
 }
 
 .intro__image {
-    width: 30px;
+    width: 28px;
 }
 
 .content__text{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    color: #6f656f;
+    font-weight: 600;
 }
 
 @keyframes write {
@@ -100,11 +102,11 @@
     }
 
     .home__text {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     .intro__images {
-        gap: 75px;
+        gap: 70px;
         justify-content: flex-start;
     }
 
