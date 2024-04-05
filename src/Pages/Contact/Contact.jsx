@@ -1,7 +1,6 @@
 import data from "../../mocks/ProjectData";
 import "./Contact.css";
 import LinkedinIcon from "../../assets/images/zzzz.png";
-// import GitHubIcon from "../../assets/images/github-contact.png";
 
 const Contact = () => {
     const { aboutData } = data;
