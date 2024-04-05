@@ -4,7 +4,6 @@
     z-index: 2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0px 1px #43169c80;
-    background-color: rgb(255, 251, 245);
     background-color: #fff;
 }
 
@@ -30,7 +29,7 @@
     justify-content:flex-end;
     line-height: 3;
     gap: 15px;
-    padding: 10px 0 10px;
+    padding: 6px 0 6px;
     font-size: 1.3rem;
     color: #333333;
     width: 90%;
@@ -38,9 +37,9 @@
     font-weight: 500;
 }
 
-.footer__social-link {
+/* .footer__social-link {
     gap: 10px;
-}
+} */
 
 .bx {
     color: rgb(84, 83, 83);
@@ -54,7 +53,7 @@
 
 @media(min-width: 750px){
     .section{
-        min-height: calc(100vh - 209px);
+        min-height: calc(100vh - 160px);
     }
 }  
 
@@ -63,6 +62,6 @@
         font-size: 1.5rem;
     }
     .bx{
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
 }

@@ -1,27 +1,45 @@
 import  { useState } from 'react';
 import { TextField, Button, Grid } from '@mui/material';
 import { styled } from '@mui/system';
+import emailjs from '@emailjs/browser';
 import './form.css'
 
 const FormContainer = styled('form')({});
 
 const ContactForm = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
-
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-    };
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState ('');
+    const [message, setMessage] = useState ('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Aquí puedes manejar la lógica para enviar el formulario, como enviar los datos a un servidor
-        console.log(formData);
-    };
+        const serviceId = 'service_vu4w89h';
+        const templateId = 'template_t7l825i';
+        const publicKey = '1V3QsO3bTUVPUoZ2F'
+        const templatesParams = {
+            from_name : name,
+            from_email : email,
+            to_name:'Sofia',
+            message: message,
+        };
+        console.log(templatesParams);
+
+        //enviar el email usando email.js
+        emailjs.send(serviceId, templateId, templatesParams, publicKey)
+        .then((response) =>{
+            console.log('email enviado correctamente', response);
+            setName('');
+            setEmail('');
+            setMessage('');
+        })
+        .catch((error)=>{
+            console.log('error al enviar', error);
+
+        })
+        
+    }
+
+  
 
     return (
         <FormContainer onSubmit={handleSubmit} className='formContainer'>
@@ -31,8 +49,8 @@ const ContactForm = () => {
                         fullWidth
                         label="Nombre"
                         name="name"
-                        value={formData.name}
-                        onChange={handleChange}
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
                         
                     />
                 </Grid>
@@ -42,8 +60,8 @@ const ContactForm = () => {
                         label="Correo electrónico"
                         name="email"
                         type="email"
-                        value={formData.email}
-                        onChange={handleChange}
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                     />
                 </Grid>
                 <Grid item xs={12}>
@@ -53,8 +71,8 @@ const ContactForm = () => {
                         name="message"
                         multiline
                         rows={4}
-                        value={formData.message}
-                        onChange={handleChange}
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
                     />
                 </Grid>
                 <Grid item xs={12}>

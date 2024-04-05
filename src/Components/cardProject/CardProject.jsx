@@ -3,16 +3,7 @@ import PropTypes from "prop-types";
 import "./cardProject.css";
 
 const CardProject = ({ project }) => {
-    const { name, liveLink, githubLink, description, skills } = project;
-
-     // Mapear las habilidades y asigna colores según  preferencias
-     const skillColors = {
-        HTML: 'red',
-        CSS: 'celeste',
-        JavaScript: 'amarillo',
-        React: 'verde',
-    };
-
+    const { name, liveLink, githubLink, description, skills} = project;
     const [isFlipped, setFlipped] = useState(false);
 
     const handleFlip = () => {
@@ -24,15 +15,28 @@ const CardProject = ({ project }) => {
         // Volver al card-front
         setFlipped(false);
     };
-    console.log("estado actual de la tarjeta");
+     // Define la longitud máxima del extracto
+     const maxExtractLength = 70;
+     // Obtén el extracto truncado de la descripción
+     const extract = description.length > maxExtractLength ? `${description.substring(0, maxExtractLength)}...` : description;
+    
     return (
         <section className={`card-project ${isFlipped ? "flipped" : ""}`}>
             <div className="card-front">
                 <img src={project.image} alt={name} />
                 <h2 className="subtitle-projects">{name}</h2>
+                <div className="box-description">
+                    <p>{extract}
+                        <a className="details-button" onClick={handleFlip}>
+                            Leer más
+                        </a>
+                    </p>
+                </div>
+
                 <div className="btn-box">
                     <button className="btn-online">
-                        <a className="online__link"
+                        <a
+                            className="online__link"
                             href={liveLink}
                             target="blank"
                             rel="noopener noreferrer"
@@ -41,7 +45,8 @@ const CardProject = ({ project }) => {
                         </a>
                     </button>
                     <button className="btn-online">
-                        <a className="online__link"
+                        <a
+                            className="online__link"
                             href={githubLink}
                             target="blank"
                             rel="noopener noreferr*-er"
@@ -51,17 +56,19 @@ const CardProject = ({ project }) => {
                     </button>
                 </div>
 
-                <a className="details-button" onClick={handleFlip}>
-                    Ver Descripción
-                </a>
-
-                <div className="project-skills">
+                <div className="box-tec">
+                    <p className="title-skills1">Técnologias:</p>
                     
-                    {skills.map((skill, index) => (
-                        <span key={index} className={`project-skill ${skillColors[skill]}`}>
-                            {skill}
-                        </span>
-                    ))}
+                   <div className="project-skills">
+                        {skills.map((skill, index) => (
+                            <span
+                                key={index}
+                                className={`project-skill ${[skill]}`}
+                            >
+                                {skill}
+                            </span>
+                        ))}
+                    </div>
                 </div>
             </div>
 
