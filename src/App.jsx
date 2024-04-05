@@ -6,7 +6,7 @@ import Contact from "./Pages/Contact/Contact";
 import Navbar from "./Components/Navigation/Navbar";
 import "boxicons/css/boxicons.min.css";
 import "./App.css";
-import Home from "./Pages/Home/home";
+import Home from "./Pages/Home/Home";
 import Footer from "./Components/footer/Footer";
 
 
