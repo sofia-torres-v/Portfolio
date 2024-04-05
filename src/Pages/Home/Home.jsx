@@ -1,10 +1,5 @@
 import "./Home.css";
 import data from "../../mocks/ProjectData";
-// import imagen2 from "../../assets/images/react-portfolio.png";
-// import imagen1 from "../../assets/images/js.png";
-// import imagen3 from "../../assets/images/materialui-porfolio.png";
-// import imagen5 from "../../assets/images/git-fork-outline.png";
-// import imagen4 from "../../assets/images/wordpress-about.png";
 
 const Home = () => {
     const { aboutData } = data;

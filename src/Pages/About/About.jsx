@@ -60,15 +60,15 @@ const About = () => {
                     )}
                     {sectionVisible === "estudios" && (
                         <ul>
-                            <li>Desarrollo Frontend </li>
-                            <li>Administracion </li>
+                            <li>Desarrollo Frontend - Bootcamp Laboratoria</li>
+                            <li>Administracion - Instituto Superio ITAE</li>
                         </ul>
                     )}
                     {sectionVisible === "certificaciones" && (
                         <ul>
-                            <li>Desarrollo web </li>
-                            <li>Desarrollo web </li>
-                            <li>Desarrollo web </li>
+                            <li>Desarrollo web Frontend - Laboratoria</li>
+                            <li> JavaScript - CoderHouse</li>
+                            <li>Desarrollo web - Coder - CoderHouse</li>
                         </ul>
                     )}
                 </div>
