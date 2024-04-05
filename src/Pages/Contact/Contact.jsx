@@ -1,27 +1,57 @@
-import ContactForm from "../../Components/form/form";
+import data from "../../mocks/ProjectData";
 import "./Contact.css";
+import LinkedinIcon from "../../assets/images/zzzz.png";
+// import GitHubIcon from "../../assets/images/github-contact.png";
 
 const Contact = () => {
+    const { aboutData } = data;
     return (
-        <section id="contact">
-            <h1 className="contact__title">Ponte en contacto conmigo</h1>
-                < ContactForm />
+        <section className="slide-in-from-top" id="contact">
+            <p className="contact__title">
+                Si buscas talento comprometido{" "}
+                <span className="contact__span">¡</span>Hablemos{" "}
+                <span className="contact__span">!</span>
+            </p>
             <div className="contact__content">
-                <div className="contact__icons">
-                    <i className="bx bxs-map"></i>
-                    <p>Lima, Perú</p>
+                <div className="contact__icons-info">
+                    <div className="contact__icons">
+                        <i className="bx bxs-phone-call "></i>
+                        <p className="contact__text">(+51) 941 196 749</p>
+                    </div>
+                    <div className="contact__icons">
+                        <i className="bx bxs-envelope  "></i>
+                        <p className="contact__text">sofy.torresv@gmail.com</p>
+                    </div>
+                    <div className="contact__icons">
+                        <div className="">
+                            <a
+                                href={aboutData.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="footer__social-link"
+                            >
+                                <i className="bx bxl-linkedin contact-bx"></i>
+                            </a>
+                            <a
+                                href={aboutData.gitHub}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="footer__social-link"
+                            >
+                                <i className="bx bxl-github contact-bx"></i>
+                            </a>
+                        </div>
+                        <div className="boxes">
+                            <i className="bx bxs-map contact-bx"></i>
+                            <p className="contact__text">Lima, Perú</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="contact__icons">
-                    <i className="bx bxs-envelope"></i>
-                    <p>sofy.torresv@gmail.com</p>
-                </div>
-                <div className="contact__icons">
-        
-                    <i className="bx bxs-phone-call"></i>
-                    <p>(+51) 941 196 749</p>
+
+                <div className="contact__titles">
+                    <img className="icon-social" src={LinkedinIcon} alt="" />
                 </div>
             </div>
-            
         </section>
     );
 };

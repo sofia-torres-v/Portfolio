@@ -5,7 +5,7 @@ import "./Projects.css";
 
 const Projects = () => {
     const { projectsData } = data;
-    const [visibleProjects, setVisibleProjects] = useState(6); // Número inicial de proyectos visibles
+    const [visibleProjects, setVisibleProjects] = useState(4); // Número inicial de proyectos visibles
     const [showMore, setShowMore] = useState(true); // Estado para controlar si mostrar más proyectos o no
 
     const loadMoreProjects = () => {
@@ -16,7 +16,7 @@ const Projects = () => {
     };
 
     const showLessProjects = () => {
-        setVisibleProjects(6); // Restablece el número de proyectos visibles al valor inicial
+        setVisibleProjects(4); // Restablece el número de proyectos visibles al valor inicial
         setShowMore(true); // Vuelve a habilitar el botón "Ver más proyectos"
     };
 

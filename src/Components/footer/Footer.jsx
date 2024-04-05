@@ -1,4 +1,4 @@
-import "./footer.css";
+
 import data from "../../mocks/ProjectData";
 
 const Footer = () => {
