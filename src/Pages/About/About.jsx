@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import "./About.css";
 import data from "../../mocks/ProjectData";
-import IntroAbout from "../../Components/IntroAbout/IntroAbout";
+import IntroAbout from "../../Components/introAbout/IntroAbout";
 
 
 const About = () => {
