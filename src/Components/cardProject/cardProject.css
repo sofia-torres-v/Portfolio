@@ -1,3 +1,7 @@
+.projects__title {
+    font-size: 2.5rem;
+}
+
 .card-project {    padding: 10px 0;
     text-align: center;
     width: 100%;
@@ -22,13 +26,13 @@
 
 .card-project img {
     width: 100%;
-    height: 100%;
+    height: 60%;
     border-radius: 12px 12px 0 0;
     transition: transform 0.3s ease;
 }
 .subtitle-projects {
     color: #000;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 600;
     margin: 15px 0;
 }
@@ -94,7 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     transition: all 0.15s ease-in-out;
     -webkit-user-select: none;
     user-select: none;
@@ -106,10 +110,11 @@
 
 .box-tec{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 25px 0 30px;
+    padding: 25px  0;
     font-size: 1.5rem;
-    gap: 10px;
+    gap: 5px;
 }
 .box-description{
     font-size: 1.6rem;
@@ -124,7 +129,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: #ec4899;
     border:none;
@@ -136,7 +141,7 @@
 }
 .project-skills{
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -144,7 +149,22 @@
     font-weight: bold;
     color: #000;
 }
+.title-skills1{
+    font-size: 1.5rem;
+}
 
 @media (min-width: 750px) {
+    .box-tec{
+        flex-direction: row;
+    }
+    .card-project img {
+        height: 100%;
+    }
+    .btn-online{
+        font-size: 1.6rem;
+    }
+    .details-button {
+        font-size: 1.6rem;
+    }
 
 }

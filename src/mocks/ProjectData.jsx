@@ -20,7 +20,7 @@ const data = {
                 "JS Motos, es un proyecto dedicado a la fabricación y venta de empaquetaduras para motocicletas en Perú. Este sitio web fue desarrollado con React y Bootstrap, ofreciendo una interfaz moderna y atractiva. Además, cuenta con funcionalidades como conexión directa a WhatsApp, Facebook Messenger y TikTok, junto con un formulario de contacto que dirige a Gmail.",
             liveLink: "",
             githubLink: "",
-            skills: ["html","css","JavaScript", "Reactjs", "firebase"],
+            skills: ["html", "css", "JavaScript", "React", "firebase"],
         },
 
         {
@@ -46,15 +46,15 @@ const data = {
             githubLink: "",
             skills: ["HTML", "CSS", "JavaScript", "sweetalert2"],
         },
-   
+
         {
             id: 5,
             name: "Juego Número secreto",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FnumeroSecreto.jpg?alt=media&token=432675ba-e3ef-4ded-a477-52e6bcd9fe37",
-      
+
             description:
-            "Este proyecto interactivo, desarrollado con HTML, CSS y JavaScript, desafía a los usuarios a adivinar un número aleatorio del 1 al 10.A medida que el usuario introduce un número, el programa proporciona indicadores como demasiado alto o demasiado bajo, lo que les permite ajustar su siguiente intento de manera inteligente.",
+                "Este proyecto interactivo, desarrollado con HTML, CSS y JavaScript, desafía a los usuarios a adivinar un número aleatorio del 1 al 10.A medida que el usuario introduce un número, el programa proporciona indicadores como demasiado alto o demasiado bajo, lo que les permite ajustar su siguiente intento de manera inteligente.",
             liveLink: "",
             githubLink: "",
             skills: ["HTML", "CSS", "JavaScript-vanilla"],
@@ -124,15 +124,42 @@ const data = {
             "https://www.linkedin.com/in/sofia-torres-v-front-end-developer/",
         gitHub: "https://github.com/sofia-torres-v",
         skillsWithImages: [
-            { name: "React", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Freact-portfolio.png?alt=media&token=b4580ea4-a159-4d9c-8fda-eec0aca00c4d" },
-            { name: "JavaScript", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fjs.png?alt=media&token=1d623a88-38fb-4c6b-a8a3-bbd542b16520" },
-            { name: "HTML", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fhtml-portfolio.png?alt=media&token=51566a46-1392-47f1-bb44-3dd1db1b8cdf" },
-            { name: "Css", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcss-portfolio.png?alt=media&token=21571067-f65e-4e6c-85ee-ffce0d619a33" },
-            { name: "Material UI", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fmaterialui-porfolio.png?alt=media&token=58dcd1f0-c618-422e-805d-b0eed43022aa" },
-            { name: "Firebase", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ffirebase.png?alt=media&token=d5168f94-5e82-4f40-9c05-69866eb3f009" },
-            { name: "Git", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fgit-fork-outline.png?alt=media&token=bfe020ac-4db2-4614-9137-718197fb127f" },
-            { name: "Wordpress", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fwordpress-about.png?alt=media&token=f24795f8-621d-428c-9320-ed229c511d0d" },
-            { name: "Shopify", image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fshopify-portfolio.png?alt=media&token=cafbab83-d401-4613-8e7e-38b53267c25a" },
+            {
+                name: "React",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Freact-portfolio.png?alt=media&token=b4580ea4-a159-4d9c-8fda-eec0aca00c4d",
+            },
+            {
+                name: "JavaScript",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fjs.png?alt=media&token=1d623a88-38fb-4c6b-a8a3-bbd542b16520",
+            },
+            {
+                name: "HTML",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fhtml-portfolio.png?alt=media&token=51566a46-1392-47f1-bb44-3dd1db1b8cdf",
+            },
+            {
+                name: "Css",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcss-portfolio.png?alt=media&token=21571067-f65e-4e6c-85ee-ffce0d619a33",
+            },
+            {
+                name: "Material UI",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fmaterialui-porfolio.png?alt=media&token=58dcd1f0-c618-422e-805d-b0eed43022aa",
+            },
+            {
+                name: "Firebase",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ffirebase.png?alt=media&token=d5168f94-5e82-4f40-9c05-69866eb3f009",
+            },
+            {
+                name: "Git",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fgit-fork-outline.png?alt=media&token=bfe020ac-4db2-4614-9137-718197fb127f",
+            },
+            {
+                name: "Wordpress",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fwordpress-about.png?alt=media&token=f24795f8-621d-428c-9320-ed229c511d0d",
+            },
+            {
+                name: "Shopify",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fshopify-portfolio.png?alt=media&token=cafbab83-d401-4613-8e7e-38b53267c25a",
+            },
         ],
     },
 };
