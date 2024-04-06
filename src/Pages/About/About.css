@@ -1,5 +1,5 @@
 .about__skills-titles {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     color: #fff;
     display: flex;
@@ -10,23 +10,26 @@
 
 .about__skills-content {
     min-height: 180px;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     font-size: 1.5rem;
-    color: #000;
-    padding: 20px 0;
+    color: #444044;
+    padding: 25px 0;
 }
 
+.about__skills-titles a.active {
+    padding: 25px 0 0;
+}
 .skills__list {
-    color: #000;
+    color: #444044;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 15px;
 }
 
 .skills__items {
-    color: #000;
+    color: #444044;
     font-size: 1.3rem;
     display: flex;
     flex-direction:column;
@@ -36,7 +39,8 @@
 }
 
 .about__skills-images {
-    height: 35px;
+    width: 30px;
+    height: 30px;
 }
 
 .about__skills-titles a {
@@ -61,12 +65,13 @@
 }
 
 .about__skills-titles a.active {
-    color: #8a2be2; /* Color para el enlace activo */
+    color: #ec4899;
 }
 
 .about__skills-titles a.active::after {
     width: 100%;
-    background-color: #8a2be2; /* Color para la rayita debajo del enlace activo */
+    background-color: #ec4899;
+     /* Color para la rayita debajo del enlace activo */
 }
 
 /*  Efecto al renderizar about  */
@@ -94,16 +99,37 @@
 /* ---------------------------- */
 
 @media(min-width:750px){
-    .about__skills-titles {
+    .about__skills-content {
+        width: 70%;
+    }
+
+    .about__skills-titles a.active {
+        padding: 0;
+    }
+
+    .about__skills-titles {    
+        width: 70%;
         font-size: 3.5rem;
         flex-direction: row;
         gap: 40px;
     }
+
     .skills__items {
         flex-direction: row;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
+
     .about__skills-titles a{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .skills__list {
+        gap: 30px;
+    }
+
+    .about__skills-images {
+        width: 40px;
+        height: 40px;
     }
 }

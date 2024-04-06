@@ -2,14 +2,12 @@
     position: sticky;
     top: 0;
     z-index: 2;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0px 1px #43169c80;
+    box-shadow: 0 0.1rem 1rem rgba(1, 1, 1, 0.10);
     background-color: #fff;
 }
 
 .section {
     min-height: calc(100vh - 144px);
-    /* background-color: rgb(255, 251, 245); */
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -18,10 +16,8 @@
     gap: 20px;
 }
 
-
 .footer{
-    border-top: 1px solid rgba(128, 128, 128, 0.117);
-  
+    border-top: 1px solid rgba(128, 128, 128, 0.168);
 }
 
 .footer__content{

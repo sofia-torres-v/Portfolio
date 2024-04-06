@@ -1,18 +1,19 @@
 .projects__content {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 .projects__card {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 60px;
+    gap: 30px;
 }
 
 .projects__title {
     margin: 0 auto;
-    color: #444044;
-    font-size: 3.5rem;
-    padding: 50px 0 20px;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #5f585f;
+    padding: 35px 0 15px;
 }
 
 .projects__button{
@@ -25,8 +26,16 @@
     
 }
 @media (min-width: 850px) {
+    .projects__title{
+        font-size: 2.8rem;
+        padding: 50px 0 20px;
+
+    }
     .projects__card {
         grid-template-columns: 1fr 1fr;
         gap: 60px;
+    }
+    .projects__content {
+        width: 75%;
     }
 }
