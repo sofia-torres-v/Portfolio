@@ -54,7 +54,28 @@
     font-weight: 500;
     text-transform: uppercase;
 }
-
+/* ------------------ */
+.navbar__link {
+    color: black; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    position: relative; /* Añade posición relativa para permitir la posición absoluta del subrayado */
+  }
+  
+  .navbar__link::after {
+    content: ''; /* Crea el subrayado */
+    position: absolute; /* Lo coloca de manera absoluta */
+    bottom: -3px; /* Lo posiciona justo debajo del texto */
+    left: 0; /* Inicia desde el borde izquierdo */
+    width: 100%; /* Se extiende por toda la anchura */
+    border-bottom: 2px solid transparent; /* Línea transparente inicial */
+    transition: border-color 0.3s; /* Efecto de transición */
+  }
+  
+  .navbar__link:hover::after,
+  .navbar__link.active::after {
+    border-color: fuchsia; /* Cambia el color del subrayado al hacer hover o cuando el enlace esté activo */
+  }
+  
 .navbar__burger {
     width: 40px;
     height: 40px;
