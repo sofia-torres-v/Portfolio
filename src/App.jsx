@@ -1,13 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-
-import Projects from "./Pages/Projects/Projects";
-import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
 import Navbar from "./Components/Navigation/Navbar";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
+import Projects from "./Pages/Projects/Projects";
+import Contact from "./Pages/Contact/Contact";
+import Footer from "./Components/footer/Footer";
 import "boxicons/css/boxicons.min.css";
 import "./App.css";
-import Home from "./Pages/Home/Home";
-import Footer from "./Components/footer/Footer";
 
 
 
