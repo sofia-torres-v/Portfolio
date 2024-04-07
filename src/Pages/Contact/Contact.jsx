@@ -7,9 +7,9 @@ const Contact = () => {
     return (
         <section className="slide-in-from-top" id="contact">
             <p className="contact__title">
-                Si buscas talento comprometido{" "}
-                <span className="contact__span">¡</span>Hablemos{" "}
-                <span className="contact__span">!</span>
+                Si buscas talento comprometido ¡Hablemos!
+                {/* <span className="contact__span"> */}
+                {/* <span className="contact__span">!</span> */}
             </p>
             <div className="contact__content">
                 <div className="contact__icons-info">
