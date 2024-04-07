@@ -8,8 +8,6 @@ const Contact = () => {
         <section className="slide-in-from-top" id="contact">
             <p className="contact__title">
                 Si buscas talento comprometido ¡Hablemos!
-                {/* <span className="contact__span"> */}
-                {/* <span className="contact__span">!</span> */}
             </p>
             <div className="contact__content">
                 <div className="contact__icons-info">
@@ -22,7 +20,10 @@ const Contact = () => {
                         <p className="contact__text">sofy.torresv@gmail.com</p>
                     </div>
                     <div className="contact__icons">
-                        <div className="">
+                    <div className="boxes">
+                            <p className="contact__text">Mis Redes:</p>
+                        </div>
+                        <div>
                             <a
                                 href={aboutData.linkedin}
                                 target="_blank"
@@ -40,10 +41,7 @@ const Contact = () => {
                                 <i className="bx bxl-github contact-bx"></i>
                             </a>
                         </div>
-                        <div className="boxes">
-                            <i className="bx bxs-map contact-bx"></i>
-                            <p className="contact__text">Lima, Perú</p>
-                        </div>
+                  
                     </div>
                 </div>
 

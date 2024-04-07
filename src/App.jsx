@@ -24,10 +24,10 @@ function App() {
                     <div>
                         <Routes>
                             <Route path="/" element={<Home/>} />
-                            <Route path="/Home" element={<Home />} />
-                            <Route path="/Projects" element={<Projects />} />
-                            <Route path="/About" element={<About />} />
-                            <Route path="/Contact" element={<Contact />} />
+                            <Route path="/home" element={<Home />} />
+                            <Route path="/projects" element={<Projects />} />
+                            <Route path="/about" element={<About />} />
+                            <Route path="/contact" element={<Contact />} />
                         </Routes>
                     </div>
               </section>
