@@ -25,23 +25,9 @@
     flex-direction: column;
     align-items: center;
 }
+
 .navbar__items:hover {
     border-radius: 5px;
-}
-.navbar__items:nth-child(1) img {
-    width: 30px;
-}
-.navbar__items:nth-child(2) img {
-    width: 30px;
-    border-radius: 5px;
-}
-
-.navbar__items:nth-child(3) img {
-    width: 30px;
-}
-
-.navbar__items:nth-child(4) img {
-    width: 30px;
 }
 
 .navbar__link {
@@ -73,7 +59,7 @@
   
   .navbar__link:hover::after,
   .navbar__link.active::after {
-    border-color: fuchsia; /* Cambia el color del subrayado al hacer hover o cuando el enlace esté activo */
+    border-color: #d9007d; /* Cambia el color del subrayado al hacer hover o cuando el enlace esté activo */
   }
   
 .navbar__burger {

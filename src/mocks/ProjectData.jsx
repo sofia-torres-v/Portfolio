@@ -29,7 +29,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FblackJack.jpg?alt=media&token=a731fffe-6ec4-4e06-aee2-71fb393dce55",
             description:
-                " Este proyecto ofrece una plataforma para adquirir una amplia variedad de ropa para dama. Está desarrollado exclusivamente con tecnologías nativas como JavaScript, CSS, Flexbox, Grid. Además de integrar SweetAlert para notificaciones y mensajes de confirmación personalizados, mejorando así la experiencia del usuario ",
+                "Este proyecto ofrece una plataforma para adquirir una amplia variedad de ropa para dama. Está desarrollado exclusivamente con tecnologías nativas como JavaScript, CSS, Flexbox, Grid. Además de integrar SweetAlert para notificaciones y mensajes de confirmación personalizados, mejorando así la experiencia del usuario",
             liveLink: "https://www.blackjackchauffeurs.com/",
             githubLink: "https://github.com/sofia-torres-v/Js-Motos",
             skills: ["HTML", "CSS-vanilla", "Wordpress"],
@@ -41,7 +41,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FshoppingCar.jpg?alt=media&token=52ce9cbf-1535-403d-9144-7868e92e8c30",
             description:
-                " Este proyecto ofrece una plataforma para adquirir una amplia variedad de ropa para dama. Está desarrollado exclusivamente con tecnologías nativas como JavaScript, CSS, Flexbox, Grid. Además de integrar SweetAlert para notificaciones y mensajes de confirmación personalizados, mejorando así la experiencia del usuario",
+                "Este proyecto ofrece una plataforma para adquirir una amplia variedad de ropa para dama. Está desarrollado exclusivamente con tecnologías nativas como JavaScript, CSS, Flexbox, Grid. Además de integrar SweetAlert para notificaciones y mensajes de confirmación personalizados, mejorando así la experiencia del usuario",
             liveLink: "https://shopping-cart-nu-three.vercel.app/",
             githubLink: "https://github.com/sofia-torres-v/Shopping-Cart-App",
             skills: ["HTML", "CSS", "JavaScript", "sweetalert2"],
@@ -56,7 +56,8 @@ const data = {
             description:
                 "Este proyecto interactivo, desarrollado con HTML, CSS y JavaScript, desafía a los usuarios a adivinar un número aleatorio del 1 al 10.A medida que el usuario introduce un número, el programa proporciona indicadores como demasiado alto o demasiado bajo, lo que les permite ajustar su siguiente intento de manera inteligente.",
             liveLink: "https://sofia-torres-v.github.io/Juego-Numero-Secreto/",
-            githubLink: "https://github.com/sofia-torres-v/Juego-Numero-Secreto",
+            githubLink:
+                "https://github.com/sofia-torres-v/Juego-Numero-Secreto",
             skills: ["HTML", "CSS", "JavaScript-vanilla"],
         },
         {
@@ -67,7 +68,8 @@ const data = {
             description:
                 "El Encriptador de Texto, desarrollado en JavaScript, te permite cifrar y descifrar texto de forma eficiente. Con esta herramienta, puedes proteger mensajes confidenciales mediante el cifrado y restaurarlos a su forma original cuando lo necesites. Simplemente ingresa el texto que deseas encriptar, y la herramienta generará automáticamente una versión cifrada. ",
             liveLink: "https://sofia-torres-v.github.io/Encriptador-de-texto/",
-            githubLink: "https://github.com/sofia-torres-v/Encriptador-de-texto",
+            githubLink:
+                "https://github.com/sofia-torres-v/Encriptador-de-texto",
             skills: ["HTML", "CSS", "JavaScript-vanilla"],
         },
         {
@@ -76,7 +78,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fweb-burger.jpg?alt=media&token=ebea70aa-6e3e-4f38-9eb2-cb8f0244522d",
             description:
-                " cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
             liveLink: "https://burger-queen-api-client-henna.vercel.app/",
             githubLink: "https://github.com/sofia-torres-v/Burger-Queen",
             skills: ["HTML", "CSS", "JavaScript", "React"],
@@ -87,7 +89,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebSocial.jpg?alt=media&token=bd29f270-ddac-440a-92a6-872ddd0d03c7",
             description:
-                " cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
             liveLink: "https://social-network-8a6da.web.app/",
             githubLink: "https://github.com/sofia-torres-v/Social-Network",
             skills: ["HTML", "CSS", "JavaScript", "firebase"],
@@ -98,8 +100,9 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebData.jpg?alt=media&token=a0379cd3-b8f7-4d8e-9923-0db7b6f8ffe0",
             description:
-                " cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
-            liveLink: "https://sofia-torres-v.github.io/Data-Lovers/src/index.html",
+                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+            liveLink:
+                "https://sofia-torres-v.github.io/Data-Lovers/src/index.html",
             githubLink: "https://github.com/sofia-torres-v/Data-Lovers",
             skills: ["HTML", "CSS", "JavaScript"],
         },
@@ -109,15 +112,17 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FcardValidation.jpeg?alt=media&token=95f3acdb-4814-4502-b87c-9ea6da5f5556",
             description:
-                " cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
-            liveLink: "https://sofia-torres-v.github.io/Card-validation/src/index.html",
+                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+            liveLink:
+                "https://sofia-torres-v.github.io/Card-validation/src/index.html",
             githubLink: "https://github.com/sofia-torres-v/Card-validation",
             skills: ["HTML", "CSS", "JavaScript"],
         },
     ],
     aboutData: {
         name: "Sofia Torres",
-        description: "Soy una Frontend Developer Peruana con estudios en Administración. Apasionada por el diseño visual y fascinada por el CSS. Actualmente, me dedico a trabajar en proyectos freelance. Mi objetivo es plasmar creatividad y usabilidad en todos mis proyectos. Me gusta trabajar de forma colaborativa y aprender de manera contínua através de la práctica.",
+        description:
+            "Soy una Frontend Developer Peruana con estudios en Administración. Apasionada por el diseño visual y fascinada por el CSS. Actualmente, me dedico a trabajar en proyectos freelance. Mi objetivo es plasmar creatividad y usabilidad en todos mis proyectos. Me gusta trabajar de forma colaborativa y aprender de manera contínua através de la práctica.",
         email: "sofy.torresv@gmail.com",
         linkedin:
             "https://www.linkedin.com/in/sofia-torres-v-front-end-developer/",
