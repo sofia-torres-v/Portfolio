@@ -11,11 +11,11 @@ const Home = () => {
         <section className="home-view">
             <div className="box">
                 <div className="container-hello">
-                    <span className="span-hello">Hola, Soy</span>
+                    <span className="span-hello">Hola, soy</span>
                     <h1 className="title-home">Sofia Torres</h1>
                     <span className="home__text">
                         Desarrolladora Frontend, apasionada por el diseño visual
-                        y fascinada por el CSS. Conóce mis principales
+                        y fascinada por el CSS. Conoce mis principales
                         habilidades.
                     </span>
                 </div>

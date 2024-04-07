@@ -57,7 +57,7 @@ const CardProject = ({ project }) => {
                 </div>
 
                 <div className="box-tec">
-                    <p className="title-skills1">Técnologias:</p>
+                    <p className="title-skills1">Tecnologías:</p>
                     
                    <div className="project-skills">
                         {skills.map((skill, index) => (

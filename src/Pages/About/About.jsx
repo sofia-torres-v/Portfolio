@@ -59,13 +59,13 @@ const About = () => {
                         </ul>
                     )}
                     {sectionVisible === "estudios" && (
-                        <ul>
+                        <ul className="skills-studies">
                             <li>Desarrollo Frontend - Bootcamp Laboratoria</li>
                             <li>Administracion - Instituto Superio ITAE</li>
                         </ul>
                     )}
                     {sectionVisible === "certificaciones" && (
-                        <ul>
+                        <ul className="skills-studies">
                             <li>Desarrollo web Frontend - Laboratoria</li>
                             <li> JavaScript - CoderHouse</li>
                             <li>Desarrollo web - Coder - CoderHouse</li>

@@ -2,24 +2,24 @@
     width: 80%;
     margin: 0 auto;
     color: #fff;
+    padding: 25px 0 0;
     display: flex;
-    flex-direction: column;
     gap: 15px;
     font-size: 2rem;
 }
 
 .about__skills-content {
-    min-height: 180px;
+    min-height: 280px;
     width: 80%;
     margin: 0 auto;
     font-size: 1.5rem;
     color: #444044;
-    padding: 25px 0;
+    padding: 25px 0 35px;
+}
+.skills-studies{
+    min-height:215px ;
 }
 
-.about__skills-titles a.active {
-    padding: 25px 0 0;
-}
 .skills__list {
     color: #444044;
     display: flex;
@@ -45,11 +45,12 @@
 
 .about__skills-titles a {
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 5px;
     color: #333; /* Color normal del enlace */
     position: relative;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .about__skills-titles a::after {
@@ -101,17 +102,14 @@
 @media(min-width:750px){
     .about__skills-content {
         width: 70%;
-    }
-
-    .about__skills-titles a.active {
-        padding: 0;
+        padding: 25px 0;
     }
 
     .about__skills-titles {    
         width: 70%;
         font-size: 3.5rem;
-        flex-direction: row;
         gap: 40px;
+        padding: 2px 0 0;
     }
 
     .skills__items {
@@ -120,8 +118,8 @@
     }
 
     .about__skills-titles a{
+        margin-right: 20px;
         font-size: 1.8rem;
-        font-weight: 600;
     }
 
     .skills__list {
