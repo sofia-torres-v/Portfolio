@@ -41,7 +41,7 @@ const CardProject = ({ project }) => {
                             target="blank"
                             rel="noopener noreferrer"
                         >
-                            Ver Código
+                             Ver Proyecto
                         </a>
                     </button>
                     <button className="btn-online">
@@ -51,7 +51,8 @@ const CardProject = ({ project }) => {
                             target="blank"
                             rel="noopener noreferr*-er"
                         >
-                            Ver Proyecto
+                          
+                            Ver Código
                         </a>
                     </button>
                 </div>
