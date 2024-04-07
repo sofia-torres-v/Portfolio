@@ -30,10 +30,11 @@ const Projects = () => {
                     ))}
                 </div>
                 {showMore && visibleProjects < projectsData.length && (
-                    <button className="projects__button" onClick={loadMoreProjects}>Ver más proyectos</button>
+                    <button className="projects__button" onClick={loadMoreProjects}>Ver más proyectos<i className='bx bx-chevron-down angle'></i></button>
                 )}
                 {!showMore && (
-                    <button className="projects__button" onClick={showLessProjects}>Ver menos proyectos</button>
+                    <button className="projects__button" onClick={showLessProjects}>Ver menos proyectos <i className='bx bx-chevron-up angle' ></i>
+                    </button>
                 )}
             </div>
         </section>
