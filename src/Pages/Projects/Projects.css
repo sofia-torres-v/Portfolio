@@ -18,7 +18,8 @@
 
 .projects__button{
     background-color: #fff;
-    display: block;
+    display: flex;
+    align-items: center;
     font-size: 1.8rem;
     margin: 50px auto;
     padding: 15px 25px;
@@ -29,6 +30,7 @@
 
  .angle{
     color:#ec4899;
+    font-size: 3rem;
 }
 
 @media (min-width: 850px) {
