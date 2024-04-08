@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 45px;
 }
 
 .contact__title{
@@ -31,7 +31,7 @@
 }
 
  .contact__text{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .link-email{
@@ -48,6 +48,7 @@
 }
 
 .contact__icons {
+    padding: 12px;
     background-color: #dcd4d4;
     font-size: 1.6rem;
     display: flex;
@@ -60,12 +61,16 @@
 }
 
 .icon-social{
-    width: 300px;
+    width: 250px;
 }
 
 @media(min-width:750px){
+    .contact__text{
+        font-size: 2rem;
+    }
     .contact__content {
         flex-direction: row;
+        gap: 70px;
     }
     .contact__icons{
         width: 440px;
@@ -73,4 +78,8 @@
     .contact__title{
         padding: 50px 0 0;
     }
+    .icon-social{
+        width: 300px;
+    }
+    
 }

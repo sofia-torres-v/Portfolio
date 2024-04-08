@@ -96,14 +96,14 @@
     }
 
     /* bonus  */
-    .navbar__items::after {
+    /* .navbar__items::after {
         content: "";
         display: block;
         margin: 0 auto;
         width: 3vw;
         height: 1px;
         background: #757070;
-    }
+    } */
     .navbar__link {
         display: block;
         font-size: 1.5rem;
