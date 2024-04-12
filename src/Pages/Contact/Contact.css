@@ -1,4 +1,4 @@
-.contact__content{
+.contact__content {
     padding: 40px;
     margin: 0 auto;
     width: 85%;
@@ -9,35 +9,44 @@
     gap: 45px;
 }
 
-.contact__title{
+.contact__title {
     padding: 30px 0 0;
     text-align: center;
-    font-size: 2rem;  
+    font-size: 2rem;
 }
 
-.boxes{
+.boxes {
     display: flex;
     align-items: center;
     margin-left: 10px;
 }
 
-.contact__span{
+.contact__span {
     color: #d9007d;
     font-weight: 500;
 }
 
-.contact__icons .contact-bx{
+.contact__icons .contact-bx {
     font-size: 3rem;
 }
 
- .contact__text{
-    font-size: 1.6rem;
+.contact__text {
+    font-size: 1.5rem;
+    padding: 10px;
 }
 
-.link-email{
-    font-size: 3rem;
+.contact__links-wm{
     text-decoration: none;
+    color: #151616;
 }
+
+.contact__links-wm:visited {
+    color: #151616;
+}
+.contact__links-wm:hover{
+    color: #d9007d;
+}
+
 
 .contact__icons-info {
     display: flex;
@@ -48,38 +57,45 @@
 }
 
 .contact__icons {
-    padding: 12px;
+    padding: 39px 10px;
     background-color: #dcd4d4;
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    line-height: 1;
     border-radius: 10px;
     width: 100%;
-    height: 80px;
-    gap: 6px;
+    height: 62px;
+    /* gap: 6px; */
 }
 
-.icon-social{
+.icon-social {
     width: 250px;
 }
+.contact__icons .bxl-whatsapp, .bxs-envelope, .bxl-linkedin-square{
+    font-size:2.5rem ;
+    color: rgb(84, 83, 83);
+}
 
-@media(min-width:750px){
-    .contact__text{
-        font-size: 2rem;
+@media (min-width: 750px) {
+    .contact__text {
+        font-size: 1.7rem;
     }
     .contact__content {
         flex-direction: row;
-        gap: 70px;
+        gap: 60px;
     }
-    .contact__icons{
-        width: 440px;
+    .contact__icons {
+        flex-direction: row;
+        padding: 0;
+        width: 360px;
     }
-    .contact__title{
+    .contact__title {
         padding: 50px 0 0;
     }
-    .icon-social{
+    .icon-social {
         width: 300px;
     }
-    
 }
