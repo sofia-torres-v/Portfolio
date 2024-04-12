@@ -24,13 +24,12 @@
     margin: 50px auto;
     padding: 15px 25px;
     border: none;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
  .angle{
     color:#ec4899;
-    font-size: 3rem;
+    /* font-size: rem; */
 }
 
 @media (min-width: 850px) {

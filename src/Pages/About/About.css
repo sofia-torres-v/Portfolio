@@ -58,7 +58,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background-color: transparent; /* Color de la rayita debajo del enlace */
+    background-color: transparent;
     transition: width 0.3s ease-in-out;
     position: absolute;
     bottom: 0;
@@ -66,13 +66,12 @@
 }
 
 .about__skills-titles a.active {
-    color: #ec4899;
+    color: #d9007d;
 }
 
 .about__skills-titles a.active::after {
     width: 100%;
-    background-color: #ec4899;
-     /* Color para la rayita debajo del enlace activo */
+    background-color: #d9007d;
 }
 
 /*  Efecto al renderizar about  */
