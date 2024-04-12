@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../assets/images/Group14.png";
 
@@ -19,25 +19,25 @@ const Navbar = () => {
             <img className="navbar__logo" src={Logo} alt="" />
             <ul className="navbar__links">
                 <li className="navbar__items slideInDown-2" onClick={closeMenu} >                  
-                    <NavLink to="/home" className="navbar__link" activeClassName="active">
+                    <Link to="/home" className="navbar__link" activeClassName="active">
                         inicio
-                    </NavLink>
+                    </Link>
                 </li>
                 <li className="navbar__items slideInDown-2" onClick={closeMenu}>
-                    <NavLink to="/projects" className="navbar__link" activeClassName="active" >
+                    <Link to="/projects" className="navbar__link" activeClassName="active" >
                         Proyectos
-                    </NavLink>
+                    </Link>
                 </li>
                 <li className="navbar__items bg slideInDown-1" onClick={closeMenu}>
-                    <NavLink to="/about" className="navbar__link" >
+                    <Link to="/about" className="navbar__link" >
                         Sobre mi
-                    </NavLink>
+                    </Link>
                 </li>
 
                 <li className="navbar__items slideInDown-3" onClick={closeMenu}>
-                    <NavLink to="/contact" className="navbar__link" >
+                    <Link to="/contact" className="navbar__link" >
                         Contacto
-                    </NavLink>
+                    </Link>
                 </li>
             </ul>
             <button className="navbar__burger" onClick={handleShowLinks}>

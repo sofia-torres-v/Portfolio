@@ -29,7 +29,6 @@
     width: 100%;
     height: 60%;
     border-radius: 12px 12px 0 0;
-    /* transition: transform 0.3s ease; */
 }
 .subtitle-projects {
     color: #000;
@@ -76,11 +75,17 @@
     line-height: 1.5;
 }
 
-.card-back button {
+.back-button {
     margin: 20px auto;
     padding: 8px 30px;
     font-size: 1.8rem;
     border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: transparent;
+    cursor: pointer;
 }
 
 .btn-box {
@@ -128,7 +133,7 @@
     cursor: pointer;
     font-size: 1.6rem;
     font-weight: bold;
-    color: #ec4899;
+    color: #d9007d;
     border:none;
     border-radius: 15px;
 }
@@ -156,7 +161,7 @@
         flex-direction: row;
     }
     .card-project img {
-        height: 100%;
+        height: 90%;
     }
     .btn-online{
         font-size: 1.6rem;

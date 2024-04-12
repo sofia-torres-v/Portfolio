@@ -4,6 +4,7 @@ import LinkedinIcon from "../../assets/images/zzzz.png";
 
 const Contact = () => {
     const { aboutData } = data;
+
     return (
         <section className="slide-in-from-top" id="contact">
             <p className="contact__title">
@@ -13,14 +14,16 @@ const Contact = () => {
                 <div className="contact__icons-info">
                     <div className="contact__icons">
                         <i className="bx bxs-phone-call "></i>
-                        <p className="contact__text">(+51) 941 196 749</p>
+                        <p className="contact__text"><a href="https://wa.me/51941196749" target="_blank" rel="noopener noreferrer">(+51) 941 196 749 (WhatsApp)</a></p>
+                        
                     </div>
                     <div className="contact__icons">
-                        <i className="bx bxs-envelope  "></i>
-                        <p className="contact__text">sofy.torresv@gmail.com</p>
+                        <i className="bx bxs-envelope"></i>
+                        <p className="contact__text"><a href="mailto:sofy.torresv@gmail.com"target="_blank" rel="noopener noreferrer">sofy.torresv@gmail.com</a>
+                        </p>
                     </div>
                     <div className="contact__icons">
-                    <div className="boxes">
+                        <div className="boxes">
                             <p className="contact__text">Mis Redes:</p>
                         </div>
                         <div>
@@ -41,7 +44,6 @@ const Contact = () => {
                                 <i className="bx bxl-github contact-bx"></i>
                             </a>
                         </div>
-                  
                     </div>
                 </div>
 

@@ -2,17 +2,6 @@ const data = {
     projectsData: [
         {
             id: 1,
-            name: "BrownAutoCare",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FbrownAutoCare.jpg?alt=media&token=8d9543c9-9d5c-481f-907e-f79c9391b86b",
-            liveLink: "https://brownautocarefl.com/",
-            githubLink: "https://github.com/sofia-torres-v/Js-Motos",
-            description:
-                "Desarrollamos el sitio web para un cliente en el sector automotriz en Estados Unidos. Abordamos desafíos técnicos en Shopify, liderando diseño e interacciones. Implementamos ajustes personalizados con CSS para mejorar la presencia en línea del cliente.El proyecto involucró la creación de una tienda en línea altamente personalizada.",
-            skills: ["HTML", "CSS-Vanilla", "shopify"],
-        },
-        {
-            id: 2,
             name: "JS Motos",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FjsMotosImport.jpg?alt=media&token=7a74b3fa-1937-4d82-a7a5-1654416104de",
@@ -22,6 +11,17 @@ const data = {
             githubLink: "https://github.com/sofia-torres-v/Js-Motos",
             skills: ["html", "css", "JavaScript", "React", "firebase"],
         },
+        {
+            id: 2,
+            name: "BrownAutoCare",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FbrownAutoCare.jpg?alt=media&token=8d9543c9-9d5c-481f-907e-f79c9391b86b",
+            liveLink: "https://brownautocarefl.com/",
+            githubLink: "https://github.com/sofia-torres-v/Js-Motos",
+            description:
+                "Desarrollamos el sitio web para un cliente en el sector automotriz en Estados Unidos. Abordamos desafíos técnicos en Shopify, liderando diseño e interacciones. Implementamos ajustes personalizados con CSS para mejorar la presencia en línea del cliente.El proyecto involucró la creación de una tienda en línea altamente personalizada.",
+            skills: ["HTML", "CSS-Vanilla", "shopify"],
+        },
 
         {
             id: 3,
@@ -29,7 +29,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FblackJack.jpg?alt=media&token=a731fffe-6ec4-4e06-aee2-71fb393dce55",
             description:
-                "Este proyecto ofrece una plataforma para adquirir una amplia variedad de ropa para dama. Está desarrollado exclusivamente con tecnologías nativas como JavaScript, CSS, Flexbox, Grid. Además de integrar SweetAlert para notificaciones y mensajes de confirmación personalizados, mejorando así la experiencia del usuario",
+                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
             liveLink: "https://www.blackjackchauffeurs.com/",
             githubLink: "https://github.com/sofia-torres-v/Js-Motos",
             skills: ["HTML", "CSS-vanilla", "Wordpress"],
@@ -78,7 +78,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fweb-burger.jpg?alt=media&token=ebea70aa-6e3e-4f38-9eb2-cb8f0244522d",
             description:
-                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+                "Proyecto desarrollado con React que ofrece una interfaz para restaurantes. Permite a los meseros tomar pedidos de manera eficiente mediante tablet y enviarlos a la cocina en tiempo real. El sistema garantiza una organización óptima de los pedidos. Además, el administrador tiene acceso completo para gestionar productos y usuarios..",
             liveLink: "https://burger-queen-api-client-henna.vercel.app/",
             githubLink: "https://github.com/sofia-torres-v/Burger-Queen",
             skills: ["HTML", "CSS", "JavaScript", "React"],
@@ -89,7 +89,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebSocial.jpg?alt=media&token=bd29f270-ddac-440a-92a6-872ddd0d03c7",
             description:
-                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+                "Se creó una red social para jugadores, donde los usuarios pueden iniciar sesión con una nueva cuenta o a través de Google. Pueden crear, editar y eliminar publicaciones, además de dar 'me gusta'. Esta plataforma promueve la interacción y la conexión entre la comunidad de jugadores.",
             liveLink: "https://social-network-8a6da.web.app/",
             githubLink: "https://github.com/sofia-torres-v/Social-Network",
             skills: ["HTML", "CSS", "JavaScript", "firebase"],
@@ -100,7 +100,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebData.jpg?alt=media&token=a0379cd3-b8f7-4d8e-9923-0db7b6f8ffe0",
             description:
-                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+                "Se desarrolló un sitio web inspirado en una serie de televisión animada, ofreciendo a los usuarios la capacidad de explorar contenido de manera interactiva. Los usuarios pueden disfrutar de una experiencia personalizada al visualizar, filtrar y ordenar la información según sus preferencias individuales.",
             liveLink:
                 "https://sofia-torres-v.github.io/Data-Lovers/src/index.html",
             githubLink: "https://github.com/sofia-torres-v/Data-Lovers",
@@ -112,7 +112,7 @@ const data = {
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FcardValidation.jpeg?alt=media&token=95f3acdb-4814-4502-b87c-9ea6da5f5556",
             description:
-                "cincoLanding page para negocio dedicado a la venta de repuestos para motos, integrando Gmail para formularios y habilitamos conexión a WhatsApp.",
+                "Aplicación web que permite a los usuarios verificar su número de tarjeta de crédito. Su función principal es ocultar todos los dígitos excepto los últimos cuatro. Esta herramienta ofrece una forma segura y conveniente para que los usuarios verifiquen sus números de tarjeta de crédito sin comprometer su seguridad.",
             liveLink:
                 "https://sofia-torres-v.github.io/Card-validation/src/index.html",
             githubLink: "https://github.com/sofia-torres-v/Card-validation",
