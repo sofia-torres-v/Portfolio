@@ -1,6 +1,6 @@
 import data from "../../mocks/ProjectData";
 import "./Contact.css";
-import LinkedinIcon from "../../assets/images/zzzz.png";
+import EnvelopeImage from "../../assets/images/zzzz.png";
 
 const Contact = () => {
     const { aboutData } = data;
@@ -13,42 +13,94 @@ const Contact = () => {
             <div className="contact__content">
                 <div className="contact__icons-info">
                     <div className="contact__icons">
-                        <i className="bx bxs-phone-call "></i>
-                        <p className="contact__text"><a href="https://wa.me/51941196749" target="_blank" rel="noopener noreferrer">(+51) 941 196 749 (WhatsApp)</a></p>
-                        
-                    </div>
-                    <div className="contact__icons">
-                        <i className="bx bxs-envelope"></i>
-                        <p className="contact__text"><a href="mailto:sofy.torresv@gmail.com"target="_blank" rel="noopener noreferrer">sofy.torresv@gmail.com</a>
-                        </p>
-                    </div>
-                    <div className="contact__icons">
-                        <div className="boxes">
-                            <p className="contact__text">Mis Redes:</p>
-                        </div>
-                        <div>
+                        <a
+                            href="https://wa.me/51941196749"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="contact__links-wm"
+                        >
+                            <i className="bx bxl-whatsapp"></i>
+                        </a>
+
+                        <p className="contact__text">
                             <a
-                                href={aboutData.linkedin}
+                                className="contact__links-wm"
+                                href="https://wa.me/51941196749"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="footer__social-link"
                             >
-                                <i className="bx bxl-linkedin contact-bx"></i>
+                                (+51) 941 196 749
                             </a>
+                        </p>
+                    </div>
+
+                    <div className="contact__icons">
+                        <a
+                            href="mailto:sofy.torresv@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="contact__links-wm"
+                        >
+                            <i className="bx bxs-envelope"></i>
+                        </a>
+
+                        <p className="contact__text">
+                            <a
+                                className="contact__links-wm"
+                                href="mailto:sofy.torresv@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                sofy.torresv@gmail.com
+                            </a>
+                        </p>
+                    </div>
+
+                    <div className="contact__icons">
+                        <a
+                            href={aboutData.gitHub}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="contact__links-wm"
+                        >
+                            <i className="bx bxl-github contact-bx"></i>
+                        </a>
+
+                        <p className="contact__text">
                             <a
                                 href={aboutData.gitHub}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="footer__social-link"
+                                className="contact__links-wm"
                             >
-                                <i className="bx bxl-github contact-bx"></i>
+                                github.com/sofia-torres-v
                             </a>
-                        </div>
+                        </p>
+                    </div>
+                    <div className="contact__icons">
+                        <a
+                            href={aboutData.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="contact__links-wm"
+                        >
+                            <i className="bx bxl-linkedin-square contact-bx"></i>
+                        </a>
+                        <p className="contact__text">
+                            <a
+                                href={aboutData.linkedin}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="contact__links-wm"
+                            >
+                                in/sofia-torres-v
+                            </a>
+                        </p>
                     </div>
                 </div>
 
                 <div className="contact__titles">
-                    <img className="icon-social" src={LinkedinIcon} alt="" />
+                    <img className="icon-social" src={EnvelopeImage} alt="" />
                 </div>
             </div>
         </section>
