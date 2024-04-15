@@ -127,6 +127,29 @@ const data = {
         linkedin:
             "https://www.linkedin.com/in/sofia-torres-v-front-end-developer/",
         gitHub: "https://github.com/sofia-torres-v",
+        studiesWithImages: [
+            {
+                name: 'Bootcamp de Especialización - Desarrollo Web Front-End',
+                image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Falura1.png?alt=media&token=4e5e4148-8f43-450b-8d12-362082074ceb'
+            },
+            {
+                name: 'Bootcamp - Desarrollo Web Front-End',
+                image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Flogo-labo.jpg?alt=media&token=24e9c81c-e01e-416a-aa9b-133d9c1996ae'
+            },
+            {
+                name: 'Instituto de Administración de Empresas - Itae',
+                image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Flogo_itae.png?alt=media&token=566fe2ae-5902-4813-8f70-71438e72295f'
+            },
+            {
+                name: 'CoderHouse',
+                image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcoderhouse.jpeg?alt=media&token=40976d05-dcbd-4e04-ac24-d9369c56f910'
+            },
+            {
+                name: 'Platzi',
+                image: '../assets/images/platzi-logo.jpg'
+            },
+
+        ],
         skillsWithImages: [
             {
                 name: "React",
