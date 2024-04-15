@@ -29,7 +29,7 @@ const Home = () => {
                             alt={`Imagen de ${skill.name}`}
                             className="intro__image"
                         />
-                        <p className="content__text">{skill.name}</p>
+                        <p className="content__text" translate="no">{skill.name}</p>
                     </div>
                 ))}
             </div>

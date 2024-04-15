@@ -35,7 +35,6 @@
     color: inherit;
     font-size: 1.5rem;
     text-decoration: none;
-    color: #5f585f;
     color: #151616;
     font-weight: 500;
     text-transform: uppercase;
@@ -69,8 +68,7 @@
     color: #d9007d; 
 }
 .navbar__burger {
-    width: 40px;
-    height: 40px;
+    width: 38px;
     background: transparent;
     border: none;
     color: inherit;
@@ -135,10 +133,10 @@
     }
 
     .burger-bar::before {
-        transform: translateY(-12px);
+        transform: translateY(-9px);
     }
     .burger-bar::after {
-        transform: translateY(12px);
+        transform: translateY(9px);
     }
 
     .show-nav .burger-bar {

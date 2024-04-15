@@ -65,6 +65,7 @@ const CardProject = ({ project }) => {
                             <span
                                 key={index}
                                 className={`project-skill ${[skill]}`}
+                                translate="no"
                             >
                                 {skill}
                             </span>
