@@ -3,7 +3,6 @@ import "./About.css";
 import data from "../../mocks/ProjectData";
 import IntroAbout from "../../Components/introAbout/IntroAbout";
 
-
 const About = () => {
     const { aboutData } = data;
     const [sectionVisible, setSectionVisible] = useState("habilidades");
@@ -60,15 +59,42 @@ const About = () => {
                     )}
                     {sectionVisible === "estudios" && (
                         <ul className="skills-studies">
-                            <li>Desarrollo Frontend - Bootcamp Laboratoria</li>
-                            <li>Administracion - Instituto Superio ITAE</li>
+                            {aboutData.studiesWithImages.map(
+                                (studies, index) => {
+                                    // Filtrar solo los estudios que queremos mostrar
+                                    if (
+                                        [
+                                            "Bootcamp - Desarrollo Web Front-End",
+                                            "Bootcamp de Especialización - Desarrollo Web Front-End",
+                                            "Instituto de Administración de Empresas - Itae",
+                                        ].includes(studies.name)
+                                    ) {
+                                        return (
+                                            <li
+                                                className="skills-studies-images"
+                                                key={index}
+                                            >
+                                                <img
+                                                    className="about-studies-images"
+                                                    src={studies.image}
+                                                    alt={studies.name}
+                                                />
+                                                <p className="estudies-text">{studies.name}</p>
+                                            </li>
+                                        );
+                                    } else {
+                                        return null; // Omitir otros estudios
+                                    }
+                                }
+                            )}
                         </ul>
                     )}
                     {sectionVisible === "certificaciones" && (
                         <ul className="skills-studies">
-                            <li>Desarrollo web Frontend - Laboratoria</li>
-                            <li> JavaScript - CoderHouse</li>
-                            <li>Desarrollo web - Coder - CoderHouse</li>
+                            <li>CoderHouse - JavaScript</li>
+                            <li>Maquetación Mobile First  - Platzi</li>
+                            <li>Algoritmos y Diagrama de Flujo - Platzi</li>
+                            
                         </ul>
                     )}
                 </div>

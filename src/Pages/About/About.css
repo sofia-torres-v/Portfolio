@@ -18,6 +18,11 @@
 }
 .skills-studies{
     min-height:215px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
 }
 
 .skills__list {
@@ -36,11 +41,11 @@
     gap: 7px;
     align-items: center;
     padding-top: 15px;
+    flex-grow: 1;
 }
 
 .about__skills-images {
-    width: 30px;
-    height: 30px;
+    width: 45px;
 }
 
 .about__skills-titles a {
@@ -73,7 +78,13 @@
     width: 100%;
     background-color: #d9007d;
 }
-
+.about-studies-images{
+    width: 220px;
+    height: 120px;
+}
+.estudies-text{
+    width: 230px;
+}
 /*  Efecto al renderizar about  */
 @keyframes slideInFromTop {
     0% {
@@ -114,6 +125,7 @@
     .skills__items {
         flex-direction: row;
         font-size: 1.6rem;
+        flex-grow: 0;
     }
 
     .about__skills-titles a{
@@ -126,7 +138,14 @@
     }
 
     .about__skills-images {
-        width: 40px;
-        height: 40px;
+        width: 58px;
+    }
+    .skills-studies{
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .about-studies-images{
+        width: 250px;
     }
 }
