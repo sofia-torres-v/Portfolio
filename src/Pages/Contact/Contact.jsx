@@ -1,6 +1,6 @@
 import data from "../../mocks/ProjectData";
 import "./Contact.css";
-import EnvelopeImage from "../../assets/images/zzzz.png";
+import EnvelopeImage from "../../assets/images/envelope.png";
 
 const Contact = () => {
     const { aboutData } = data;

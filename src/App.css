@@ -7,7 +7,7 @@
 }
 
 .section {
-    min-height: calc(100vh - 115px);
+    min-height: calc(100vh - 119px);
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
 
 @media(min-width: 750px){
     .section{
-        min-height: calc(100vh - 134px);
+        min-height: calc(100vh - 139px);
     }
 }  
 
