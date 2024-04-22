@@ -5,7 +5,7 @@ const Home = () => {
     const { aboutData } = data;
        // Filtrar las habilidades deseadas
        const filteredSkills = aboutData.skillsWithImages.filter(skill =>
-        ['React', 'JavaScript', 'Material UI', 'Git', 'Wordpress'].includes(skill.name)
+        ['React', 'JavaScript', 'Material UI', 'Wordpress'].includes(skill.name)
     );
     return (
         <section className="home-view">

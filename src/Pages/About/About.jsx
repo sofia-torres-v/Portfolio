@@ -66,7 +66,6 @@ const About = () => {
                                         [
                                             "Bootcamp - Desarrollo Web Front-End",
                                             "Bootcamp de Especialización - Desarrollo Web Front-End",
-                                            "Instituto de Administración de Empresas - Itae",
                                         ].includes(studies.name)
                                     ) {
                                         return (
@@ -90,8 +89,8 @@ const About = () => {
                         </ul>
                     )}
                     {sectionVisible === "certificaciones" && (
-                        <ul className="skills-studies">
-                            <li>CoderHouse - JavaScript</li>
+                        <ul className="skills-certifications">
+                            <li>JavaScript - CoderHouse</li>
                             <li>Maquetación Mobile First  - Platzi</li>
                             <li>Algoritmos y Diagrama de Flujo - Platzi</li>
                             
