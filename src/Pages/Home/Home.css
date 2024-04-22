@@ -63,7 +63,7 @@
 }
 
 .intro__image {
-    width: 35px;
+    width: 40px;
 }
 
 .content__text{
@@ -106,12 +106,12 @@
     }
 
     .intro__images {
-        gap: 58px;
+        gap: 70px;
         justify-content: flex-start;
     }
 
     .intro__image {
-        width: 42px;
+        width: 45px;
     }
 
     .content__text{
