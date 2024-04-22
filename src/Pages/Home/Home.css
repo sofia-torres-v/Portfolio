@@ -41,7 +41,7 @@
 }
 
 .home__text {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #444044;
 }
 
@@ -53,7 +53,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .content__images{
@@ -63,11 +63,11 @@
 }
 
 .intro__image {
-    width: 27px;
+    width: 35px;
 }
 
 .content__text{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #444044;
     font-weight: 600;
 }

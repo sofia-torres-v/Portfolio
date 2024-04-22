@@ -153,7 +153,7 @@ const data = {
         skillsWithImages: [
             {
                 name: "React",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Freact-portfolio.png?alt=media&token=b4580ea4-a159-4d9c-8fda-eec0aca00c4d",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Freact-portfolio.png?alt=media&token=d5cba570-54cd-4e08-a6d4-d08c4bf010bf",
             },
             {
                 name: "JavaScript",

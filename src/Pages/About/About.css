@@ -30,7 +30,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 30px;
 }
 
 .skills__items {
@@ -45,7 +45,7 @@
 }
 
 .about__skills-images {
-    width: 45px;
+    width: 50px;
 }
 
 .about__skills-titles a {
@@ -107,6 +107,11 @@
     animation: slideInFromTop 2s ease-in-out;
     opacity: 1;
 }
+
+    .skills-certifications{
+        list-style: initial;
+        margin-left: 20px;     
+    }
 /* ---------------------------- */
 
 @media(min-width:750px){
@@ -123,7 +128,8 @@
     }
 
     .skills__items {
-        flex-direction: row;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
         font-size: 1.6rem;
         flex-grow: 0;
     }
@@ -134,7 +140,7 @@
     }
 
     .skills__list {
-        gap: 30px;
+        gap: 65px;
     }
 
     .about__skills-images {
@@ -145,7 +151,9 @@
         justify-content: flex-start;
         flex-wrap: wrap;
     }
-    .about-studies-images{
-        width: 250px;
+    .skills-certifications{
+        list-style: initial;
+        margin-left: 20px;     
     }
+ 
 }

@@ -8,8 +8,7 @@ const IntroAbout = () => {
                 <div className="intro__text">
                     <h2 className="intro__span1">Sobre mí</h2>
                     <p className="intro__text">
-                        Soy una Frontend Developer Peruana con estudios en
-                        Administración. Apasionada por el diseño visual y
+                        Soy una Frontend Developer Peruana, apasionada por el diseño visual y
                         fascinada por el CSS. Actualmente, me dedico a trabajar
                         en proyectos freelance. Mi objetivo es plasmar
                         creatividad y usabilidad en todos mis proyectos. Me
