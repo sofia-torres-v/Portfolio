@@ -16,7 +16,9 @@ const Navbar = () => {
 
     return (
         <nav className={` navbar   ${showLinks ? "show-nav" : "hide-nav"}`}>
-            <img className="navbar__logo" src={Logo} alt="" />
+            <Link to='/'>
+                <img className="navbar__logo" src={Logo} alt="Logo de nombre Sofía" />   
+            </Link>
             <ul className="navbar__links">
                 <li className="navbar__items slideInDown-2" onClick={closeMenu} >                  
                     <Link to="/home" className="navbar__link" activeClassName="active">
