@@ -64,8 +64,8 @@ const About = () => {
                                     // Filtrar solo los estudios que queremos mostrar
                                     if (
                                         [
-                                            "Bootcamp - Desarrollo Web Front-End",
-                                            "Bootcamp de Especialización - Desarrollo Web Front-End",
+                                            "Bootcamp de Desarrollo Web Front-End",
+                                            "Bootcamp de Especialización Desarrollo Web Front-End",
                                         ].includes(studies.name)
                                     ) {
                                         return (
