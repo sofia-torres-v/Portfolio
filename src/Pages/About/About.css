@@ -140,10 +140,11 @@
 
     .skills__list {
         gap: 55px;
+        justify-content: space-around;
     }
 
     .about__skills-images {
-        width: 58px;
+        width: 50px;
     }
     .skills-studies{
         flex-direction: row;
