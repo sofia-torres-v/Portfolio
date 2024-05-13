@@ -173,7 +173,7 @@ const data = {
             },
             {
                 name: "Git",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fgit-fork-outline.png?alt=media&token=bfe020ac-4db2-4614-9137-718197fb127f",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fgit-portfolio.png?alt=media&token=c6f757b4-694a-468c-b9f2-a2cc7c906617",
             },
             {
                 name: "Wordpress",

@@ -116,21 +116,20 @@
 
 @media(min-width:750px){
     .about__skills-content {
-        width: 70%;
-        padding: 25px 0;
+        width: 80%;
+        padding: 15px 0;
     }
 
     .about__skills-titles {    
-        width: 70%;
+        width: 80%;
         font-size: 3.5rem;
         gap: 40px;
         padding: 2px 0 0;
     }
 
     .skills__items {
-        /* flex-direction: row; */
         flex-wrap: wrap;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         flex-grow: 0;
     }
 
@@ -140,7 +139,7 @@
     }
 
     .skills__list {
-        gap: 65px;
+        gap: 55px;
     }
 
     .about__skills-images {
@@ -155,5 +154,4 @@
         list-style: initial;
         margin-left: 20px;     
     }
- 
 }

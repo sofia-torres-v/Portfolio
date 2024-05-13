@@ -34,13 +34,13 @@
 }
 
 .bxl-linkedin, .bxl-github{
-    color: rgb(84, 83, 83);
+    color: #d9007d;
     font-size: 2.3rem;
     border-radius: 50%;
     padding: 5px;
 }
 .bx:hover {
-    color: #d9007d;
+    color: rgb(84, 83, 83);
 }
 
 @media(min-width: 750px){
