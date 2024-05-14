@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 10px;
 
 }
 .intro__span1 {
@@ -22,11 +23,13 @@
     font-size: 1.5rem;
     color: #151616;
 }
-.intro__text2{
-    font-size: 2.5rem;
-    font-weight: 600;
-    padding: 20px 0 10px;
-    color: #444044;
+
+.intro__text p {
+    display: inline;
+}
+
+strong {
+    font-weight:600 ;
 }
 
 .intro__container-image {
@@ -37,15 +40,13 @@
 
 .intro__container-image img {
     width: 100%;
-    max-width: 100%;
-    height: 100%;
     border-radius: 15px;
 }
 
 @media (min-width: 850px) {
    
     .intro__content {
-        padding: 40px 0 0;
+        padding: 45px 0 0;
         width: 80%;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
