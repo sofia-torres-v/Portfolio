@@ -79,6 +79,9 @@
     color: inherit;
     display: none;
 }
+
+
+
 @media screen and (max-width: 1200px) {
     .navbar__logo {
         height: 42px;

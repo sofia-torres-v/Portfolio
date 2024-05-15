@@ -63,27 +63,26 @@
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
-.about__skills-titles a::after {
-    /* content: ""; */
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: transparent;
-    transition: width 0.3s ease-in-out;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 .about__skills-titles a.active {
     color: #d9007d;
     background-color:rgba(246, 204, 213, 0.428);
 }
 
-.about__skills-titles a.active::after {
-    width: 100%;
-    background-color: #d9007d;
+.about__skills-titles a:hover{
+    background-color:rgba(246, 204, 213, 0.428);
 }
+
+/* ------------------ */
+.about__skills-titles a {
+    transition: transform 0.1s ease, background-color 0.3s ease;
+}
+
+.about__skills-titles a:hover {
+    background-color: rgba(246, 204, 213, 0.428);
+    transform: scale(0.95); /* Reduce el tamaño del botón en un 5% */
+}
+
+/* -------------------------- */
 .about-studies-images{
     width: 220px;
     height: 120px;
