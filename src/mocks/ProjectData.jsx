@@ -3,6 +3,7 @@ const data = {
         {
             id: 1,
             name: "JS Motos",
+            category: "web con código",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FjsMotosImport.jpg?alt=media&token=7a74b3fa-1937-4d82-a7a5-1654416104de",
             description:
@@ -11,33 +12,11 @@ const data = {
             githubLink: "https://github.com/sofia-torres-v/Js-Motos",
             skills: ["html", "css", "JavaScript", "React", "firebase"],
         },
+
         {
             id: 2,
-            name: "BrownAutoCare",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FbrownAutoCare.jpg?alt=media&token=8d9543c9-9d5c-481f-907e-f79c9391b86b",
-            liveLink: "https://brownautocarefl.com/",
-            githubLink: "https://github.com/sofia-torres-v/Js-Motos",
-            description:
-                "Desarrollamos el sitio web para un cliente en el sector automotriz en Estados Unidos. Abordamos desafíos técnicos en Shopify, liderando diseño e interacciones. Implementamos ajustes personalizados con CSS para mejorar la presencia en línea del cliente.El proyecto involucró la creación de una tienda en línea altamente personalizada.",
-            skills: ["HTML", "CSS-Vanilla", "shopify"],
-        },
-
-        {
-            id: 3,
-            name: "BlackJack Chauffeurs",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FblackJack.jpg?alt=media&token=a731fffe-6ec4-4e06-aee2-71fb393dce55",
-            description:
-                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
-            liveLink: "https://www.blackjackchauffeurs.com/",
-            githubLink: "https://github.com/sofia-torres-v/Js-Motos",
-            skills: ["HTML", "CSS-vanilla", "Wordpress"],
-        },
-
-        {
-            id: 4,
             name: "GlamStore",
+            category: "web con código",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FshoppingCar.jpg?alt=media&token=52ce9cbf-1535-403d-9144-7868e92e8c30",
             description:
@@ -48,8 +27,9 @@ const data = {
         },
 
         {
-            id: 5,
+            id: 3,
             name: "Juego Número secreto",
+            category: "web con código",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FnumeroSecreto.jpg?alt=media&token=432675ba-e3ef-4ded-a477-52e6bcd9fe37",
 
@@ -61,8 +41,9 @@ const data = {
             skills: ["HTML", "CSS", "JavaScript-vanilla"],
         },
         {
-            id: 6,
+            id: 4,
             name: "Encriptador de textos",
+            category: "web con código",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fencriptador.jpg?alt=media&token=89a1c0a1-7b15-47b5-abd8-6e042ca44fd6",
             description:
@@ -73,8 +54,9 @@ const data = {
             skills: ["HTML", "CSS", "JavaScript-vanilla"],
         },
         {
-            id: 7,
-            name: "Burger Queen  ",
+            id: 5,
+            name: "Burger Queen",
+            category: "web con código",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fweb-burger.jpg?alt=media&token=ebea70aa-6e3e-4f38-9eb2-cb8f0244522d",
             description:
@@ -84,8 +66,9 @@ const data = {
             skills: ["HTML", "CSS", "JavaScript", "React"],
         },
         {
-            id: 8,
-            name: "Social Network ",
+            id: 6,
+            name: "Social Network",
+            category: "web con código",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebSocial.jpg?alt=media&token=bd29f270-ddac-440a-92a6-872ddd0d03c7",
             description:
@@ -94,21 +77,11 @@ const data = {
             githubLink: "https://github.com/sofia-torres-v/Social-Network",
             skills: ["HTML", "CSS", "JavaScript", "firebase"],
         },
+
         {
-            id: 9,
-            name: "Data Lovers ",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FwebData.jpg?alt=media&token=a0379cd3-b8f7-4d8e-9923-0db7b6f8ffe0",
-            description:
-                "Se desarrolló un sitio web inspirado en una serie de televisión animada, ofreciendo a los usuarios la capacidad de explorar contenido de manera interactiva. Los usuarios pueden disfrutar de una experiencia personalizada al visualizar, filtrar y ordenar la información según sus preferencias individuales.",
-            liveLink:
-                "https://sofia-torres-v.github.io/Data-Lovers/src/index.html",
-            githubLink: "https://github.com/sofia-torres-v/Data-Lovers",
-            skills: ["HTML", "CSS", "JavaScript"],
-        },
-        {
-            id: 10,
+            id: 7,
             name: "Card Validation",
+            category: "web con código",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FcardValidation.jpeg?alt=media&token=95f3acdb-4814-4502-b87c-9ea6da5f5556",
             description:
@@ -118,6 +91,51 @@ const data = {
             githubLink: "https://github.com/sofia-torres-v/Card-validation",
             skills: ["HTML", "CSS", "JavaScript"],
         },
+        {
+            id: 8,
+            name: "BrownAutoCare",
+            category: "web con WordPress",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FbrownAutoCare.jpg?alt=media&token=8d9543c9-9d5c-481f-907e-f79c9391b86b",
+            liveLink: "https://brownautocarefl.com/",
+            description:
+                "Desarrollamos el sitio web para un cliente en el sector automotriz en Estados Unidos. Abordamos desafíos técnicos en Shopify, liderando diseño e interacciones. Implementamos ajustes personalizados con CSS para mejorar la presencia en línea del cliente.El proyecto involucró la creación de una tienda en línea altamente personalizada.",
+            skills: ["HTML", "CSS-Vanilla", "shopify"],
+        },
+        {
+            id: 9,
+            name: "HomeShop",
+            category: "web con WordPress",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FhomeShop.jpg?alt=media&token=d3bdf80c-92b2-43fe-8bbd-e8ebe432777c",
+            description:
+                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
+            liveLink: "https://www.blackjackchauffeurs.com/",
+            skills: ["HTML", "CSS-vanilla", "Wordpress"],
+        },
+        {
+            id: 10,
+            name: "BlackJack Chauffeurs",
+            category: "web con WordPress",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FblackJack.jpg?alt=media&token=a731fffe-6ec4-4e06-aee2-71fb393dce55",
+            description:
+                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
+            liveLink: "https://www.blackjackchauffeurs.com/",     
+            skills: ["HTML", "CSS-vanilla", "Wordpress"],
+        },
+        {
+            id: 11,
+            name: "LolyFernandez Nails",
+            category: "web con WordPress",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2F2dbafe61-3659-491b-bae6-80de187ecea9.jpg?alt=media&token=6392ed40-099e-480c-91f6-a0a4b9360746",
+            description:
+                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
+            liveLink: "https://www.blackjackchauffeurs.com/",       
+            skills: ["HTML", "CSS-vanilla", "Wordpress"],
+        },
+
     ],
     aboutData: {
         name: "Sofia Torres",
@@ -129,22 +147,21 @@ const data = {
         gitHub: "https://github.com/sofia-torres-v",
         studiesWithImages: [
             {
-                name: 'Bootcamp de Desarrollo Web Front-End',
-                image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Flogo-labo.jpg?alt=media&token=24e9c81c-e01e-416a-aa9b-133d9c1996ae'
+                name: "Bootcamp de Desarrollo Web Front-End",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Flogo-labo.jpg?alt=media&token=24e9c81c-e01e-416a-aa9b-133d9c1996ae",
             },
             {
-                name: 'Bootcamp de Especialización Desarrollo Web Front-End',
-                image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fone.png?alt=media&token=c6f164f0-9fc8-4e4c-ae13-d88bc5ed7709'
-            },                
-            {
-                name: 'CoderHouse',
-                image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcoderhouse.jpeg?alt=media&token=40976d05-dcbd-4e04-ac24-d9369c56f910'
+                name: "Bootcamp de Especialización Desarrollo Web Front-End",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fone.png?alt=media&token=c6f164f0-9fc8-4e4c-ae13-d88bc5ed7709",
             },
             {
-                name: 'Platzi',
-                image: '../assets/images/platzi-logo.jpg'
+                name: "CoderHouse",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcoderhouse.jpeg?alt=media&token=40976d05-dcbd-4e04-ac24-d9369c56f910",
             },
-
+            {
+                name: "Platzi",
+                image: "../assets/images/platzi-logo.jpg",
+            },
         ],
         skillsWithImages: [
             {

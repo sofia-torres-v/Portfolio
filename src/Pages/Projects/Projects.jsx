@@ -1,40 +1,48 @@
-import  { useState } from "react";
+import { useState } from "react";
 import CardProject from "../../Components/cardProject/CardProject";
 import data from '../../mocks/ProjectData';
 import "./Projects.css";
 
 const Projects = () => {
     const { projectsData } = data;
-    const [visibleProjects, setVisibleProjects] = useState(4); // Número inicial de proyectos visibles
-    const [showMore, setShowMore] = useState(true); // Estado para controlar si mostrar más proyectos o no
+    const initialVisibleProjects = 3; // Número inicial de proyectos visibles
+    const [visibleProjects, setVisibleProjects] = useState(initialVisibleProjects);
+    const [category, setCategory] = useState("web con código"); // Estado para manejar la categoría seleccionada
+
+    // Filtrar proyectos por categoría
+    const filteredProjects = projectsData.filter(project => project.category === category);
 
     const loadMoreProjects = () => {
-        setVisibleProjects(prevVisibleProjects => prevVisibleProjects + 6); // Aumenta el número de proyectos visibles al hacer clic en el botón
-        if (visibleProjects + 6 >= projectsData.length) {
-            setShowMore(false); // Desactiva el botón "Ver más proyectos" cuando no hay más proyectos para cargar
+        const nextVisibleProjects = visibleProjects + 6;
+        setVisibleProjects(nextVisibleProjects);
+        if (nextVisibleProjects >= filteredProjects.length) {
+            setVisibleProjects(filteredProjects.length); // Muestra todos los proyectos restantes
         }
     };
 
     const showLessProjects = () => {
-        setVisibleProjects(4); // Restablece el número de proyectos visibles al valor inicial
-        setShowMore(true); // Vuelve a habilitar el botón "Ver más proyectos"
+        setVisibleProjects(initialVisibleProjects); // Restablece el número de proyectos visibles al valor inicial
     };
 
     return (
         <section className="slide-in-from-top" id="projects">
             <div className="projects__content">
-                <h2 className="projects__title">Mis Proyectos</h2>
-                <div className="projects__card ">
-                    {projectsData.slice(0, visibleProjects).map((project) => (
+                <div className="box__projects-title">
+                    <h2 className="projects__title">Mis Proyectos</h2>
+                    <div className="box__projects-button">
+                        <button className="projects__button-title" onClick={() => { setCategory("web con código"); setVisibleProjects(initialVisibleProjects); }}>Web con Código</button>
+                        <button className="projects__button-title" onClick={() => { setCategory("web con WordPress"); setVisibleProjects(initialVisibleProjects); }}>Web con WordPress</button>
+                    </div>
+                </div>
+                <div className="projects__card">
+                    {filteredProjects.slice(0, visibleProjects).map((project) => (
                         <CardProject key={project.id} project={project} />
                     ))}
                 </div>
-                {showMore && visibleProjects < projectsData.length && (
+                {visibleProjects < filteredProjects.length ? (
                     <button className="projects__button" onClick={loadMoreProjects}>Ver más proyectos<i className='bx bx-chevron-down angle'></i></button>
-                )}
-                {!showMore && (
-                    <button className="projects__button" onClick={showLessProjects}>Ver menos proyectos <i className='bx bx-chevron-up angle' ></i>
-                    </button>
+                ) : (
+                    <button className="projects__button" onClick={showLessProjects}>Ver menos proyectos <i className='bx bx-chevron-up angle'></i></button>
                 )}
             </div>
         </section>
