@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./cardProject.css";
 
 const CardProject = ({ project }) => {
-    const { name, liveLink, githubLink, description, skills} = project;
+    const { name, liveLink, githubLink, description } = project;
     const [isFlipped, setFlipped] = useState(false);
 
     const handleFlip = () => {
@@ -15,61 +15,53 @@ const CardProject = ({ project }) => {
         // Volver al card-front
         setFlipped(false);
     };
-     // Define la longitud máxima del extracto
-     const maxExtractLength = 70;
-     // Obtén el extracto truncado de la descripción
-     const extract = description.length > maxExtractLength ? `${description.substring(0, maxExtractLength)}...` : description;
-    
+    // Define la longitud máxima del extracto
+    const maxExtractLength = 70;
+    // Obtén el extracto truncado de la descripción
+    const extract =
+        description.length > maxExtractLength
+            ? `${description.substring(0, maxExtractLength)}...`
+            : description;
+
     return (
         <section className={`card-project ${isFlipped ? "flipped" : ""}`}>
             <div className="card-front">
                 <img src={project.image} alt={name} />
-                <h2 className="subtitle-projects">{name}</h2>
-                <div className="box-description">
-                    <p>{extract}
-                        <a className="details-button" onClick={handleFlip}>
-                            Leer más
-                        </a>
-                    </p>
-                </div>
 
-                <div className="btn-box">
-                    <button className="btn-online">
-                        <a
-                            className="online__link"
-                            href={liveLink}
-                            target="blank"
-                            rel="noopener noreferrer"
-                        >
-                             Ver Proyecto
-                        </a>
-                    </button>
-                    <button className="btn-online">
-                        <a
-                            className="online__link"
-                            href={githubLink}
-                            target="blank"
-                            rel="noopener noreferr*-er"
-                        >
-                          
-                            Ver Código
-                        </a>
-                    </button>
-                </div>
+                <div className="experience-info">
+                    <h2 className="subtitle-projects">{name}</h2>
+                    <div className="box-description">
+                        <p>
+                            {extract}
+                            <a className="details-button" onClick={handleFlip}>
+                                Leer más
+                            </a>
+                        </p>
+                    </div>
 
-                <div className="box-tec">
-                    <p className="title-skills1">Tecnologías:</p>
-                    
-                   <div className="project-skills">
-                        {skills.map((skill, index) => (
-                            <span
-                                key={index}
-                                className={`project-skill ${[skill]}`}
-                                translate="no"
+                    <div className="btn-box">
+                        <button className="btn-demo">
+                            <a
+                                className="link-demo"
+                                href={liveLink}
+                                target="blank"
+                                rel="noopener noreferrer"
                             >
-                                {skill}
-                            </span>
-                        ))}
+                                Ver Proyecto
+                            </a>
+                        </button>
+                        {githubLink && (
+                            <button className="btn-repo">
+                                <a
+                                    className="link-repo"
+                                    href={githubLink}
+                                    target="blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Ver Código
+                                </a>
+                            </button>
+                        )}
                     </div>
                 </div>
             </div>
@@ -79,7 +71,7 @@ const CardProject = ({ project }) => {
                     <div className="card-back-content">
                         {description}
                         <button className="back-button" onClick={handleBack}>
-                            Volver<i className='bx bx-rotate-left angle'></i>
+                            Volver<i className="bx bx-rotate-left angle"></i>
                         </button>
                     </div>
                 </div>
@@ -97,7 +89,7 @@ CardProject.propTypes = {
         description: PropTypes.string.isRequired,
         skills: PropTypes.string.isRequired,
         liveLink: PropTypes.string.isRequired,
-        githubLink: PropTypes.string.isRequired,
+        githubLink: PropTypes.string, // githubLink ya no es requerido
     }).isRequired,
 };
 
