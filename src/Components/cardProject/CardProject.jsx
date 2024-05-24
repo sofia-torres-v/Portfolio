@@ -89,7 +89,7 @@ CardProject.propTypes = {
         description: PropTypes.string.isRequired,
         skills: PropTypes.string.isRequired,
         liveLink: PropTypes.string.isRequired,
-        githubLink: PropTypes.string, // githubLink ya no es requerido
+        githubLink: PropTypes.string, 
     }).isRequired,
 };
 

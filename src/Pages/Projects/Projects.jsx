@@ -7,10 +7,10 @@ const Projects = () => {
     const { projectsData } = data;
     const initialVisibleProjects = 3; // Número inicial de proyectos visibles
     const [visibleProjects, setVisibleProjects] = useState(initialVisibleProjects);
-    const [category, setCategory] = useState("web con código"); // Estado para manejar la categoría seleccionada
+    const [activeButton, setActiveButton] = useState("web con código"); // Estado para el botón activo
 
     // Filtrar proyectos por categoría
-    const filteredProjects = projectsData.filter(project => project.category === category);
+    const filteredProjects = projectsData.filter(project => project.category === activeButton);
 
     const loadMoreProjects = () => {
         const nextVisibleProjects = visibleProjects + 6;
@@ -29,9 +29,11 @@ const Projects = () => {
             <div className="projects__content">
                 <div className="box__projects-title">
                     <h2 className="projects__title">Mis Proyectos</h2>
+                    <h3 className="projects__subtitle">Organizados en dos categorías:</h3>
                     <div className="box__projects-button">
-                        <button className="projects__button-title" onClick={() => { setCategory("web con código"); setVisibleProjects(initialVisibleProjects); }}>Web con Código</button>
-                        <button className="projects__button-title" onClick={() => { setCategory("web con WordPress"); setVisibleProjects(initialVisibleProjects); }}>Web con WordPress</button>
+                        <button className={`projects__button-title ${activeButton === "web con código" ? "active" : ""}`} onClick={() => { setActiveButton("web con código"); setVisibleProjects(initialVisibleProjects); }}>Proyectos en Código</button>
+                        <button className={`projects__button-title ${activeButton === "web con WordPress" ? "active" : ""}`} onClick={() => { setActiveButton("web con WordPress"); setVisibleProjects(initialVisibleProjects); }}>Proyectos con WordPress</button>
+                        
                     </div>
                 </div>
                 <div className="projects__card">

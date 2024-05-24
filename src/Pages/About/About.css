@@ -68,10 +68,6 @@
     background-color:rgba(246, 204, 213, 0.428);
 }
 
-.about__skills-titles a:hover{
-    background-color:rgba(246, 204, 213, 0.428);
-}
-
 /* ------------------ */
 .about__skills-titles a {
     transition: transform 0.1s ease, background-color 0.3s ease;
