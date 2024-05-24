@@ -2,6 +2,7 @@
     width: 80%;
     margin: 0 auto;
 }
+
 .projects__card {
     display: grid;
     grid-template-columns: 1fr;
@@ -12,21 +13,23 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
 .projects__title {
     margin: 0 auto;
     font-size: 2.4rem;
     font-weight: 600;
-    color: #5f585f;
+    color: #444044;;
     padding: 35px 0 0;
 }
 
 .projects__subtitle{
-    color: #5f585f;
+    color: #151616;
     margin-bottom: 20px;
     font-size: 1.5rem;
     font-weight: 500;
 
 }
+
 .projects__button-title{
     padding: 12px 15px;
     border: 1px solid #874e9dae;
@@ -51,7 +54,6 @@
     color: #d9007d;
     border: 1px solid #ef1c97b0;
 }
-
 
 .box__projects-button{
     display: flex;
@@ -79,7 +81,6 @@
     .projects__title{
         font-size: 2.8rem;
         padding: 50px 0 0;
-
     }
     .projects__card {
         grid-template-columns: 1fr 1fr 1fr;

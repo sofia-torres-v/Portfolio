@@ -93,28 +93,6 @@ const data = {
         },
         {
             id: 8,
-            name: "BrownAutoCare",
-            category: "web con WordPress",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FbrownAutoCare.jpg?alt=media&token=8d9543c9-9d5c-481f-907e-f79c9391b86b",
-            liveLink: "https://brownautocarefl.com/",
-            description:
-                "Desarrollamos el sitio web para un cliente en el sector automotriz en Estados Unidos. Abordamos desafíos técnicos en Shopify, liderando diseño e interacciones. Implementamos ajustes personalizados con CSS para mejorar la presencia en línea del cliente.El proyecto involucró la creación de una tienda en línea altamente personalizada.",
-            skills: ["HTML", "CSS-Vanilla", "shopify"],
-        },
-        {
-            id: 9,
-            name: "HomeShop",
-            category: "web con WordPress",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FhomeShop.jpg?alt=media&token=d3bdf80c-92b2-43fe-8bbd-e8ebe432777c",
-            description:
-                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
-            liveLink: "https://www.blackjackchauffeurs.com/",
-            skills: ["HTML", "CSS-vanilla", "Wordpress"],
-        },
-        {
-            id: 10,
             name: "BlackJack Chauffeurs",
             category: "web con WordPress",
             date: "October 2023",
@@ -124,17 +102,42 @@ const data = {
             liveLink: "https://www.blackjackchauffeurs.com/",     
             skills: ["HTML", "CSS-vanilla", "Wordpress"],
         },
+        
         {
-            id: 11,
+            id: 9,
+            name: "HomeShop",
+            category: "web con WordPress",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FhomeShop.jpg?alt=media&token=d3bdf80c-92b2-43fe-8bbd-e8ebe432777c",
+            description:
+                "He desarrollado una tienda en línea en Shopify que ofrece productos para el hogar, tecnología y cocina. Utilicé CSS para personalizar el diseño, asegurando una experiencia de usuario atractiva. La tienda incluye un formulario de compra intuitivo y permite la interacción directa con clientes a través de WhatsApp para una atención rápida y eficiente.",
+            liveLink: "https://homeshop593.com/",
+            skills: ["HTML", "CSS-vanilla", "Wordpress"],
+        },
+        {
+            id: 10,
             name: "LolyFernandez Nails",
             category: "web con WordPress",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2F2dbafe61-3659-491b-bae6-80de187ecea9.jpg?alt=media&token=6392ed40-099e-480c-91f6-a0a4b9360746",
             description:
-                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
-            liveLink: "https://www.blackjackchauffeurs.com/",       
+                "He desarrollado un sitio web para un spa especializado en manicura, pedicura y masajes de manos y pies, utilizando WordPress.El diseño está personalizado con CSS para ofrecer una experiencia visual atractiva. El sitio incluye redirecciones a redes sociales y llamadas directas a celular, además de un formulario de contacto integrado para facilitar la comunicación con los clientes.",
+            liveLink: "https://lolyfernandez.es/",       
             skills: ["HTML", "CSS-vanilla", "Wordpress"],
         },
+        {
+            id: 11,
+            name: "BrownAutoCare",
+            category: "web con WordPress",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FbrownAutoCare.jpg?alt=media&token=8d9543c9-9d5c-481f-907e-f79c9391b86b",
+            liveLink: "https://brownautocarefl.com/",
+            description:
+                "Desarrollamos el sitio web para un cliente en el sector automotriz en Estados Unidos. Abordamos desafíos técnicos en Shopify, liderando diseño e interacciones. Implementamos ajustes personalizados con CSS para mejorar la presencia en línea del cliente.El proyecto involucró la creación de una tienda en línea altamente personalizada.",
+            skills: ["HTML", "CSS-Vanilla", "shopify"],
+        },
+     
+       
 
     ],
     aboutData: {
