@@ -17,19 +17,47 @@
     font-size: 2.4rem;
     font-weight: 600;
     color: #5f585f;
-    padding: 35px 0 15px;
+    padding: 35px 0 0;
+}
+
+.projects__subtitle{
+    color: #5f585f;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+
 }
 .projects__button-title{
-    padding: 10px 15px;
-    border: 1px solid #d9007d;
+    padding: 12px 15px;
+    border: 1px solid #874e9dae;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease, background-color 0.3s ease;
     border-radius: 25px;
     background: transparent;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #6e427fea;
+    outline: none;
 }
+
+.projects__button-title:hover {
+    transform: scale(0.98); 
+    color: #d9007d;
+    border: 1px solid #ef1c97b0;
+}
+
+.projects__button-title.active {
+    color: #d9007d;
+    border: 1px solid #ef1c97b0;
+}
+
+
 .box__projects-button{
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 22px;
 }
 .projects__button{
     background-color: transparent;
@@ -44,13 +72,13 @@
 
 .bx.angle{
     color:#ec4899;
-    font-size: 4rem;
+    font-size: 3.2rem;
 }
 
 @media (min-width: 850px) {
     .projects__title{
         font-size: 2.8rem;
-        padding: 50px 0 20px;
+        padding: 50px 0 0;
 
     }
     .projects__card {

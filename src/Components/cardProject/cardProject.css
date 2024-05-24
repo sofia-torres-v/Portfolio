@@ -9,7 +9,7 @@
 .card-project {   
     padding: 10px 0;
     width: 100%;
-    height: 540px;
+    height: 520px;
     border: solid 1px #b19bbb;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     align-items: center;
@@ -31,6 +31,7 @@
     width: 100%;
     height: 100%;
     max-width: 533px;
+    /* object-fit: cover; */
 }
 
 .experience-info{
@@ -113,11 +114,10 @@
     font-size: 1.2rem;
     border-radius: 14px;
     border: none;
-    /* background-color: #583c64; */
 }
- .btn-repo{
+
+.btn-repo{
     border: 1px solid #7e21a2;
-    /* background: transparent; */
 }
 
 .btn-demo{
@@ -134,7 +134,7 @@
 }
 .box-description{
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     width: 80%;
     margin: 0 auto;
     padding: 0 0 20px;
@@ -189,6 +189,8 @@
         padding: 0 50px;
         font-size: 1.7rem;
     }
-    
+    /* .card-project img{
+        height: 100%;
+    } */
 
 }
