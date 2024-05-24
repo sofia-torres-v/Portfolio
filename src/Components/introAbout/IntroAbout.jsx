@@ -1,5 +1,5 @@
 import "./IntroAbout.css";
-import ulimaGroup from "../../assets/images/ulimaGroupPortfolio.jpeg";
+import ulimaGroup from "../../assets/images/gema1.png";
 
 const IntroAbout = () => {
     return (
