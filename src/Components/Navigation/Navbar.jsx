@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../../assets/images/logoSofiaPortfolio.png";
+import Logo from "../../assets/images/logo-s.png";
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
@@ -41,7 +41,7 @@ const Navbar = () => {
                         Sobre mí
                     </Link>
                 </li>
-                <li className="navbar__items slideInDown-3" onClick={closeMenu}>
+                <li className="navbar__items navbar__item-border slideInDown-3" onClick={closeMenu}>
                     <Link to="/contact" className={`navbar__link ${activePath === "/contact" ? "active" : ""}`}>
                         Contacto
                     </Link>

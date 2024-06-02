@@ -1,40 +1,47 @@
+import { Link } from "react-router-dom";
 import "./Home.css";
-import data from "../../mocks/ProjectData";
-import imagePerfil from '../../assets/images/foto-perfil-sin-fondo.png'
+import imagePerfil from "../../assets/images/foto-perfil-sin-fondo.png";
+import imageHtml from "../../assets/images/html.png";
+import imageCss from "../../assets/images/css.png";
+import imageJs from "../../assets/images/js-figma.png";
+import imageReact from "../../assets/images/react2.png";
+import imageMui from "../../assets/images/materialui-porfolio.png";
+import imageWordp from "../../assets/images/wordpress1.png";
 
 const Home = () => {
-    const { aboutData } = data;
-       // Filtrar las habilidades deseadas
-       const filteredSkills = aboutData.skillsWithImages.filter(skill =>
-        ['React', 'JavaScript', 'Material UI', 'Wordpress'].includes(skill.name)
-    );
     return (
         <section className="home__view">
             <div className="box">
-                <div className="container-hello">
-                    <span className="span-hello">Hola, soy</span>
-                    <h1 className="title-home">Sofia Torres</h1>
-                    <div className="home__text">
-                        Desarrolladora Web Frontend, apasionada por el diseño visual
-                        y fascinada por el CSS. Conoce mis principales
-                        habilidades.
+                <div className="box2">
+                    <div className="container-hello">
+                        <span className="span-hello1">Hola, soy</span>
+                        <span className="span-hello">SOFIA TORRES</span>
+                        <h1 className="title-home">Desarrolladora Web</h1>
+                        <div className="home__text">
+                            Apasionada por el diseño visual y fascinada por el
+                            CSS.
+                        </div>
                     </div>
 
-                <div className="intro__images">
-                {filteredSkills.map((skill, index) => (
-                    <div className="content__images" key={index}>
+                    <div className="box__image-perfil">
                         <img
-                            src={skill.image}
-                            alt={`Imagen de ${skill.name}`}
-                            className="intro__image"
+                            className="image__perfil"
+                            src={imagePerfil}
+                            alt=""
                         />
-                        <p className="content__text" translate="no">{skill.name}</p>
                     </div>
-                ))}
                 </div>
-            </div>
-                <div className="box__image-perfil">
-                    <img className="image__perfil" src={imagePerfil} alt="" />
+
+                <div className="box-img-btn">
+                    <div className="content__images">
+                        <img src={imageHtml} alt="" className="intro__image" />
+                        <img src={imageCss} alt="" className="intro__image" />
+                        <img src={imageJs} alt="" className="intro__image" />
+                        <img src={imageReact} alt="" className="intro__image" />
+                        <img src={imageMui} alt="" className="intro__image" />
+                        <img src={imageWordp} alt="" className="intro__image" />
+                    </div>
+                    <Link to="/contact" className="button-title">Contáctame</Link>
                 </div>
             </div>
         </section>
