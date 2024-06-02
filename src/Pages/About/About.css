@@ -10,9 +10,11 @@
 }
 
 .about__skills-content {
+    border-radius: 15px;
+    background-color: #f8f9ff;
     min-height: 190px;
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
     font-size: 1.5rem;
     color: #444044;
     padding: 25px 0 35px;
@@ -57,7 +59,7 @@
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 600;
-    border: 1px solid #d9007d;
+    border: 1px solid grey;
     border-radius: 20px;
     padding: 5px 10px;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
@@ -66,6 +68,7 @@
 .about__skills-titles a.active {
     color: #d9007d;
     background-color:rgba(246, 204, 213, 0.428);
+    border: 1px solid #d9007d;
 }
 
 /* ------------------ */
@@ -118,7 +121,7 @@
 @media(min-width:750px){
     .about__skills-content {
         width: 55%;
-        padding: 15px 0;
+        padding: 10px 0;
     }
 
     .about__skills-titles {    
@@ -147,7 +150,7 @@
     }
 
     .about__skills-images {
-        width: 45px;
+        width: 46px;
     }
     .skills-studies{
         flex-direction: row;

@@ -169,11 +169,11 @@ const data = {
         skillsWithImages: [
             {
                 name: "React",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Freact-portfolio.png?alt=media&token=d5cba570-54cd-4e08-a6d4-d08c4bf010bf",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Freact2.png?alt=media&token=57202567-da84-4c93-a487-a5f0e0d66e7a",
             },
             {
                 name: "JavaScript",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fjs.png?alt=media&token=1d623a88-38fb-4c6b-a8a3-bbd542b16520",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fjs-figma.png?alt=media&token=404382fd-2301-48d3-875d-643afbc397cc",
             },
             {
                 name: "HTML",
@@ -197,7 +197,7 @@ const data = {
             },
             {
                 name: "Wordpress",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fwordpress-about.png?alt=media&token=f24795f8-621d-428c-9320-ed229c511d0d",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fgrommet-icons_wordpress.png?alt=media&token=e1afdf72-25cc-4a94-b0aa-dfe4a3b3d94a",
             },
             {
                 name: "Shopify",

@@ -6,7 +6,7 @@ const Contact = () => {
     const { aboutData } = data;
 
     return (
-        <section className="slide-in-from-top" id="contact">
+        <section id="contact" className="slide-in-from-top" >
             <p className="contact__title">
                 Si buscas talento comprometido ¡Hablemos!
             </p>
@@ -63,7 +63,7 @@ const Contact = () => {
                             rel="noopener noreferrer"
                             className="contact__links-wm"
                         >
-                            <i className="bx bxl-github contact-bx"></i>
+                            <i className="bx bxl-github bxl-github-contact contact-bx"></i>
                         </a>
 
                         <p className="contact__text">
