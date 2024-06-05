@@ -5,7 +5,7 @@
 
 .projects__card {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     gap: 30px;
 }
 
@@ -83,7 +83,6 @@
         padding: 50px 0 0;
     }
     .projects__card {
-        grid-template-columns: 1fr 1fr 1fr;
         gap: 18px;
     }
     .projects__content {
