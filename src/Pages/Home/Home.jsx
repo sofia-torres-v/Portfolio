@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import imagePerfil from "../../assets/images/foto-perfil-sin-fondo.png";
+import imagePerfil from "../../assets/images/p00.jpg";
 import imageHtml from "../../assets/images/html.png";
 import imageCss from "../../assets/images/css.png";
 import imageJs from "../../assets/images/js-figma.png";
