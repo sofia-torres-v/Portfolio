@@ -29,7 +29,7 @@ const Contact = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                (+51) 941 196 749
+                                +51 941 196 749
                             </a>
                         </p>
                     </div>
