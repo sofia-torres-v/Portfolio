@@ -7,6 +7,7 @@ import imageJs from "../../assets/images/js-figma.png";
 import imageReact from "../../assets/images/react2.png";
 import imageMui from "../../assets/images/materialui-porfolio.png";
 import imageWordp from "../../assets/images/wordpress1.png";
+// import imageFigma from "../../assets/images/figma.png";
 
 const Home = () => {
     return (
@@ -39,6 +40,7 @@ const Home = () => {
                         <img src={imageReact} alt="" className="intro__image" />
                         <img src={imageMui} alt="" className="intro__image" />
                         <img src={imageWordp} alt="" className="intro__image" />
+                        {/* <img src={imageFigma} alt="" className="intro__image" /> */}
                     </div>
                     <Link to="/contact" className="button-title">Contáctame</Link>
                 </div>

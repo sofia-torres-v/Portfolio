@@ -22,7 +22,6 @@
     align-items: center;
 }
 
-
 .navbar__link {
     padding: 0 0.3rem;
     color: inherit;
@@ -67,10 +66,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
-    .navbar__logo {
-        width: 115px;
-    }
+@media (max-width: 1200px) {
     .navbar__links {
         flex-direction: column;
         justify-content: center;
