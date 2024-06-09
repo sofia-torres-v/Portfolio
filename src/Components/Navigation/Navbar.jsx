@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../../assets/images/logo0png.png";
+import Logo from "../../assets/images/logotipo.png";
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
