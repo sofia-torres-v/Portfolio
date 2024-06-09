@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import imagePerfil from "../../assets/images/p00.jpg";
+import imagePerfil from "../../assets/images/perfil-portfolio.png";
 import imageHtml from "../../assets/images/html.png";
 import imageCss from "../../assets/images/css.png";
 import imageJs from "../../assets/images/js-figma.png";
@@ -18,8 +18,7 @@ const Home = () => {
                         <span className="span-hello">SOFIA TORRES</span>
                         <h1 className="title-home">Desarrolladora Web</h1>
                         <div className="home__text">
-                            Apasionada por el diseño visual y fascinada por el
-                            CSS.
+                        especialista en Frontend con enfoque mobile, apasionada por el diseño visual y el CSS.
                         </div>
                     </div>
 
