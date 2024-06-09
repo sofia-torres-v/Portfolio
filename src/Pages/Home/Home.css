@@ -27,7 +27,6 @@
     max-width: 300px;
     margin: 0 auto;
     border-radius: 15px;
-    background: linear-gradient(to bottom right, #ad8bcd, #db2777);
     padding: 2px;
 }
 
@@ -37,6 +36,10 @@
     border-radius: 15px;
     transition: opacity 0.1s ease; 
     object-fit: cover;
+    border-top: 2px solid #ad8bcd;
+    border-left: 2px solid #ad8bcd;
+    border-right:2px solid #db2777 ;
+    border-bottom:2px solid #db2777 ;
 }
 
 .container-hello {
