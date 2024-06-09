@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer__content">
-                <p>Copyright © 2024</p>
+                <p>Sofia Torres | Frontend Developer ©️</p>
                 <div className="footer__social-icons">
                     <a
                         href={aboutData.linkedin}

@@ -37,7 +37,7 @@
 }
 
 .bxl-linkedin, .bxl-github{
-    color: rgb(84, 83, 83);
+    color: #424444;
     font-size: 2.3rem;
     border-radius: 50%;
     padding: 5px;
@@ -48,7 +48,7 @@
 
 @media(min-width: 750px){
     .section{
-        min-height: calc(100vh - 139px);
+        min-height: calc(100vh - 123px);
     }
 }  
 
