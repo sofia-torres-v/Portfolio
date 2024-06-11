@@ -7,7 +7,6 @@
 }
 
 .card-project {   
-    /* padding: 10px 0; */
     height: 480px;
     border: solid 1px #b19bbb;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
@@ -28,10 +27,8 @@
 .card-project img {
     border-radius: 10px 10px 0 0;
     width: 100%;
-    /* height: 100%; */
     height: 230px;
-    /* max-width: 533px; */
-    /* object-fit: cover; */
+    object-fit: cover; 
 }
 
 .experience-info{
