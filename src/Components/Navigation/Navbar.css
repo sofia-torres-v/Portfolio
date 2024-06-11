@@ -1,3 +1,6 @@
+.navbar__logo{
+    width: 135px;
+}
 .navbar {
     background-color: #fff;
     width: 85%;
@@ -68,8 +71,9 @@
 
 @media (max-width: 1200px) {
     .navbar__logo{
-        width: 100px;
+        width: 125px;
     }
+
     .navbar__links {
         flex-direction: column;
         justify-content: center;

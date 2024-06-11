@@ -119,7 +119,11 @@
     }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 850px) {
+    .home__view{
+        margin: 0 auto;
+    }
+
     .box__image-perfil {
         flex: 0 1 199px;
     }
@@ -152,7 +156,7 @@
 
     .home__text {
         font-size: 1.8rem;
-        margin: 10px 0 -15px;
+        margin: 10px 0 0;
     }
 
     .intro__image {
@@ -165,7 +169,7 @@
     }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1200px) {
     .box__image-perfil {
         flex: 0 1 350px;
     }
@@ -176,7 +180,7 @@
     }
 
     .home__view {
-        padding-left: 57px;
+        padding-left: 65px;
     }
 
     .home__content-image {

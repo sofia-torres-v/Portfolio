@@ -46,7 +46,7 @@
 
 @media(min-width: 750px){
     .section{
-        min-height: calc(100vh - 121px);
+        min-height: calc(100vh - 127px);
     }
 }  
 
