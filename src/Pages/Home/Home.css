@@ -1,10 +1,10 @@
 .home__view {
-    background-color: rgba(168, 168, 168, 0.374);
+    background-color: #a8a8a85f;
     width: 100%;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
 .home__content-info {
@@ -22,7 +22,7 @@
 .image__perfil {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 15px;
     display: block;
     margin: 0 auto;
     object-fit: cover;
@@ -78,7 +78,7 @@
 }
 
 .home__content-image {
-    padding: 30px 0;
+    padding: 25px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,10 +124,12 @@
         flex: 0 1 199px;
     }
 
+    .home__content-info {
+        gap: 0;
+    }
     .home__content-image {
         justify-content: flex-start;
-        padding: 10px 0;
-        gap: 20px;
+        gap: 35px;
     }
 
     .image__perfil {
@@ -135,7 +137,6 @@
         bottom: -45px;
     }
 
-    /* ---------efecto-------- */
     .title-home {
         font-size: 4.2rem;
         margin-top: -12px;
@@ -150,13 +151,18 @@
     }
 
     .home__text {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
+        margin: 10px 0 -15px;
     }
 
     .intro__image {
-        width: 45px;
-    }
+        width: 44px;
+    } 
     
+    .button-title {
+        padding: 10px 35px;  
+        margin: 20px 0; 
+    }
 }
 
 @media (min-width: 1020px) {
@@ -166,7 +172,7 @@
 
     .image__perfil {
         width: 260px;
-        height: 260px;
+        height: 280px;
     }
 
     .home__view {
@@ -175,10 +181,7 @@
 
     .home__content-image {
         padding: 0;
+        margin: -17px 0 42px;
     }
 
-    .button-title {
-       padding: 10px 35px;  
-       margin: 20px 0; 
-    }
 }
