@@ -19,12 +19,12 @@
     font-size: 2.4rem;
     font-weight: 600;
     color: #444044;;
-    padding: 35px 0 0;
+    padding: 38px 0 0;
 }
 
 .projects__subtitle{
     color: #151616;
-    margin-bottom: 20px;
+    margin: 22px 0 15px;
     font-size: 1.5rem;
     font-weight: 500;
 
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding-bottom: 22px;
+    padding-bottom: 8px;
 }
 .projects__button{
     background-color: transparent;
@@ -78,9 +78,9 @@
 }
 
 @media (min-width: 850px) {
-    .projects__title{
-        font-size: 2.8rem;
-        padding: 30px 0 0;
+
+    .projects__subtitle{
+        margin: 28px 0 10px;
     }
     .projects__card {
         gap: 22px;

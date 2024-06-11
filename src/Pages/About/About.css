@@ -29,6 +29,7 @@
 }
 
 .skills__list {
+    padding: 0 20px;
     color: #444044;
     display: flex;
     justify-content: flex-start;
@@ -120,7 +121,7 @@
 
 @media(min-width:750px){
     .about__skills-content {
-        width: 65%;
+        width: 75%;
         padding: 10px 8px;
     }
 
@@ -136,7 +137,7 @@
         font-size: 1.3rem;
         flex-grow: 0;
     }
-
+    
     .about__skills-titles a{
         margin-right: 20px;
         font-size: 1.5rem;
@@ -144,7 +145,7 @@
     }
 
     .skills__list {
-        column-gap: 55px;
+        column-gap: 54px;
         justify-content: center;
     }
 

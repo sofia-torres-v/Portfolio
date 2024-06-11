@@ -16,7 +16,7 @@ const Home = () => {
                     <span className="span-hello1">Hola, soy</span>
                     <span className="span-hello">SOFIA TORRES</span>
                     <h1 className="title-home">Frontend Developer</h1>
-                    <div className="home__text">Apasionada del diseño visual, especialista en crear sitios web atractivos y funcionales.
+                    <div className="home__text">Especialista en crear sitios web atractivos y funcionales, apasionada del diseño visual.
                     </div>
                 </div>
                 <div className="column box__image-perfil">
