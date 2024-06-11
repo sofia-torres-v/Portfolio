@@ -29,7 +29,7 @@ const Projects = () => {
             <div className="projects__content">
                 <div className="box__projects-title">
                     <h2 className="projects__title">Mis Proyectos</h2>
-                    <h3 className="projects__subtitle">CATEGORIAS:</h3>
+                    <h3 className="projects__subtitle">CATEGORÍAS:</h3>
                     <div className="box__projects-button">
                         <button className={`projects__button-title ${activeButton === "web con código" ? "active" : ""}`} onClick={() => { setActiveButton("web con código"); setVisibleProjects(initialVisibleProjects); }}>Proyectos en Código</button>
                         <button className={`projects__button-title ${activeButton === "web con WordPress" ? "active" : ""}`} onClick={() => { setActiveButton("web con WordPress"); setVisibleProjects(initialVisibleProjects); }}>Proyectos con WordPress</button>
