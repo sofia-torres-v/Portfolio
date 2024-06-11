@@ -2,7 +2,7 @@
     width: 80%;
     margin: 0 auto;
     color: #fff;
-    padding: 25px 0 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -11,9 +11,9 @@
 
 .about__skills-content {
     border-radius: 15px;
-    background-color: #f8f9ff;
+    background-color: #a8a8a85f;
     min-height: 190px;
-    width: 80%;
+    width: 90%;
     margin: 10px auto;
     font-size: 1.5rem;
     color: #444044;
@@ -120,13 +120,12 @@
 
 @media(min-width:750px){
     .about__skills-content {
-        width: 55%;
-        padding: 10px 0;
+        width: 65%;
+        padding: 10px 8px;
     }
 
     .about__skills-titles {    
-        /* width: 80%; */
-        margin: 8px auto 10px;
+        margin: 10px auto 10px;
         width: 50%;
         font-size: 3.5rem;
         gap: 20px;
@@ -145,13 +144,11 @@
     }
 
     .skills__list {
-        gap: 55px;
+        column-gap: 55px;
         justify-content: center;
     }
 
-    .about__skills-images {
-        width: 46px;
-    }
+
     .skills-studies{
         flex-direction: row;
         justify-content: flex-start;

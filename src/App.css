@@ -3,14 +3,12 @@
     top: 0;
     z-index: 2;
     box-shadow: 0 0.1rem 1rem rgba(1, 1, 1, 0.10);
-    background-color: #f5f5f5;
     background-color: #fff;
     border-bottom: 1px solid rgba(128, 128, 128, 0.168);
 }
 
 .section {
     min-height: calc(100vh - 119px);
-    background-color: #f5f5f5a2;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -48,7 +46,7 @@
 
 @media(min-width: 750px){
     .section{
-        min-height: calc(100vh - 118px);
+        min-height: calc(100vh - 121px);
     }
 }  
 

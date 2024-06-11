@@ -15,10 +15,8 @@ const Home = () => {
                 <div className="column container-hello">
                     <span className="span-hello1">Hola, soy</span>
                     <span className="span-hello">SOFIA TORRES</span>
-                    <h1 className="title-home">Desarrolladora Web</h1>
-                    <div className="home__text">
-                        Frontend con enfoque mobile, apasionada
-                        por el diseño visual.
+                    <h1 className="title-home">Frontend Developer</h1>
+                    <div className="home__text">Apasionada del diseño visual, especialista en crear sitios web atractivos y funcionales.
                     </div>
                 </div>
                 <div className="column box__image-perfil">
