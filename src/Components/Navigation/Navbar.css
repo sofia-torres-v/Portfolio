@@ -67,6 +67,9 @@
 }
 
 @media (max-width: 1200px) {
+    .navbar__logo{
+        width: 100px;
+    }
     .navbar__links {
         flex-direction: column;
         justify-content: center;

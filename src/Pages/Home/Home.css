@@ -1,6 +1,6 @@
 .home__view {
     background-color: #a8a8a85f;
-    width: 100%;
+    width: 90%;
     max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
@@ -161,7 +161,7 @@
     
     .button-title {
         padding: 10px 35px;  
-        margin: 20px 0; 
+        margin: 10px 0; 
     }
 }
 
@@ -181,7 +181,7 @@
 
     .home__content-image {
         padding: 0;
-        margin: -17px 0 42px;
+        margin: -10px 0 42px;
     }
 
 }
