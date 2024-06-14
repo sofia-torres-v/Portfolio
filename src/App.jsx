@@ -8,32 +8,27 @@ import Footer from "./Components/footer/Footer";
 import "boxicons/css/boxicons.min.css";
 import "./App.css";
 
-
-
 function App() {
     return (
         <>
-          <header className="header">
-              <Navbar/>
-          </header>
+            <header className="header">
+                <Navbar />
+            </header>
 
-          <main>
-            
-              <section className="section">
+            <main>
+                <section className="section">
                     <div className="container">
                         <Routes>
-                            <Route path="/" element={<Home/>} />
+                            <Route path="/" element={<Home />} />
                             <Route path="/home" element={<Home />} />
                             <Route path="/projects" element={<Projects />} />
                             <Route path="/about" element={<About />} />
                             <Route path="/contact" element={<Contact />} />
                         </Routes>
                     </div>
-              </section>
-
-          </main>
-          <Footer />
-          
+                </section>
+            </main>
+            <Footer />
         </>
     );
 }

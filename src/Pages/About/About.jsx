@@ -64,8 +64,8 @@ const About = () => {
                                     // Filtrar solo los estudios que queremos mostrar
                                     if (
                                         [
-                                            "Bootcamp de Desarrollo Web Front-End",
-                                            "Bootcamp de Especialización Desarrollo Web Front-End",
+                                            "Bootcamp de Desarrollo Web Front-End | Febrero 2023",
+                                            "Bootcamp de Desarrollo Web Front-End | Actualmente",
                                         ].includes(studies.name)
                                     ) {
                                         return (
