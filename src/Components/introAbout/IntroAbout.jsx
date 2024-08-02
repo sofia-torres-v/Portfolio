@@ -6,9 +6,9 @@ const IntroAbout = () => {
         <section className="slide-in-from-top">
             <div className="intro__content">
                 <div className="intro__text">
-                    <h2 className="intro__span1">Sobre mí</h2>
+                    <h2 className="intro__span1">Mi enfoque es plasamar creatividad y usabilidad.</h2>
                     <p className="intro__text">
-                        Soy <strong>Desarrolladora Web Frontend</strong>, apasionada por el diseño visual. Mi enfoque es plasmar creatividad y usabilidad en todos mis proyectos. Me encanta participar activamente en <strong>eventos de emprendimiento</strong> y <strong>hackathons</strong>. Tengo experiencia trabajando en equipos multidisciplinarios en una variedad de proyectos, contribuyendo al desarrollo de soluciones innovadoras.
+                        Soy <strong>Desarrolladora Web Frontend</strong>. Me encanta participar activamente en <strong>eventos de emprendimiento</strong> y <strong>hackathons</strong>. Tengo experiencia trabajando en equipos multidisciplinarios en una variedad de proyectos, contribuyendo al desarrollo de soluciones innovadoras.
                     </p>
                 </div>
 
