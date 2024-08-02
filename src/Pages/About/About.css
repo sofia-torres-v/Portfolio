@@ -1,5 +1,5 @@
 .about__skills-titles {
-    width: 80%;
+    background-color: #fff;
     margin: 0 auto;
     color: #fff;
     padding: 20px 0;
@@ -10,15 +10,12 @@
 }
 
 .about__skills-content {
-    border-radius: 15px;
-    background-color: #a8a8a85f;
+    background-color: #fff;
     min-height: 190px;
-    width: 90%;
-    margin: 10px auto;
     font-size: 1.5rem;
     color: #444044;
-    padding: 25px 0 35px;
 }
+
 .skills-studies{
     min-height:215px ;
     display: flex;
@@ -81,8 +78,8 @@
     background-color: rgba(246, 204, 213, 0.428);
     transform: scale(0.95); /* Reduce el tamaño del botón en un 5% */
 }
-
 /* -------------------------- */
+
 .about-studies-images{
     width: 220px;
     height: 120px;
@@ -113,22 +110,19 @@
     opacity: 1;
 }
 
-    .skills-certifications{
-        list-style: initial;
-        margin-left: 20px;     
-    }
-/* ---------------------------- */
+.skills-certifications{
+    list-style: initial;
+    margin-left: 20px;     
+}
 
 @media(min-width:750px){
     .about__skills-content {
-        width: 75%;
-        padding: 10px 8px;
+        padding: 25px 0 20px;
     }
 
     .about__skills-titles {    
-        margin: 10px auto 10px;
-        width: 50%;
         font-size: 3.5rem;
+        padding-top: 40px;
         gap: 20px;
     }
 
@@ -148,7 +142,6 @@
         column-gap: 54px;
         justify-content: center;
     }
-
 
     .skills-studies{
         flex-direction: row;

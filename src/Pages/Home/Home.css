@@ -1,9 +1,7 @@
 .home__view {
-    background-color: #a8a8a85f;
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
-    padding: 20px;
     border-radius: 15px;
 }
 
@@ -40,6 +38,7 @@
 .span-hello1 {
     font-size: 1.8rem;
     font-weight: 500;
+    color: #130b43;
 }
 
 .span-hello {
@@ -59,7 +58,7 @@
 }
 
 .title-home {
-    color: #383b3b;
+    color: #130b43;
     font-weight: 600;
     font-size: 2.7rem;
     overflow: hidden;
@@ -73,7 +72,7 @@
 .home__text {
     margin: 10px 0 12px;
     font-size: 1.5rem;
-    color: #151616;
+    color: #130b43;
     font-weight: 400;
 }
 
