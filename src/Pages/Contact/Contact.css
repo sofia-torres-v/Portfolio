@@ -58,7 +58,6 @@
 
 .contact__icons {
     padding: 39px 10px;
-    background-color: #a8a8a85f;
     background-color: #f5efef;
     font-size: 1.6rem;
     display: flex;
@@ -69,7 +68,7 @@
     border-radius: 10px;
     width: 100%;
     height: 62px;
-    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.2); 
+    box-shadow: 4px 3px 2px rgba(0, 0, 0, 0.144); 
 }
 
 .icon-social {
