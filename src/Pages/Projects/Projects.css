@@ -3,13 +3,13 @@
 }
 
 .box__projects-title{
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 20px;
+    gap: 10px;
     padding: 30px 0 20px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .title__img-code{
-    width: 75px;
+    width: 55px;
 }
 
 .box__projects-button{
@@ -127,5 +127,8 @@
     }
     .projects__card {
         gap: 22px;
+    }
+    .title__img-code{
+        width: 65px;
     }
 }

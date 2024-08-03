@@ -47,11 +47,13 @@ const About = () => {
                         <ul className="skills__list">
                             {aboutData.skillsWithImages.map((skill, index) => (
                                 <li className="skills__items" key={index}>
-                                    <img
-                                        className="about__skills-images"
-                                        src={skill.image}
-                                        alt={skill.name}
-                                    />
+                                   <div className="about__box-img">
+                                        <img
+                                                className="about__skills-images"
+                                                src={skill.image}
+                                                alt={skill.name}
+                                            />
+                                    </div>
                                     {skill.name}
                                 </li>
                             ))}
