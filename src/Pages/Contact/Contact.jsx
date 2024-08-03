@@ -11,6 +11,11 @@ const Contact = () => {
                 Si buscas talento comprometido ¡Hablemos!
             </p>
             <div className="contact__content">
+
+            <div className="contact__titles">
+                    <img className="icon-social" src={EnvelopeImage} alt="" />
+                </div>
+                
                 <div className="contact__icons-info">
                     <div className="contact__icons">
                         <a
@@ -99,9 +104,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="contact__titles">
-                    <img className="icon-social" src={EnvelopeImage} alt="" />
-                </div>
+                
             </div>
         </section>
     );
