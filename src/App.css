@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
-    box-shadow: 0 0.1rem 0.5rem rgba(1, 1, 1, 0.121);
+    box-shadow: 0 0.2rem 0.5rem rgba(1, 1, 1, 0.121);
     background-color: #fffefe;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .footer{
-    background: linear-gradient(to bottom, rgba(250, 246, 246, 0.519) 0%, rgba(228, 189, 232, 0.84) 50%, rgb(244, 216, 248) 100%);
+    background-color: #fffefe;
 }
 
 .footer__content{

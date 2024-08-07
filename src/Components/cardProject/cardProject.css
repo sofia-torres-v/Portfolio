@@ -1,6 +1,3 @@
-.subtitle-projects{
-    text-align: center;
-}
 
 .projects__title {
     font-size: 2.5rem;
@@ -8,7 +5,7 @@
 
 .card-project {   
     height: 480px;
-    /* border: solid 1px #b19bbb; */
+    border: solid 1px #b19bbb;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     background-color: #fff;
     align-items: center;
@@ -40,10 +37,11 @@
     padding: 20px 0;
 }
 .subtitle-projects {
-    color: #000;
+    color: #130b43;
     font-size: 2.3rem;
     font-weight: 600;
     margin: 15px 0;
+    text-align: center;
 }
 
 .card-front,
@@ -53,11 +51,13 @@
     left: 0;
     right: 0;
     bottom: 0;
+    background-color: #f0e3e3;
+    /* background-color: rgba(238, 226, 232, 0.887); */
+    border-radius: 10px;
 }
 
 .card-project.flipped {
     transform: rotateY(180deg);
-    background-color: pink;
 }
 .card-project.flipped .card-back {
     display: flex;
@@ -68,7 +68,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(212, 210, 211);
+    background-color: rgb(235, 229, 232);
     color: #000;
     backface-visibility: hidden;
     height: 100%;
@@ -104,14 +104,13 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-    /* padding: 10px; */
 }
 
 .btn-demo, .btn-repo {
     background: transparent;
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border: none;
     margin-bottom: 20px;
 }
@@ -130,6 +129,7 @@
     width: 80%;
     margin: 0 auto;
     padding: 0 0 30px;
+    font-weight: 500;
 }
 
 .details-button {
@@ -146,18 +146,20 @@
 .link-demo, .link-repo{
     text-decoration: none;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 18px;
     border-radius: 10px;
 }
 
 .link-demo{
-    /* background-color: #5f3d6d; */
-    border: 1px solid #7e21a2;
-    color: #000;
+    border: 2px solid #9763ab;
+    color: #130b43;
+    /* font-weight: 600; */
+    background-color: #8f7b9873;
 }
 .link-repo{
     color: #000;
-    border: 1px solid #7e21a2;
+    border: 2px solid #ac7496;
+    background-color: #dfaecabe;
 }
 .project-skills{
     text-transform: uppercase;
@@ -177,9 +179,6 @@
 @media (min-width: 750px) {
     .box-tec{
         flex-direction: row;
-    }
-    .btn-demo, .btn-repo{
-        font-size: 1.6rem;
     }
 
     .card-back-content {
