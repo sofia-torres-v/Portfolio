@@ -15,7 +15,7 @@
     color: #444044;
     display: flex;
     justify-content: center;
-    background-color: #f0e3e3;
+    /* background-color: rgba(233, 195, 195, 0.3); */
 }
 
 .skills-studies{
@@ -46,7 +46,7 @@
     position: relative;
     width: 85px; 
     height: 95px; 
-    background-color: #fcfcfc; 
+    background-color: rgba(233, 195, 195, 0.3); 
     margin: 5px 0; 
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;

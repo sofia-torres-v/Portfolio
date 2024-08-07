@@ -51,7 +51,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f0e3e3;
+    background-color: #f9e9e9;
     /* background-color: rgba(238, 226, 232, 0.887); */
     border-radius: 10px;
 }
@@ -151,14 +151,13 @@
 }
 
 .link-demo{
-    border: 2px solid #9763ab;
+    border: 1px solid #a33194;
     color: #130b43;
-    /* font-weight: 600; */
     background-color: #8f7b9873;
 }
 .link-repo{
     color: #000;
-    border: 2px solid #ac7496;
+    border: 1px solid #d9007d;
     background-color: #dfaecabe;
 }
 .project-skills{
