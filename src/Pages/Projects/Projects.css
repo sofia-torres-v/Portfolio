@@ -3,18 +3,17 @@
 }
 
 .box__projects-title{
-    width: 90%;
-    margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 10px;
+    gap: 5px;
     padding: 30px 0 20px;
+    background: linear-gradient(to top, rgba(250, 246, 246, 0.519) 0%, rgba(240, 205, 244, 0.84) 50%, rgb(244, 216, 248) 100%);
 }
 
 .projects__title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #130b43;
 }
@@ -24,13 +23,14 @@
 }
 
 .box__projects-button{
-    width: 90%;
-    margin: 0 auto;
+    /* width: 90%;
+    margin: 0 auto; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding:20px 0 40px;
+    /* background: linear-gradient(to top, rgba(250, 246, 246, 0.519) 0%, rgba(228, 189, 232, 0.84) 50%, rgb(244, 216, 248) 100%); */
 }
 
 .projects__button-title{
@@ -119,6 +119,9 @@
   
 
 @media (min-width: 850px) {
+    .box__projects-title{
+        gap: 20px;
+    }
     .projects__title {
         font-size: 3.5rem;
     }
