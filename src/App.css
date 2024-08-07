@@ -3,10 +3,12 @@
     top: 0;
     z-index: 2;
     box-shadow: 0 0.2rem 0.5rem rgba(1, 1, 1, 0.121);
-    background-color: #fffefe;
+    background-color: rgba(252, 235, 235, 0.3);
+    background-color: rgba(249, 240, 240, 0.996);
 }
 
 .section {
+    background-color: rgba(252, 235, 235, 0.3);
     min-height: calc(100vh - 119px);
     display: flex;
     flex-direction: column;
@@ -16,7 +18,8 @@
 }
 
 .footer{
-    background-color: #fffefe;
+    /* background-color: #fffefe; */
+    background-color: rgba(252, 235, 235, 0.3);
 }
 
 .footer__content{
