@@ -46,12 +46,12 @@ strong {
 @media (min-width: 850px) {
    
     .intro__content {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.3fr 1fr;
         gap: 30px;
     }
 
     .intro__span1 {
-        font-size: 3.5rem;
+        font-size: 3.7rem;
     }
 
     .intro__text {

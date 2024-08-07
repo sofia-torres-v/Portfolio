@@ -3,19 +3,16 @@ import "./Contact.css";
 import EnvelopeImage from "../../assets/images/envelope.png";
 
 const Contact = () => {
-    const { aboutData } = data;
+    const {aboutData} = data;
 
     return (
-        <section id="contact" className="slide-in-from-top" >
-            <p className="contact__title">
-                Si buscas talento comprometido ¡Hablemos!
-            </p>
+        <section id="contact" className="slide-in-from-top">
+            <p className="contact__title">Si buscas talento comprometido ¡Hablemos!</p>
             <div className="contact__content">
-
-            <div className="contact__titles">
+                <div className="contact__titles">
                     <img className="icon-social" src={EnvelopeImage} alt="" />
                 </div>
-                
+
                 <div className="contact__icons-info">
                     <div className="contact__icons">
                         <a
@@ -104,7 +101,6 @@ const Contact = () => {
                     </div>
                 </div>
 
-                
             </div>
         </section>
     );

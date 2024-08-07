@@ -14,13 +14,13 @@
 }
 
 .projects__title {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #130b43;
 }
 
 .title__img-code{
-    width: 55px;
+    width: 52px;
 }
 
 .box__projects-button{
@@ -120,7 +120,7 @@
 
 @media (min-width: 850px) {
     .projects__title {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
     }
     .projects__button-title{
         padding: 12px 20px ;
