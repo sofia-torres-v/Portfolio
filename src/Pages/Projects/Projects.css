@@ -9,11 +9,10 @@
     align-items: flex-end;
     gap: 5px;
     padding: 30px 0 20px;
-    /* background: linear-gradient(to top, rgba(255, 252, 252, 0.952) 0%, rgba(255, 249, 255, 0.843) 70%, rgb(248, 231, 250) 100%); */
 }
 
 .projects__title {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: #130b43;
 }
@@ -26,12 +25,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    padding:20px 0 40px;
+    gap: 0px 7px;
+    padding:10px 0 30px;
 }
 
 .projects__button-title{
-    padding: 10px 12px ;
+    padding: 10px;
     border: 2px solid #874e9dae;
     box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.2);
     transition: transform 0.1s ease, background-color 0.3s ease;
@@ -39,7 +38,7 @@
     background: #fff;
     cursor: pointer;
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     outline: none;
     color: #a33194;
 }
