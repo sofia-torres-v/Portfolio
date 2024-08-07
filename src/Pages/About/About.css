@@ -1,5 +1,5 @@
 .about__skills-titles {
-    background-color: #fff;
+    background: linear-gradient(to top, rgb(255, 253, 253) 0%, rgb(255, 255, 255) 50%, rgb(242, 225, 244) 100%);
     margin: 0 auto;
     color: #fff;
     padding: 20px 0;
@@ -11,7 +11,7 @@
 }
 
 .about__skills-content {
-    background-color: #fff;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(244, 216, 248) 100%);
     min-height: 190px;
     font-size: 1.5rem;
     color: #444044;
@@ -29,14 +29,12 @@
 }
 
 .skills__list {
-    width: 90%;
-    margin: 0 auto;
     color: #444044;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 0 0 40px;
+    padding-bottom: 20px;
 }
 
 .skills__items{
@@ -66,16 +64,16 @@
 
 .about__skills-titles a {
     text-decoration: none;
-    margin-right: 5px;
     color: #333; /* Color normal del enlace */
     position: relative;
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: 600;
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-radius: 20px;
-    padding: 10px 8px;
+    padding: 10px 11px;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+    background: #ffffff7b;
 }
 
 .about__skills-titles a.active {
@@ -146,7 +144,7 @@
 
 @media(min-width:750px){
     .about__skills-content {
-        padding: 25px 0 20px;
+        padding: 5px 0 20px;
     }
 
     .about__skills-titles {    
