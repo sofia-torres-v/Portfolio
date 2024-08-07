@@ -29,7 +29,7 @@ const Projects = () => {
         <section className="slide-in-from-top" id="projects">
             <div className="projects__content">
                 <div className="box__projects-title">
-                    <span className="projects__title">Mis Proyectos por categorías</span>
+                    <span className="projects__title">Mis Proyectos</span>
                     <img className="title__img-code" src={imgCode} alt="" />
                 </div>
                 <div className="box__projects-button">
