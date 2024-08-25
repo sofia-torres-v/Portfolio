@@ -5,7 +5,8 @@
 
 .card-project {   
     height: 480px;
-    border: solid 1px #b19bbb;
+    border: solid 1px rgba(124, 128, 132, 0.533);
+
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     background-color: #fff;
     align-items: center;

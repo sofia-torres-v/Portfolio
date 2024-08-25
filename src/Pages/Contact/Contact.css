@@ -70,7 +70,7 @@
     border-radius: 10px;
     width: 100%;
     height: 62px;
-    box-shadow: 4px 3px 2px rgba(0, 0, 0, 0.144); 
+    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.144); 
 }
 
 .icon-social {
@@ -94,7 +94,6 @@
     }
     .contact__content {
         flex-direction: row-reverse;
-        gap: 60px;
     }
     .contact__icons {
         flex-direction: row;

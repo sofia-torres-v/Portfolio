@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import imagePerfil from "../../assets/images/2.jpg";
+import imagePerfil from "../../assets/images/portfolio-A.png";
 import imageHtml from "../../assets/images/html.png";
 import imageCss from "../../assets/images/css.png";
 import imageJs from "../../assets/images/js-figma.png";
@@ -35,7 +35,13 @@ const Home = () => {
             <Link to="/contact" className="button-title">
                 Contáctame
             </Link>
+
+            
+
         </section>
+
+        
+        
     );
 };
 
