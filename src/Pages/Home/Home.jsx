@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import "./Home.css";
 import imagePerfil from "../../assets/images/portfolio-A.png";
 import imageHtml from "../../assets/images/html.png";
@@ -16,7 +16,9 @@ const Home = () => {
                     <span className="span-hello1">Hola, soy</span>
                     <span className="span-hello">SOFIA TORRES</span>
                     <h1 className="title-home">Frontend Developer</h1>
-                    <div className="home__text">Apasionada por el diseño visual, con experiencia en la creación de sitios web atractivos y funcionales.
+                    <div className="home__text">
+                        Apasionada por el diseño visual, con experiencia en la creación de sitios web atractivos y
+                        funcionales.
                     </div>
                 </div>
                 <div className="column box__image-perfil">
@@ -36,12 +38,8 @@ const Home = () => {
                 Contáctame
             </Link>
 
-            
-
+           
         </section>
-
-        
-        
     );
 };
 
