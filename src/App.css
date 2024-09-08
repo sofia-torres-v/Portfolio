@@ -3,7 +3,7 @@
     top: 0;
     z-index: 2;
     box-shadow: 0 0.2rem 0.3rem rgba(1, 1, 1, 0.121);
-    background-color: rgba(249, 240, 240, 0.996);
+    background-color: #fff;
 }
 
 .section {
@@ -17,7 +17,6 @@
 }
 
 .footer{
-    /* background-color: #fffefe; */
     background-color: rgba(252, 235, 235, 0.3);
 }
 
@@ -34,15 +33,18 @@
     font-weight: 500;
 }
 
-.bxl-linkedin, .bxl-github{
+.bx{
     color: #d9007d;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     border-radius: 50%;
     padding: 5px;
 }
-.bx:hover {
-    color: #2f246d;
+
+.bxl-linkedin:hover,
+.bxl-github-footer:hover {
+    color: #000;
 }
+
 
 @media(min-width: 750px){
     .section{
@@ -53,8 +55,5 @@
 @media(min-width:750px){
     .footer__content{
         font-size: 1.5rem;
-    }
-    .bx{
-        font-size: 2.5rem;
     }
 }

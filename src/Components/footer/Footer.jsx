@@ -22,7 +22,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="footer__social-link"
                     >
-                        <i className="bx bxl-github"></i>
+                        <i className="bx bxl-github bxl-github-footer"></i>
                     </a>
                 </div>
             </div>

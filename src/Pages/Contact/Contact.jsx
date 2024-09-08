@@ -9,10 +9,6 @@ const Contact = () => {
         <section id="contact" className="slide-in-from-top">
             <p className="contact__title">Si buscas talento comprometido ¡Hablemos!</p>
             <div className="contact__content">
-                <div className="contact__titles">
-                    <img className="icon-social" src={EnvelopeImage} alt="" />
-                </div>
-
                 <div className="contact__icons-info">
                     <div className="contact__icons">
                         <a
@@ -65,7 +61,7 @@ const Contact = () => {
                             rel="noopener noreferrer"
                             className="contact__links-wm"
                         >
-                            <i className="bx bxl-github bxl-github-contact contact-bx"></i>
+                           <i className="bx bxl-github"></i>
                         </a>
 
                         <p className="contact__text">
@@ -86,7 +82,7 @@ const Contact = () => {
                             rel="noopener noreferrer"
                             className="contact__links-wm"
                         >
-                            <i className="bx bxl-linkedin-square contact-bx"></i>
+                            <i className="bx bxl-linkedin-square"></i>
                         </a>
                         <p className="contact__text">
                             <a
@@ -100,7 +96,9 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
-
+                <div className="contact__titles">
+                    <img className="icon-social" src={EnvelopeImage} alt="" />
+                </div>
             </div>
         </section>
     );

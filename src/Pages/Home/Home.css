@@ -8,8 +8,6 @@
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.19);
 }
 
-
-
 .home__content-info {
     display: flex;
     align-items: center;
@@ -23,12 +21,10 @@
 }
 
 .image__perfil {
-    width: 220px;
-    height: 220px;
+    width: 190px;
     border-radius: 15px;
     display: block;
     margin: 0 auto;
-    object-fit: cover;
 }
 
 /* ---------efecto----------- */
@@ -129,7 +125,8 @@
 
 @media (min-width: 850px) {
     .home__view{
-        margin: 0 auto;
+        margin: 20px auto;
+        padding: 0 20px 10px;
     }
 
     .box__image-perfil {
@@ -164,7 +161,6 @@
 
     .home__text {
         font-size: 1.8rem;
-        margin: 10px 0 0;
     }
 
     .intro__image {
@@ -173,7 +169,7 @@
     
     .button-title {
         padding: 10px 35px;  
-        margin: 10px 0; 
+        margin: 10px 0 25px; 
     }
 }
 
@@ -183,8 +179,7 @@
     }
 
     .image__perfil {
-        width: 270px;
-        height: 300px;
+        width: 255px;
     }
 
     .home__view {
@@ -193,7 +188,7 @@
 
     .home__content-image {
         padding: 0;
-        margin: -10px 0 32px;
+        margin: -36px 0 25px;
     }
     .container-hello{
         padding: 0;
