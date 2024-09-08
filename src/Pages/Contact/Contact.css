@@ -1,7 +1,6 @@
 .contact__content {
-    padding: 40px;
-    margin: 0 auto;
-    width: 85%;
+    padding: 40px 20px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +10,6 @@
 
 .contact__title {
     color: #130b43;
-    order: 1;
     padding: 30px 0 0;
     text-align: center;
     font-size: 2.3rem;
@@ -29,43 +27,37 @@
     font-weight: 500;
 }
 
-.contact__icons .contact-bx {
-    font-size: 3rem;
-}
-
 .contact__text {
-    font-size: 1.3rem;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 .contact__links-wm{
     text-decoration: none;
     color: #130b43;
+    font-size: 1.5rem;
 }
 
 .contact__links-wm:visited {
     color: #130b43;
 }
-.contact__links-wm:hover{
-    color: #d9007d;
-}
 
 .contact__icons-info {
+    width: 85%;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 20px;
 }
 
 .contact__icons {
-    padding: 39px 10px;
+    padding: 40px 20px;
     background-color: #f5efef;
     font-size: 1.6rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
     line-height: 1;
     border-radius: 10px;
     width: 100%;
@@ -76,36 +68,22 @@
 .icon-social {
     width: 250px;
 }
-.contact__icons .bxl-whatsapp, .bxs-envelope, .bxl-linkedin-square{
-    font-size:2.5rem ;
-    color: #d9007d;
-}
-
-.contact__icons .bxl-github-contact{
-    color: #d9007d;
-}
 
 @media (min-width: 750px) {
-    .contact__text {
-        font-size: 1.7rem;
-    }
     .contact__title{
         font-size: 2.7rem;
     }
     .contact__content {
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
     .contact__icons {
         flex-direction: row;
-        padding: 0;
-        width: 360px;
+        padding: 35px 50px;
     }
-
     .icon-social {
-        width: 300px;
+        width: 320px;
     }
-
-    .contact__icons-info{
-        order: 0;
+    .contact__links-wm{
+        font-size: 1.7rem;
     }
 }
