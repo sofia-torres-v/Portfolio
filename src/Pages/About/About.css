@@ -10,11 +10,11 @@
 }
 
 .about__skills-content {
-    min-height: 190px; 
     font-size: 1.5rem;
     color: #444044;
     display: flex;
     justify-content: center;
+    padding:10px 0 45px;
 }
 
 .skills-studies{
@@ -32,7 +32,6 @@
     justify-content:center;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 40px 40px 55px;
 }
 
 .skills__items{
@@ -45,7 +44,7 @@
     position: relative;
     width: 85px; 
     height: 95px; 
-    background-color: rgba(233, 195, 195, 0.493); 
+    background-color: rgba(246, 204, 213, 0.428);; 
     margin: 5px 0; 
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
@@ -93,6 +92,7 @@
     width: 220px;
     height: 120px;
 }
+
 .estudies-text{
     width: 230px;
 }
@@ -120,7 +120,7 @@
 }
 
 .skills-certifications{
-    margin-left: 20px;     
+    padding: 20px 30px 0px;
 }
 
 .skills-certifications li {
@@ -141,13 +141,10 @@
 }
 
 @media(min-width:750px){
-    .about__skills-content {
-        padding: 18px 0 15px;
-    }
 
     .about__skills-titles {    
         font-size: 3.5rem;
-        padding-top: 35px;
+        padding-top: 36px;
     }
 
     .skills__items {
