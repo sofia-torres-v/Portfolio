@@ -44,7 +44,7 @@
     position: relative;
     width: 85px; 
     height: 95px; 
-    background-color: rgba(246, 204, 213, 0.428);; 
+    background-color: rgba(116, 87, 96, 0.267);; 
     margin: 5px 0; 
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
@@ -89,8 +89,9 @@
 }
 
 .about-studies-images{
-    width: 220px;
-    height: 120px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .estudies-text{
