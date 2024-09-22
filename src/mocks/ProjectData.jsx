@@ -142,8 +142,6 @@ const data = {
     ],
     aboutData: {
         name: "Sofia Torres",
-        description:
-            "Soy una Frontend Developer Peruana con estudios en Administración. Apasionada por el diseño visual y fascinada por el CSS. Actualmente, me dedico a trabajar en proyectos freelance. Mi objetivo es plasmar creatividad y usabilidad en todos mis proyectos. Me gusta trabajar de forma colaborativa y aprender de manera contínua através de la práctica.",
         email: "sofy.torresv@gmail.com",
         linkedin:
             "https://www.linkedin.com/in/sofia-torres-v-front-end-developer/",
@@ -155,7 +153,7 @@ const data = {
             },
             {
                 name: "Bootcamp de Desarrollo Web Front-End | Actualmente",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fone.png?alt=media&token=c6f164f0-9fc8-4e4c-ae13-d88bc5ed7709",
+                image: "src/assets/images/codeable.jpg",
             },
             {
                 name: "CoderHouse",
