@@ -89,14 +89,11 @@
 }
 
 .about-studies-images{
-    width: 200px;
+    width: 260px;
     height: 150px;
     object-fit: cover;
 }
 
-.estudies-text{
-    width: 230px;
-}
 /*  Efecto al renderizar about  */
 @keyframes slideInFromTop {
     0% {
