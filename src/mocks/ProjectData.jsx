@@ -148,20 +148,12 @@ const data = {
         gitHub: "https://github.com/sofia-torres-v",
         studiesWithImages: [
             {
-                name: "Bootcamp de Desarrollo Web Front-End | Febrero 2023",
+                name: "Bootcamp Front End - Febrero 2023",
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Flogo-labo.jpg?alt=media&token=24e9c81c-e01e-416a-aa9b-133d9c1996ae",
             },
             {
-                name: "Bootcamp de Desarrollo Web Front-End | Actualmente",
-                image: "src/assets/images/codeable.jpg",
-            },
-            {
-                name: "CoderHouse",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcoderhouse.jpeg?alt=media&token=40976d05-dcbd-4e04-ac24-d9369c56f910",
-            },
-            {
-                name: "Platzi",
-                image: "../assets/images/platzi-logo.jpg",
+                name: "Bootcamp Full Stack - Actualmente",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcodeable.jpg?alt=media&token=6a65f45b-7e3f-447d-b198-4064b77be916",
             },
         ],
         skillsWithImages: [
