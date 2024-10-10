@@ -75,7 +75,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px auto;
     padding: 4px 6px 0 15px;
     border-radius: 16px;
     cursor: pointer;
@@ -103,7 +102,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top:5px;
     padding: 40px;
 }
 

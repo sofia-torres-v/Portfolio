@@ -49,7 +49,7 @@ const Projects = () => {
                             setVisibleProjects(initialVisibleProjects);
                         }}
                     >
-                        Proyectos en WordPress
+                        WordPress y Shopify
                     </button>
                 </div>
 
@@ -60,10 +60,9 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project__button-plus">
-                <h2 className="subtitle-button-plus">Descubre más de mis proyectos</h2>
                 {visibleProjects < filteredProjects.length ? (
                     <button className="projects__button" onClick={loadMoreProjects}>
-                        Ver más<i class="bx bx-chevron-down angle"></i>
+                        Ver más<i className="bx bx-chevron-down angle"></i>
                     </button>
                 ) : (
                     <button className="projects__button" onClick={showLessProjects}>
