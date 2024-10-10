@@ -44,7 +44,7 @@
     position: relative;
     width: 85px; 
     height: 95px; 
-    background-color: rgba(116, 87, 96, 0.267);; 
+    background-color: rgba(217, 241, 248, 0.404);; 
     margin: 5px 0; 
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
@@ -157,12 +157,15 @@
     }
 
     .skills__list {
-        column-gap: 54px;
+        column-gap: 50px;
         justify-content: center;
     }
 
     .skills-studies{
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .about__skills-content {
+        padding: 10px 20px 45px;
     }
 }
