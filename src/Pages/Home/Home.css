@@ -130,17 +130,14 @@
 
 @media (min-width: 850px) {
     .home__view{
-        margin: 20px auto;
-        padding: 0 20px 10px;
+        margin: 17px auto;
+        padding: 0 20px 8px;
     }
 
     .box__image-perfil {
         flex: 0 1 199px;
     }
 
-    .home__content-info {
-        gap: 0;
-    }
     .home__content-image {
         justify-content: flex-start;
         gap: 35px;
@@ -161,11 +158,11 @@
     }
 
     .span-hello {
-        font-size: 4.5rem;
+        font-size: 4.4rem;
     }
 
     .home__text {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .intro__image {
@@ -193,10 +190,10 @@
 
     .home__content-image {
         padding: 0;
-        margin: -42px 0 35px;
+        margin: -37px 0 40px;
     }
-    .container-hello{
-        padding: 0;
+    .container-hello{     
+        padding: 0px 35px 0px 0px;
     }
 
 }
