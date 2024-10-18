@@ -2,9 +2,9 @@ import {Link} from "react-router-dom";
 import "./Home.css";
 import imagePerfil from "../../assets/images/portfolio-A.png";
 import imageJs from "../../assets/images/javascript.png";
-import imageTypescript from "../../assets/images/typescript.png";
 import imageReact from "../../assets/images/logos_react.png";
-import imageVue from "../../assets/images/devicon_vuejs.png";
+import imageTypescript from "../../assets/images/typescript.png";
+// import imageVue from "../../assets/images/devicon_vuejs.png";
 import imageTailwind from "../../assets/images/logos_tailwindcss-icon.png";
 import imageGo from "../../assets/images/devicon_go.png";
 
@@ -29,9 +29,9 @@ const Home = () => {
 
             <div className="home__content-image">
                 <img src={imageJs} alt="icono JavScript" className="intro__image" />
-                <img src={imageTypescript} alt="icono Html" className="intro__image" />
                 <img src={imageReact} alt="icono React" className="intro__image" />
-                <img src={imageVue} alt="icono React" className="intro__image" />
+                <img src={imageTypescript} alt="icono Html" className="intro__image" />
+                {/* <img src={imageVue} alt="icono React" className="intro__image" />s */}
                 <img src={imageTailwind} alt="icono Css" className="intro__image" />
                 <img src={imageGo} alt="" className="intro__image" />
             </div>

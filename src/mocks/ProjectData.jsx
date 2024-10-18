@@ -159,17 +159,17 @@ const data = {
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fjs-figma.png?alt=media&token=404382fd-2301-48d3-875d-643afbc397cc",
             },
             {
-                name: "TypeScript",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficons_typescript1.png?alt=media&token=1d0668be-3808-403b-9699-35d4c757ebf3",
-            },
-            {
                 name: "React",
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Freact2.png?alt=media&token=57202567-da84-4c93-a487-a5f0e0d66e7a",
             },
             {
-                name: "Vue",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficons_vue.png?alt=media&token=bd874e6a-53eb-40cb-aa01-8b83d433c68e",
+                name: "TypeScript",
+                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficons_typescript1.png?alt=media&token=1d0668be-3808-403b-9699-35d4c757ebf3",
             },
+            // {
+            //     name: "Vue",
+            //     image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficons_vue.png?alt=media&token=bd874e6a-53eb-40cb-aa01-8b83d433c68e",
+            // },
             {
                 name: "Tailwind CSS",
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficon_tailwindcss.png?alt=media&token=ec1b1f5d-8732-4187-b70d-739169b390f7",
