@@ -4,8 +4,8 @@
     margin: 20px auto;
     border-radius: 15px;
     padding: 10px 10px 25px;
-    background-color: #f7f3f3;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.19);
+    background-color: #cba6da4f;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 6px 5px rgba(0, 0, 0, 0.19);
 }
 
 .home__content-info {
@@ -14,6 +14,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 30px 0 10px;
 }
 
 .column {
@@ -33,7 +34,7 @@
     flex-direction: column;
     justify-content: flex-start;
     font-weight: 600;
-    padding: 20px 10px 0;
+    padding: 0px 10px 0;
 }
 .span-hello1 {
     font-size: 1.8rem;
@@ -86,11 +87,9 @@
 }
 .intro__image {
     width: 42px;
-    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5)) 
+    filter: drop-shadow(3px 4px 2px rgba(0, 0, 0, 0.5)) 
             drop-shadow(-1px -1px 2px rgba(255, 255, 255, 0.8));
 }
-
-
 
 .button-title {
     font-size: 1.5rem;
@@ -100,7 +99,7 @@
     border-radius: 7px;
     width: 160px;
     display: block;
-    margin: 0 auto 10px;
+    margin: 10px auto ;
     text-decoration: none;
     text-align: center;
     transition: transform 0.1s ease, background-color 0.3s ease;
@@ -150,7 +149,7 @@
 
     .title-home {
         font-size: 4.2rem;
-        margin-top: -12px;
+        margin-top: -10px;
     }
 
     .span-hello1 {
@@ -171,7 +170,7 @@
     
     .button-title {
         padding: 10px 35px;  
-        margin: 10px 0 25px; 
+        margin: 10px 0 29px; 
     }
 }
 
@@ -190,8 +189,13 @@
 
     .home__content-image {
         padding: 0;
-        margin: -37px 0 40px;
+        margin: -37px 0 37px;
     }
+     
+    .home__content-info {
+        padding:  0;
+    }
+
     .container-hello{     
         padding: 0px 35px 0px 0px;
     }
