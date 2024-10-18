@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 import "./Home.css";
-import imagePerfil from "../../assets/images/portfolio-A.png";
+import imagePerfil from "../../assets/images/perfil2.jpg";
 import imageJs from "../../assets/images/javascript.png";
 import imageReact from "../../assets/images/logos_react.png";
 import imageTypescript from "../../assets/images/typescript.png";
