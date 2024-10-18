@@ -7,7 +7,7 @@
 }
 
 .section {
-    background-color: rgba(252, 235, 235, 0.3);
+    background-color: #fff;
     min-height: calc(100vh - 119px);
     display: flex;
     flex-direction: column;
@@ -42,7 +42,8 @@
 
 .bxl-linkedin:hover,
 .bxl-github-footer:hover {
-    color: #000;
+    /* color: #000; */
+    background-color: #9e9a9a3d;
 }
 
 

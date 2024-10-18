@@ -44,7 +44,7 @@
     position: relative;
     width: 85px; 
     height: 95px; 
-    background-color: rgba(217, 241, 248, 0.404);; 
+    background-color: rgba(217, 241, 248, 0.685);; 
     margin: 5px 0; 
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     display: flex;
