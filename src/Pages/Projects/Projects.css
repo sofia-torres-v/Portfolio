@@ -91,11 +91,6 @@
                 0 3px 5px rgba(0, 0, 0, 0.3);      
 }
 
-.bx.angle{
-    color:#ec4899;
-    font-size: 3.2rem;
-}
-
 .project__button-plus {
     display: flex;
     flex-direction: column;

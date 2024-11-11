@@ -92,9 +92,9 @@ const data = {
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FblackJack.jpg?alt=media&token=a731fffe-6ec4-4e06-aee2-71fb393dce55",
             description:
                 "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
-            liveLink: "https://www.blackjackchauffeurs.com/",     
+            liveLink: "https://www.blackjackchauffeurs.com/",
         },
-        
+
         {
             id: 9,
             name: "HomeShop",
@@ -113,7 +113,7 @@ const data = {
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2F2dbafe61-3659-491b-bae6-80de187ecea9.jpg?alt=media&token=6392ed40-099e-480c-91f6-a0a4b9360746",
             description:
                 "He desarrollado un sitio web para un spa especializado en manicura, pedicura y masajes de manos y pies, utilizando WordPress.El diseño está personalizado con CSS para ofrecer una experiencia visual atractiva. El sitio incluye redirecciones a redes sociales y llamadas directas a celular, además de un formulario de contacto integrado para facilitar la comunicación con los clientes.",
-            liveLink: "https://lolyfernandez.es/",       
+            liveLink: "https://lolyfernandez.es/",
         },
         {
             id: 11,
@@ -123,10 +123,8 @@ const data = {
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fdud%C3%BA.jpg?alt=media&token=f2b45bba-bd3f-495b-8b48-ed1b9b820b34",
             description:
                 "Sitio web de venta de accesorios para niñas en Uruguay, desarrollado en Shopify, cuenta con un eCommerce completo que ofrece una amplia variedad de productos personalizados. Se implementaron modales de descuento para mejorar la experiencia del usuario y se habilitaron filtros de búsqueda para facilitar la navegación.",
-            liveLink: "https://duduforkids.com/",  
+            liveLink: "https://duduforkids.com/",
         },
-     
-       
 
     ],
     aboutData: {
@@ -141,7 +139,7 @@ const data = {
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Flogo-labo.jpg?alt=media&token=24e9c81c-e01e-416a-aa9b-133d9c1996ae",
             },
             {
-                name: "Bootcamp Full Stack - Actualmente",
+                name: "Bootcamp Full Stack - Noviembre 2024",
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fcodeable.jpg?alt=media&token=6a65f45b-7e3f-447d-b198-4064b77be916",
             },
         ],
@@ -166,10 +164,6 @@ const data = {
                 name: "TypeScript",
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficons_typescript1.png?alt=media&token=1d0668be-3808-403b-9699-35d4c757ebf3",
             },
-            // {
-            //     name: "Vue",
-            //     image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficons_vue.png?alt=media&token=bd874e6a-53eb-40cb-aa01-8b83d433c68e",
-            // },
             {
                 name: "Tailwind CSS",
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficon_tailwindcss.png?alt=media&token=ec1b1f5d-8732-4187-b70d-739169b390f7",

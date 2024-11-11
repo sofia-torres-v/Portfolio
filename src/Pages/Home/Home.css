@@ -4,7 +4,7 @@
     margin: 20px auto;
     border-radius: 15px;
     padding: 10px 10px 25px;
-    background-color: #cba6da4f;
+    background: linear-gradient(135deg, #e9d2f54f 50%, rgba(255, 191, 200, 0.89) 100%);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 6px 5px rgba(0, 0, 0, 0.19);
 }
 
@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
     padding: 30px 0 10px;
 }
 
@@ -22,13 +21,12 @@
 }
 
 .image__perfil {
-    width: 190px;
+    width: 200px;
     border-radius: 15px;
     display: block;
     margin: 0 auto;
 }
 
-/* ---------efecto----------- */
 .container-hello {
     display: flex;
     flex-direction: column;
@@ -73,8 +71,8 @@
 .home__text {
     margin: 10px 0 12px;
     font-size: 1.5rem;
-    color:rgb(56, 54, 54);;
     font-weight: 500;
+    color: #130B43;
 }
 
 .home__content-image {
@@ -96,12 +94,13 @@
     background-color: #151616;
     padding: 10px 0;
     color: #fff;
-    border-radius: 7px;
+    border-radius: 25px;
     width: 160px;
     display: block;
     margin: 10px auto ;
     text-decoration: none;
     text-align: center;
+    font-weight: 400;
     transition: transform 0.1s ease, background-color 0.3s ease;
 }
 
@@ -130,7 +129,7 @@
 @media (min-width: 850px) {
     .home__view{
         margin: 17px auto;
-        padding: 0 20px 8px;
+        padding: 0 20px 12px;
     }
 
     .box__image-perfil {
@@ -140,11 +139,13 @@
     .home__content-image {
         justify-content: flex-start;
         gap: 35px;
+        margin: -85px 0 37px;
     }
 
     .image__perfil {
         position: relative;
-        bottom: -45px;
+        bottom: -35px;
+        height: 360px;
     }
 
     .title-home {
@@ -180,24 +181,20 @@
     }
 
     .image__perfil {
-        width: 255px;
+        width: 245px;
     }
 
     .home__view {
         padding-left: 65px;
     }
 
-    .home__content-image {
+    .home__content-image, .home__content-info {
         padding: 0;
-        margin: -37px 0 37px;
-    }
-     
-    .home__content-info {
-        padding:  0;
     }
 
     .container-hello{     
         padding: 0px 35px 0px 0px;
+        margin-top: -70px;
     }
 
 }

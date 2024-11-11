@@ -2,7 +2,6 @@
     position: sticky;
     top: 0;
     z-index: 2;
-    box-shadow: 0 0.2rem 0.3rem rgba(1, 1, 1, 0.121);
     background-color: #fff;
 }
 
@@ -16,33 +15,38 @@
     gap: 20px;
 }
 
-.footer{
-    background-color: rgba(252, 235, 235, 0.3);
-}
-
 .footer__content{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content:flex-end;
     line-height: 2.5;
     gap: 15px;
     font-size: 1.3rem;
-    color: #333333;
     width: 90%;
     margin: 0 auto;
     font-weight: 500;
 }
 
-.bx{
-    color: #d9007d;
-    font-size: 2.5rem;
-    border-radius: 50%;
-    padding: 5px;
+.footer__social-icons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.bxl-linkedin,
+.bxl-github-footer,
+.bx-chevron-down,
+.bx-chevron-up,
+.bx-left-arrow-alt {
+    border: none;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid transparent;
 }
 
 .bxl-linkedin:hover,
 .bxl-github-footer:hover {
-    background-color: #cba6da6b;
+    border: 1px solid #c2348763;
+    box-shadow:1px 2px 2px 2px rgba(61, 58, 58, 0.295), 0 2px 2px rgba(175, 169, 169, 0.021);;
 }
 
 

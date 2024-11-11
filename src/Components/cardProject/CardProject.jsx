@@ -71,7 +71,7 @@ const CardProject = ({ project }) => {
                     <div className="card-back-content">
                         {description}
                         <button className="back-button" onClick={handleBack}>
-                            Volver<i className="bx bx-rotate-left angle"></i>
+                            Volver<i class='bx bx-left-arrow-alt'></i>
                         </button>
                     </div>
                 </div>
