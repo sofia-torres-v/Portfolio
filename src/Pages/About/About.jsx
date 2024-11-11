@@ -47,12 +47,12 @@ const About = () => {
                         <ul className="skills__list">
                             {aboutData.skillsWithImages.map((skill, index) => (
                                 <li className="skills__items" key={index}>
-                                   <div className="about__box-img">
+                                    <div className="about__box-img">
                                         <img
-                                                className="about__skills-images"
-                                                src={skill.image}
-                                                alt={skill.name}
-                                            />
+                                            className="about__skills-images"
+                                            src={skill.image}
+                                            alt={skill.name}
+                                        />
                                     </div>
                                     {skill.name}
                                 </li>
@@ -67,7 +67,7 @@ const About = () => {
                                     if (
                                         [
                                             "Bootcamp Front End - Febrero 2023",
-                                            "Bootcamp Full Stack - Actualmente",
+                                            "Bootcamp Full Stack - Noviembre 2024",
                                         ].includes(studies.name)
                                     ) {
                                         return (
@@ -95,7 +95,6 @@ const About = () => {
                             <li>JavaScript - CoderHouse</li>
                             <li>Maquetación Mobile First  - Platzi</li>
                             <li>Algoritmos y Diagrama de Flujo - Platzi</li>
-                            
                         </ul>
                     )}
                 </div>
