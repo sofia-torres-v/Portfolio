@@ -8,7 +8,7 @@ const data = {
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FjsMotosImport.jpg?alt=media&token=7a74b3fa-1937-4d82-a7a5-1654416104de",
             description:
                 "JS Motos, es un proyecto dedicado a la fabricación y venta de empaquetaduras para motocicletas en Perú. Este sitio web fue desarrollado con React y Bootstrap, ofreciendo una interfaz moderna y atractiva. Además, cuenta con funcionalidades como conexión directa a WhatsApp, Facebook Messenger y TikTok, junto con un formulario de contacto que dirige a Gmail.",
-            liveLink: "jsmotos-e4995.web.app/",
+            liveLink: "https://jsmotos-e4995.web.app/",
             githubLink: "https://github.com/sofia-torres-v/Js-Motos",
         },
 
@@ -122,8 +122,8 @@ const data = {
             date: "December 2024",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fluxury.jpg?alt=media&token=2053c016-2c34-4b2b-bcaf-6bc8885f0f3b",
             description:
-                "Experiencia de transporte privado en el sur de Florida. Desde el momento en que se comunica con nosotros, nuestro equipo dedicado está aquí para ayudarlo en cada paso del camino.",
-            liveLink: "https://duduforkids.com/",
+                "Experiencia de transporte privado en el sur de Florida. Servicios exclusivos para cada ocasión, más que un servicio, una experiencia",
+            liveLink: "https://luxurydriverservice.com/",
         },
         {
             id: 11,
