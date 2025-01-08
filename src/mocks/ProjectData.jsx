@@ -8,7 +8,7 @@ const data = {
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FjsMotosImport.jpg?alt=media&token=7a74b3fa-1937-4d82-a7a5-1654416104de",
             description:
                 "JS Motos, es un proyecto dedicado a la fabricación y venta de empaquetaduras para motocicletas en Perú. Este sitio web fue desarrollado con React y Bootstrap, ofreciendo una interfaz moderna y atractiva. Además, cuenta con funcionalidades como conexión directa a WhatsApp, Facebook Messenger y TikTok, junto con un formulario de contacto que dirige a Gmail.",
-            liveLink: "https://jsmotos.com/",
+            liveLink: "jsmotos-e4995.web.app/",
             githubLink: "https://github.com/sofia-torres-v/Js-Motos",
         },
 
@@ -107,16 +107,6 @@ const data = {
         },
         {
             id: 10,
-            name: "LolyFernandez Nails",
-            category: "web con WordPress",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2F2dbafe61-3659-491b-bae6-80de187ecea9.jpg?alt=media&token=6392ed40-099e-480c-91f6-a0a4b9360746",
-            description:
-                "He desarrollado un sitio web para un spa especializado en manicura, pedicura y masajes de manos y pies, utilizando WordPress.El diseño está personalizado con CSS para ofrecer una experiencia visual atractiva. El sitio incluye redirecciones a redes sociales y llamadas directas a celular, además de un formulario de contacto integrado para facilitar la comunicación con los clientes.",
-            liveLink: "https://lolyfernandez.es/",
-        },
-        {
-            id: 11,
             name: "Dudú for Kids",
             category: "web con WordPress",
             date: "October 2023",
@@ -125,7 +115,26 @@ const data = {
                 "Sitio web de venta de accesorios para niñas en Uruguay, desarrollado en Shopify, cuenta con un eCommerce completo que ofrece una amplia variedad de productos personalizados. Se implementaron modales de descuento para mejorar la experiencia del usuario y se habilitaron filtros de búsqueda para facilitar la navegación.",
             liveLink: "https://duduforkids.com/",
         },
-
+        {
+            id: 12,
+            name: "Luxury Driver Service",
+            category: "web con WordPress",
+            date: "December 2024",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fluxury.jpg?alt=media&token=2053c016-2c34-4b2b-bcaf-6bc8885f0f3b",
+            description:
+                "Experiencia de transporte privado en el sur de Florida. Desde el momento en que se comunica con nosotros, nuestro equipo dedicado está aquí para ayudarlo en cada paso del camino.",
+            liveLink: "https://duduforkids.com/",
+        },
+        {
+            id: 11,
+            name: "LolyFernandez Nails",
+            category: "web con WordPress",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2F2dbafe61-3659-491b-bae6-80de187ecea9.jpg?alt=media&token=6392ed40-099e-480c-91f6-a0a4b9360746",
+            description:
+                "He desarrollado un sitio web para un spa especializado en manicura, pedicura y masajes de manos y pies, utilizando WordPress.El diseño está personalizado con CSS para ofrecer una experiencia visual atractiva. El sitio incluye redirecciones a redes sociales y llamadas directas a celular, además de un formulario de contacto integrado para facilitar la comunicación con los clientes.",
+            liveLink: "https://lolyfernandez.es/",
+        },
     ],
     aboutData: {
         name: "Sofia Torres",
