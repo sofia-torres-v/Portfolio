@@ -70,11 +70,11 @@
 }
 
 .bx{
-    color: #d9007d;
+    color: #b8056d;
     font-size: 2.8rem;
     border-radius: 50%;
     padding: 5px;
-    border: 1px solid #d9007d ;
+    border: 1px solid #b8056d ;
 }
 
 @media (min-width: 750px) {

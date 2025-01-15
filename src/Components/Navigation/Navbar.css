@@ -12,7 +12,7 @@
 
 .navbar__links {
     display: flex;
-    color: rgb(56, 54, 54);
+    color: #130B43;
     gap: 35px;
 }
 
@@ -41,7 +41,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #d9007d;
+    background-color: #b8056d;
     transition: width 0.6s;
 }
 
@@ -50,12 +50,12 @@
     width: 100%;
 }
 .navbar__link:hover {
-    color: #d9007d;
+    color: #b8056d;
 }
 
 /* Estilo para el enlace activo */
 .navbar__link.active {
-    color: #d9007d;
+    color: #b8056d;
 }
 .navbar__burger {
     width: 38px;
