@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
 
             <div className="footer__content">
-                <p>Sofia Torres | Frontend Developer ©️</p>
+                <p>Sofia Torres | Frontend Developer &copy; </p>
                 <div className="footer__social-icons">
                     <a
                         href={aboutData.linkedin}

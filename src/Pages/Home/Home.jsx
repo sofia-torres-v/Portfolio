@@ -18,7 +18,7 @@ const Home = () => {
                     <span className="span-hello">SOFIA TORRES</span>
                     <h1 className="title-home">Frontend Developer</h1>
                     <div className="home__text">
-                    Apasionada del diseño visual, con enfoque mobile first y con conocimientos Golang para el Backend.
+                    Apasionada del diseño visual, con enfoque mobile first y con conocimientos en Golang para el Backend.
                     </div>
                 </div>
                 <div className="column box__image-perfil">

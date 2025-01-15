@@ -27,7 +27,7 @@
 }
 
 .skills__list {
-    color: #444044;
+    color: #130B43;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
@@ -74,7 +74,7 @@
 }
 
 .about__skills-titles a.active {
-    color: #d9007d;
+    color: #b8056d;
     border: 2px solid #d9007fa1;
 }
 

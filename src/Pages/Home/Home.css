@@ -1,9 +1,9 @@
 .home__view {
     width: 90%;
-    max-width: 1000px;
+    max-width: 1040px;
     margin: 20px auto;
     border-radius: 15px;
-    padding: 10px 10px 25px;
+    padding: 10px 30px 25px;
     background: linear-gradient(135deg, #e9d2f54f 50%, rgba(255, 191, 200, 0.89) 100%);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 6px 5px rgba(0, 0, 0, 0.19);
 }
@@ -22,7 +22,7 @@
 }
 
 .image__perfil {
-    width: 200px;
+    width: 100%;
     border-radius: 15px;
     display: block;
     margin: 0 auto;
@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: flex-start;
     font-weight: 600;
-    padding: 0px 10px 0 ;
+    padding: 0px  ;
 }
 .span-hello1 {
     font-size: 1.8rem;
@@ -72,7 +72,7 @@
 .home__text {
     margin: 10px 0 12px;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #130B43;
 }
 
@@ -82,7 +82,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 .intro__image {
     width: 42px;
@@ -129,28 +129,32 @@
 
 @media (min-width: 850px) {
     .home__view{
-        margin: 17px auto;
-        /* padding: 0 20px 12px; */
+        margin: 16px auto;
     }
 
     .box__image-perfil {
         flex: 0 1 199px;
     }
 
+    .home__content-info{
+       padding:  30px 20px 10px;
+    }
+
     .home__content-image {
         justify-content: flex-start;
-        gap: 35px;
-        margin: -85px 0 37px;
+        gap: 40px;
+        margin: -85px 20px 37px;
     }
 
     .image__perfil {
+        width: 100%;
         position: relative;
         bottom: -45px;
         height: 360px;
     }
 
     .title-home {
-        font-size: 4.2rem;
+        font-size: 4.1rem;
         margin-top: -10px;
     }
 
@@ -159,7 +163,7 @@
     }
 
     .span-hello {
-        font-size: 4.4rem;
+        font-size: 4.3rem;
     }
 
     .home__text {
@@ -167,12 +171,12 @@
     }
 
     .intro__image {
-        width: 55px;
+        width: 50px;
     } 
     
     .button-title {
         padding: 10px 35px;  
-        margin: 10px 0 29px; 
+        margin: 10px 15px 29px; 
     }
 }
 
@@ -180,22 +184,28 @@
     .box__image-perfil {
         flex: 0 1 350px;
     }
-
-    .image__perfil {
+    .image__perfil{
         width: 245px;
     }
-
     .home__view {
-        padding-left: 65px;
+        padding-left: 75px;
     }
 
-    .home__content-image, .home__content-info {
+    .home__content-info {
         padding: 0;
+        gap: 0;
+    } 
+    .home__content-image {
+        padding: 0;
+        gap: 60px;
+        margin: -82px 0px 37px;
     }
-
     .container-hello{     
-        padding: 0px 35px 0px 0px;
-        margin-top: -70px;
+        padding: 0;
+        margin-top: -50px;
+    }
+    .button-title {
+        margin: 10px 0 29px;
     }
 
 }
