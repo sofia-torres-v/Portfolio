@@ -3,7 +3,7 @@ import "./Contact.css";
 import EnvelopeImage from "../../assets/images/envelope.png";
 
 const Contact = () => {
-    const {aboutData} = data;
+    const { aboutData } = data;
 
     return (
         <section id="contact" className="slide-in-from-top">
@@ -21,14 +21,7 @@ const Contact = () => {
                         </a>
 
                         <p className="contact__text">
-                            <a
-                                className="contact__links-wm"
-                                href="https://wa.me/51941196749"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                +51 941 196 749
-                            </a>
+                            Escríbeme por WhatsApp
                         </p>
                     </div>
 
@@ -43,38 +36,10 @@ const Contact = () => {
                         </a>
 
                         <p className="contact__text">
-                            <a
-                                className="contact__links-wm"
-                                href="mailto:sofy.torresv@gmail.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                sofy.torresv@gmail.com
-                            </a>
+                            Envíame un correo
                         </p>
                     </div>
 
-                    <div className="contact__icons">
-                        <a
-                            href={aboutData.gitHub}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="contact__links-wm"
-                        >
-                           <i className="bx bxl-github"></i>
-                        </a>
-
-                        <p className="contact__text">
-                            <a
-                                href={aboutData.gitHub}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="contact__links-wm"
-                            >
-                                github.com/sofia-torres-v
-                            </a>
-                        </p>
-                    </div>
                     <div className="contact__icons">
                         <a
                             href={aboutData.linkedin}
@@ -85,19 +50,28 @@ const Contact = () => {
                             <i className="bx bxl-linkedin-square"></i>
                         </a>
                         <p className="contact__text">
-                            <a
-                                href={aboutData.linkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="contact__links-wm"
-                            >
-                                in/sofia-torres-v
-                            </a>
+                            Conectemos en LinkedIn
                         </p>
                     </div>
+
+                    <div className="contact__icons">
+                        <a
+                            href={aboutData.gitHub}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="contact__links-wm"
+                        >
+                            <i className="bx bxl-github"></i>
+                        </a>
+
+                        <p className="contact__text">
+                            Mira mis proyectos
+                        </p>
+                    </div>
+
                 </div>
                 <div className="contact__titles">
-                    <img className="icon-social" src={EnvelopeImage} alt="" />
+                    <img className="icon-social" src={EnvelopeImage} alt="envelope image" />
                 </div>
             </div>
         </section>

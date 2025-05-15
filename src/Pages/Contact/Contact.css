@@ -28,7 +28,7 @@
 }
 
 .contact__text {
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 .contact__links-wm{
@@ -53,16 +53,16 @@
 
 .contact__icons {
     padding: 40px 20px;
-    background-color: #f5efef;
+    background-color: #f5efefa4;
     font-size: 1.6rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     line-height: 1;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 100%;
     height: 62px;
-    box-shadow: 10px 5px 4px rgba(0, 0, 0, 0.144); 
+    /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);  */
 }
 
 .icon-social {
@@ -74,7 +74,28 @@
     font-size: 2.8rem;
     border-radius: 50%;
     padding: 5px;
-    border: 1px solid #b8056d ;
+    border: 2px solid #b8056d ;
+}
+
+/* Estilo especial de alto relieve para íconos */
+.bx {
+  color: #b8056d;
+  font-size: 2.8rem;
+  padding: 10px;
+  border-radius: 50%;
+  background: #f5efef;
+  box-shadow:
+    5px 4px 8px rgba(0, 0, 0, 0.15),
+    -3px -3px 8px rgba(255, 255, 255, 0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto al pasar el mouse */
+.bx:hover {
+  transform: scale(1.1);
+  box-shadow:
+    4px 4px 12px rgba(0, 0, 0, 0.2),
+    -4px -4px 12px rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 750px) {
