@@ -39,18 +39,6 @@ const data = {
         },
         {
             id: 4,
-            name: "Encriptador de textos",
-            category: "web con código",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fencriptador.jpg?alt=media&token=89a1c0a1-7b15-47b5-abd8-6e042ca44fd6",
-            description:
-                "El Encriptador de Texto, desarrollado en JavaScript, te permite cifrar y descifrar texto de forma eficiente. Con esta herramienta, puedes proteger mensajes confidenciales mediante el cifrado y restaurarlos a su forma original cuando lo necesites. Simplemente ingresa el texto que deseas encriptar, y la herramienta generará automáticamente una versión cifrada. ",
-            liveLink: "https://sofia-torres-v.github.io/Encriptador-de-texto/",
-            githubLink:
-                "https://github.com/sofia-torres-v/Encriptador-de-texto",
-        },
-        {
-            id: 5,
             name: "Burger Queen",
             category: "web con código",
             date: "October 2023",
@@ -61,7 +49,7 @@ const data = {
             githubLink: "https://github.com/sofia-torres-v/Burger-Queen",
         },
         {
-            id: 6,
+            id: 5,
             name: "Social Network",
             category: "web con código",
             date: "October 2023",
@@ -73,7 +61,7 @@ const data = {
         },
 
         {
-            id: 7,
+            id: 6,
             name: "Card Validation",
             category: "web con código",
             date: "October 2023",
@@ -85,55 +73,65 @@ const data = {
             githubLink: "https://github.com/sofia-torres-v/Card-validation",
         },
         {
-            id: 8,
+            id: 7,
             name: "BlackJack Chauffeurs",
-            category: "web con WordPress",
+            category: "web con ecommerce",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FblackJack.jpg?alt=media&token=a731fffe-6ec4-4e06-aee2-71fb393dce55",
             description:
-                "Este sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
+                "Sitio web desarrollado en WordPress ofrece servicios de taxi. Cuenta con un formulario que permite a los usuarios hacer reservas por ruta o viaje, brindando flexibilidad en la planificación de sus desplazamientos. Además, el sitio ofrece conexión directa a WhatsApp . Cuenta con una sección de reseñas, los usuarios pueden ver las experiencias de otros clientes, lo que añade credibilidad y confianza.",
             liveLink: "https://www.blackjackchauffeurs.com/",
         },
 
         {
+            id: 8,
+            name: "Talks 40",
+            category: "web con ecommerce",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ftalks.jpg?alt=media&token=256f8587-ffdd-469c-b537-b78776c16878",
+            description:
+                "Sitio web creado para una plataforma de empoderamiento femenino en Uruguay. Ofrece charlas inspiradoras, artículos en el blog y una opción de suscripción para mantenerse al día con nuevos contenidos. El diseño es limpio, profesional y enfocado en la accesibilidad y la conexión con la comunidad.",
+            liveLink: "https://talksplus40.com/",
+        },
+        {
             id: 9,
             name: "HomeShop",
-            category: "web con WordPress",
+            category: "web con ecommerce",
             date: "October 2023",
             image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2FhomeShop.jpg?alt=media&token=d3bdf80c-92b2-43fe-8bbd-e8ebe432777c",
             description:
-                "He desarrollado una tienda en línea en Shopify que ofrece productos para el hogar, tecnología y cocina. Utilicé CSS para personalizar el diseño, asegurando una experiencia de usuario atractiva. La tienda incluye un formulario de compra intuitivo y permite la interacción directa con clientes a través de WhatsApp para una atención rápida y eficiente.",
+                "Tienda en línea en Shopify que ofrece productos para el hogar, tecnología y cocina. Utilicé CSS para personalizar el diseño, asegurando una experiencia de usuario atractiva. La tienda incluye un formulario de compra intuitivo y permite la interacción directa con clientes a través de WhatsApp para una atención rápida y eficiente.",
             liveLink: "https://homeshop593.com/",
         },
         {
             id: 10,
-            name: "Dudú for Kids",
-            category: "web con WordPress",
+            name: "JR Plumbing",
+            category: "web con ecommerce",
             date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fdud%C3%BA.jpg?alt=media&token=f2b45bba-bd3f-495b-8b48-ed1b9b820b34",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fju-plumbing.jpg?alt=media&token=2f300008-c6f7-4019-a3f6-266dbfa67f9b",
             description:
-                "Sitio web de venta de accesorios para niñas en Uruguay, desarrollado en Shopify, cuenta con un eCommerce completo que ofrece una amplia variedad de productos personalizados. Se implementaron modales de descuento para mejorar la experiencia del usuario y se habilitaron filtros de búsqueda para facilitar la navegación.",
-            liveLink: "https://duduforkids.com/",
-        },
-        {
-            id: 12,
-            name: "Luxury Driver Service",
-            category: "web con WordPress",
-            date: "December 2024",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fluxury.jpg?alt=media&token=2053c016-2c34-4b2b-bcaf-6bc8885f0f3b",
-            description:
-                "Experiencia de transporte privado en el sur de Florida. Servicios exclusivos para cada ocasión, más que un servicio, una experiencia",
-            liveLink: "https://luxurydriverservice.com/",
+                "Sitio web para empresa de plomería ubicada en Estados Unidos. Ofrece servicios tanto residenciales como comerciales, incluyendo gasfitería, reparaciones e instalaciones. Presenta un diseño funcional y directo, con formulario de contacto y secciones claras que facilitan la solicitud de servicios.",
+            liveLink: "https://jrplumbingva.com/",
         },
         {
             id: 11,
-            name: "LolyFernandez Nails",
-            category: "web con WordPress",
-            date: "October 2023",
-            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2F2dbafe61-3659-491b-bae6-80de187ecea9.jpg?alt=media&token=6392ed40-099e-480c-91f6-a0a4b9360746",
+            name: "Luxury Driver Service",
+            category: "web con ecommerce",
+            date: "December 2024",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fluxury.jpg?alt=media&token=2053c016-2c34-4b2b-bcaf-6bc8885f0f3b",
             description:
-                "He desarrollado un sitio web para un spa especializado en manicura, pedicura y masajes de manos y pies, utilizando WordPress.El diseño está personalizado con CSS para ofrecer una experiencia visual atractiva. El sitio incluye redirecciones a redes sociales y llamadas directas a celular, además de un formulario de contacto integrado para facilitar la comunicación con los clientes.",
-            liveLink: "https://lolyfernandez.es/",
+                "Página web para un servicio de transporte privado de lujo en el sur de Florida. Los usuarios pueden agendar traslados con chofer para distintas ocasiones, desde viajes ejecutivos hasta eventos especiales. Cuenta con formularios personalizados y diseño elegante que resalta la experiencia premium.",
+            liveLink: "https://luxurydriverservice.com/",
+        },
+        {
+            id: 12,
+            name: "Flora Pharma",
+            category: "web con ecommerce",
+            date: "October 2023",
+            image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fflora.jpg?alt=media&token=ab459d4b-9db6-4a4d-83a5-8c01424e55dc",
+            description:
+                "Tienda en línea para una farmacia natural en Ecuador. Ofrece productos de salud y bienestar con enfoque en medicina natural. El sitio fue desarrollado en Shopify con personalización en CSS para reflejar una imagen profesional, cercana y confiable. Incluye carrito de compras, buscador y atención vía WhatsApp.",
+            liveLink: "https://www.florapharmaec.com/",
         },
     ],
     aboutData: {
