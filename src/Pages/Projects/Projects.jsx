@@ -43,9 +43,9 @@ const Projects = () => {
                         Proyectos en Código
                     </button>
                     <button
-                        className={`projects__button-title ${activeButton === "web con WordPress" ? "active" : ""}`}
+                        className={`projects__button-title ${activeButton === "web con ecommerce" ? "active" : ""}`}
                         onClick={() => {
-                            setActiveButton("web con WordPress");
+                            setActiveButton("web con ecommerce");
                             setVisibleProjects(initialVisibleProjects);
                         }}
                     >
