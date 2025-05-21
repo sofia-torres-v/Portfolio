@@ -69,21 +69,19 @@
     width: 250px;
 }
 
-.bx{
-    color: #b8056d;
-    font-size: 2.8rem;
-    border-radius: 50%;
-    padding: 5px;
-    border: 2px solid #b8056d ;
-}
-
 /* Estilo especial de alto relieve para íconos */
-.bx {
+.bxs-envelope,
+.bxl-whatsapp,
+.bxl-linkedin-square,
+.bxl-github,
+.bxl-linkedin
+ {
   color: #b8056d;
   font-size: 2.8rem;
   padding: 10px;
   border-radius: 50%;
   background: #f5efef;
+  border: 2px solid #b8056d;
   box-shadow:
     5px 4px 8px rgba(0, 0, 0, 0.15),
     -3px -3px 8px rgba(255, 255, 255, 0.6);

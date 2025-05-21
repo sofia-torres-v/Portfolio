@@ -62,11 +62,11 @@ const Projects = () => {
             <div className="project__button-plus">
                 {visibleProjects < filteredProjects.length ? (
                     <button className="projects__button" onClick={loadMoreProjects}>
-                        Ver más<i className="bx bx-chevron-down angle"></i>
+                        Ver más<i id="angle" className="bx bx-chevron-down"></i>
                     </button>
                 ) : (
                     <button className="projects__button" onClick={showLessProjects}>
-                        Ver menos <i className="bx bx-chevron-up angle"></i>
+                        Ver menos <i id="angle" className="bx bx-chevron-up"></i>
                     </button>
                 )}
             </div>

@@ -60,7 +60,7 @@
 .title-home {
     color: #130b43;
     font-weight: 600;
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     overflow: hidden;
     white-space: nowrap;
     animation: writetitle 2s steps(40, end) 1.5s;
