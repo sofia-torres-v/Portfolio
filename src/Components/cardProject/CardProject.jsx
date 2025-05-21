@@ -7,7 +7,6 @@ const CardProject = ({ project }) => {
     const [isFlipped, setFlipped] = useState(false);
 
     const handleFlip = () => {
-        console.log("click en ver detalles");
         setFlipped(!isFlipped);
     };
 
@@ -71,7 +70,7 @@ const CardProject = ({ project }) => {
                     <div className="card-back-content">
                         {description}
                         <button className="back-button" onClick={handleBack}>
-                            Volver<i class='bx bx-left-arrow-alt'></i>
+                            Volver<i className='bx bx-left-arrow-alt'></i>
                         </button>
                     </div>
                 </div>
@@ -87,7 +86,6 @@ CardProject.propTypes = {
         date: PropTypes.string.isRequired,
         image: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
-        skills: PropTypes.string.isRequired,
         liveLink: PropTypes.string.isRequired,
         githubLink: PropTypes.string, 
     }).isRequired,

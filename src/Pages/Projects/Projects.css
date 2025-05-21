@@ -70,7 +70,7 @@
 }
 
 .projects__button {
-    background-color: transparent;
+    background-color: #fff;
     font-size: 1.8rem;
     display: flex;
     align-items: center;
@@ -104,7 +104,20 @@
     color:#130b43 ;
     font-weight: 600;
 }
-  
+
+.bx-chevron-up, 
+.bx-chevron-down{
+    background-color: transparent;
+    color: #b8056d ;
+    font-size: 40px;
+    border-radius: 100%;
+}
+#angle:hover{
+    box-shadow: none;
+     background: transparent; 
+    transform:none;
+    scale: none;
+}
 
 @media (min-width: 850px) {
     .box__projects-title{
