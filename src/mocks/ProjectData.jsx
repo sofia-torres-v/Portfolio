@@ -184,10 +184,6 @@ const data = {
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fgit-portfolio.png?alt=media&token=c6f757b4-694a-468c-b9f2-a2cc7c906617",
             },
             {
-                name: "Golang",
-                image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Ficon_go.png?alt=media&token=8bd6f3b3-844a-4fc7-a97e-de1c83ed2d76",
-            },
-            {
                 name: "Wordpress",
                 image: "https://firebasestorage.googleapis.com/v0/b/portfolio-97384.appspot.com/o/project-images%2Fgrommet-icons_wordpress.png?alt=media&token=e1afdf72-25cc-4a94-b0aa-dfe4a3b3d94a",
             },
