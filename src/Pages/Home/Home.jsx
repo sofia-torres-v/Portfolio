@@ -15,9 +15,6 @@ const Home = () => {
                     <span className="span-hello1">Hola, soy</span>
                     <span className="span-hello">SOFIA TORRES</span>
                     <h1 className="title-home">Frontend Developer</h1>
-                    {/* <div className="home__text">
-                    Con enfoque mobile first en diseño visual y desarrollo frontend.
-                    </div> */}
                 </div>
                 <div className="column box__image-perfil">
                     <img className="image__perfil" src={imagePerfil} alt="" />
@@ -25,11 +22,26 @@ const Home = () => {
             </div>
 
             <div className="home__content-image">
-                <img src={imageCss} alt="icono JavScript" className="intro__image" />
-                <img src={imageTailwind} alt="icono Css" className="intro__image" />
-                <img src={imageReact} alt="icono React" className="intro__image" />
-                <img src={imageJs} alt="icono JavScript" className="intro__image" />
-                <img src={imageTypescript} alt="icono Html" className="intro__image" />
+                <div className="box-icons-banner">
+                    <img src={imageCss} alt="icono JavScript" className="intro__image" />
+                    <p className="text-icon-home">Css</p>
+                </div>
+                <div className="box-icons-banner">
+                    <img src={imageTailwind} alt="icono Css" className="intro__image icon-tailwind" />
+                    <p className="text-icon-home">Tailwind</p>
+                </div>
+                <div className="box-icons-banner">
+                    <img src={imageReact} alt="icono React" className="intro__image" />
+                    <p className="text-icon-home">React</p>
+                </div>
+                <div className="box-icons-banner">
+                    <img src={imageJs} alt="icono JavScript" className="intro__image" />
+                    <p className="text-icon-home">JavaScript</p>
+                </div>
+                <div className="box-icons-banner">
+                    <img src={imageTypescript} alt="icono Typescript" className="intro__image" />
+                    <p className="text-icon-home">Typescript</p>
+                </div>
             </div>
             <Link to="/contact" className="button-title">
                 Contáctame

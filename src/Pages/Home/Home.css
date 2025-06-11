@@ -1,7 +1,7 @@
 .home__view {
     width: 90%;
     max-width: 1040px;
-    margin: 20px auto;
+    margin: 20px auto; 
     border-radius: 15px;
     padding: 10px 30px 25px;
     background: linear-gradient(135deg, #e9d2f54f 50%, rgba(255, 191, 200, 0.678) 100%);
@@ -35,6 +35,7 @@
     font-weight: 600;
     padding: 0px  ;
 }
+
 .span-hello1 {
     font-size: 1.8rem;
     font-weight: 500;
@@ -65,21 +66,13 @@
     white-space: nowrap;
     animation: writetitle 2s steps(40, end) 1.5s;
     border-right: 2px solid transparent;
-    margin-top: -5px;
     font-weight: 600;
-}
-
-.home__text {
-    margin: 10px 0 12px;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #130B43;
 }
 
 .home__content-image {
     padding: 25px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     gap: 12px;
@@ -109,6 +102,23 @@
     transform: scale(0.98); 
 }
 
+.icon-tailwind{
+    height: 40px;
+}
+
+.text-icon-home{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.box-icons-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 @keyframes write {
     from {
         width: 0;
@@ -128,8 +138,15 @@
 }
 
 @media (min-width: 850px) {
+    .icon-tailwind{
+    height: 39px;
+    }
     .home__view{
-        margin: 16px auto;
+        margin: 0px auto;
+        padding: 0 30px 20px;
+    }
+    .container-hello{     
+        margin-top: -50px;
     }
 
     .box__image-perfil {
@@ -137,25 +154,24 @@
     }
 
     .home__content-info{
-       padding:  30px 20px 10px;
+       padding:  0px 20px 0px;
     }
 
     .home__content-image {
         justify-content: flex-start;
-        gap: 40px;
-        margin: -85px 20px 37px;
+        gap: 35px;
+        margin: -85px 20px 30px;
     }
 
     .image__perfil {
         width: 100%;
         position: relative;
-        bottom: -45px;
+        bottom: -48px;
         height: 360px;
     }
 
     .title-home {
         font-size: 4.1rem;
-        margin-top: -10px;
     }
 
     .span-hello1 {
@@ -166,17 +182,13 @@
         font-size: 4.3rem;
     }
 
-    .home__text {
-        font-size: 1.7rem;
-    }
-
     .intro__image {
-        width: 50px;
+        width: 42px;
     } 
     
     .button-title {
         padding: 10px 35px;  
-        margin: 10px 15px 29px; 
+        margin: 10px 15px 28px; 
     }
 }
 
@@ -198,14 +210,11 @@
     .home__content-image {
         padding: 0;
         gap: 60px;
-        margin: -82px 0px 37px;
+        margin: -100px 0px 30px;
     }
-    .container-hello{     
-        padding: 0;
-        margin-top: -50px;
-    }
+
     .button-title {
-        margin: 10px 0 29px;
+        margin: 0px 0 29px;
     }
 
 }
