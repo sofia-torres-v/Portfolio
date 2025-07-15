@@ -38,7 +38,7 @@ const Home = () => {
                     <img src={imageTypescript} alt="icono Typescript" className="intro__image" />
                     <p className="text-icon-home">Typescript</p>
                 </div>
-                                <div className="box-icons-banner">
+                    <div className="box-icons-banner">
                     <img src={imageReact} alt="icono React" className="intro__image" />
                     <p className="text-icon-home">React</p>
                 </div>
