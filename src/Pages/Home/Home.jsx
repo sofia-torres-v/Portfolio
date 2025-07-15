@@ -31,16 +31,16 @@ const Home = () => {
                     <p className="text-icon-home">Tailwind</p>
                 </div>
                 <div className="box-icons-banner">
-                    <img src={imageReact} alt="icono React" className="intro__image" />
-                    <p className="text-icon-home">React</p>
-                </div>
-                <div className="box-icons-banner">
                     <img src={imageJs} alt="icono JavScript" className="intro__image" />
                     <p className="text-icon-home">JavaScript</p>
                 </div>
                 <div className="box-icons-banner">
                     <img src={imageTypescript} alt="icono Typescript" className="intro__image" />
                     <p className="text-icon-home">Typescript</p>
+                </div>
+                    <div className="box-icons-banner">
+                    <img src={imageReact} alt="icono React" className="intro__image" />
+                    <p className="text-icon-home">React</p>
                 </div>
             </div>
             <Link to="/contact" className="button-title">
